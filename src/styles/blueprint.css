@@ -1,0 +1,90 @@
+.resource-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.resource-heading .field-label {
+  margin-bottom: 3px;
+}
+
+.resource-heading p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.resource-list {
+  display: grid;
+  gap: 8px;
+}
+
+.resource-row {
+  display: grid;
+  align-items: end;
+  grid-template-columns: 28px minmax(0, 1fr) 120px;
+  gap: 8px;
+}
+
+.resource-index {
+  display: grid;
+  width: 28px;
+  height: 42px;
+  color: var(--muted);
+  font-size: 9px;
+  place-items: center;
+}
+
+.resource-row label,
+.resource-name {
+  display: flex;
+  min-width: 0;
+  height: 50px;
+  padding: 7px 11px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.resource-row label span,
+.resource-name span {
+  color: var(--muted);
+  font-size: 8px;
+}
+
+.resource-name strong {
+  overflow: hidden;
+  padding-top: 3px;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.resource-row input {
+  min-width: 0;
+  padding: 3px 0 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font-size: 12px;
+}
+
+.icon-button {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.025);
+  place-items: center;
+}
+
+.no-resources {
+  padding: 18px;
+  color: var(--muted);
+  border: 1px dashed var(--line-strong);
+  border-radius: 12px;
+  font-size: 11px;
+  text-align: center;
+}

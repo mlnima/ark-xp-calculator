@@ -1,0 +1,16 @@
+[package]
+name = "ark-crafting-xp"
+version = "0.1.0"
+description = "Crafting experience and blueprint resource planner"
+authors = []
+edition = "2021"
+
+[lib]
+name = "ark_crafting_xp_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }

@@ -1,0 +1,6980 @@
+[
+  {
+    "name": "Absorbent Substrate",
+    "experience": 2.24,
+    "resources": [
+      "Black Pearl",
+      "Sap",
+      "Oil or Oil (Tusoteuthis)"
+    ]
+  },
+  {
+    "name": "Adobe Ceiling",
+    "experience": 26,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Adobe Dinosaur Gate",
+    "experience": 56,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Clay",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Adobe Dinosaur Gateway",
+    "experience": 52.8,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Clay",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Adobe Door",
+    "experience": 10,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Adobe Doorframe",
+    "experience": 12.4,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Adobe Double Door",
+    "experience": 10,
+    "resources": [
+      "Clay",
+      "Fiber",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Adobe Double Doorframe",
+    "experience": 12.4,
+    "resources": [
+      "Clay",
+      "Fiber",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Adobe Fence Foundation",
+    "experience": 8.76,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Adobe Fence Support",
+    "experience": 8.76,
+    "resources": [
+      "Clay",
+      "Fiber",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Adobe Foundation",
+    "experience": 41.2,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Adobe Hatchframe",
+    "experience": 17.6,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Adobe Ladder",
+    "experience": 6,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Adobe Pillar",
+    "experience": 15.2,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Adobe Railing",
+    "experience": 4.4,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Clay",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Adobe Ramp",
+    "experience": 31.6,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Adobe Staircase",
+    "experience": 11.6,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Adobe Stairs",
+    "experience": 31.6,
+    "resources": [
+      "Clay",
+      "Fiber",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Adobe Trapdoor",
+    "experience": 13.6,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Adobe Triangle Ceiling",
+    "experience": 12,
+    "resources": [
+      "Clay",
+      "Fiber",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Adobe Triangle Foundation",
+    "experience": 20,
+    "resources": [
+      "Clay",
+      "Fiber",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Adobe Triangle Roof",
+    "experience": 11.6,
+    "resources": [
+      "Clay",
+      "Fiber",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Adobe Wall",
+    "experience": 11.6,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Adobe Window",
+    "experience": 5.6,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Adobe Windowframe",
+    "experience": 14,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Advanced Bullet",
+    "experience": 0.8,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Gunpowder"
+    ]
+  },
+  {
+    "name": "Advanced Rifle Bullet",
+    "experience": 2.4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Gunpowder"
+    ]
+  },
+  {
+    "name": "Advanced Sniper Bullet",
+    "experience": 2.4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Gunpowder"
+    ]
+  },
+  {
+    "name": "Advanced Workbench (Primitive Plus)",
+    "experience": 1.8,
+    "resources": [
+      "Cementing Paste",
+      "Iron Ingot (Primitive Plus)",
+      "Leather (Primitive Plus)",
+      "Wood"
+    ]
+  },
+  {
+    "name": "Air Conditioner",
+    "experience": 200,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Electronics",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal"
+    ]
+  },
+  {
+    "name": "Air Drums Emote",
+    "experience": 4,
+    "resources": [
+      "Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Air Guitar Emote",
+    "experience": 4,
+    "resources": [
+      "Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Air Jar",
+    "experience": 13,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Crystal or Primal Crystal",
+      "Fish Scale"
+    ]
+  },
+  {
+    "name": "Allosaurus Saddle",
+    "experience": 289.6,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Alpha Raptor Swim Bottom Skin",
+    "experience": 12.8,
+    "resources": [
+      "Cooked Prime Meat, Cooked Prime Fish Meat, Cooked Lamb Chop, or Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Alpha Raptor Swim Top Skin",
+    "experience": 4,
+    "resources": [
+      "Cooked Prime Meat, Cooked Prime Fish Meat, Cooked Lamb Chop, or Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Amarberry Juice (Primitive Plus)",
+    "experience": 160,
+    "resources": [
+      "Amarberry",
+      "Cane Sugar (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Ammo Box",
+    "experience": 4,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Fiber",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Andrewsarchus Saddle",
+    "experience": 251.2,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot"
+    ]
+  },
+  {
+    "name": "Angler Hat Skin",
+    "experience": 48,
+    "resources": [
+      "Cooked Prime Meat"
+    ]
+  },
+  {
+    "name": "Ankylo Saddle",
+    "experience": 158.4,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "APS Mailbox (Primitive Plus)",
+    "experience": 11,
+    "resources": [
+      "Wood",
+      "Iron Ingot (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Araneo Saddle",
+    "experience": 206.4,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Chitin, Keratin, or Shell Fragment"
+    ]
+  },
+  {
+    "name": "Araneo Swim Bottom Skin",
+    "experience": 20,
+    "resources": [
+      "Stolen Headstone",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Araneo Swim Top Skin",
+    "experience": 20,
+    "resources": [
+      "Stolen Headstone",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Archer Flex Emote",
+    "experience": 4,
+    "resources": [
+      "Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Argentavis Saddle",
+    "experience": 289.6,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Chitin, Keratin, or Shell Fragment"
+    ]
+  },
+  {
+    "name": "ARK Anniversary Surprise Cake",
+    "experience": 0.4,
+    "resources": [
+      "Cake Slice",
+      "Giant Bee Honey",
+      "Metal",
+      "Sparkpowder",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Arthropluera Saddle",
+    "experience": 52.4,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Wood or Fungal Wood",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Flint",
+      "Cementing Paste or Achatina Paste",
+      "Obsidian"
+    ]
+  },
+  {
+    "name": "Artifact Pedestal",
+    "experience": 14.8,
+    "resources": [
+      "Obsidian"
+    ]
+  },
+  {
+    "name": "Assault Rifle",
+    "experience": 140,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Astrocetus Tek Saddle",
+    "experience": 344,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "Astrodelphis Starwing Saddle",
+    "experience": 344,
+    "resources": [
+      "Black Pearl",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Auto Turret",
+    "experience": 280,
+    "resources": [
+      "Electronics",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Backflip Emote",
+    "experience": 4,
+    "resources": [
+      "Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Bakers Oven (Primitive Plus)",
+    "experience": 480,
+    "resources": [
+      "Iron Ingot (Primitive Plus)",
+      "Cementing Paste",
+      "Flint"
+    ]
+  },
+  {
+    "name": "Barrel of Gunpowder (Primitive Plus)",
+    "experience": 70.4,
+    "resources": [
+      "Steel Ingot (Primitive Plus)",
+      "Gunpowder",
+      "Sparkpowder",
+      "Crude Oil (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Basilisk Saddle",
+    "experience": 220,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Fiber",
+      "Green Gem or Fragmented Green Gem",
+      "Hide",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Basilosaurus Saddle",
+    "experience": 70.4,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "BattleAxe (Primitive Plus)",
+    "experience": 32,
+    "resources": [
+      "Steel Ingot (Primitive Plus)",
+      "Wood",
+      "Leather (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "BearHug Swim Bottom Skin",
+    "experience": 12.8,
+    "resources": [
+      "Box o' Chocolates",
+      "Valentines Dino Candy"
+    ]
+  },
+  {
+    "name": "BearHug Swim Top Skin",
+    "experience": 20,
+    "resources": [
+      "Box o' Chocolates",
+      "Valentines Dino Candy"
+    ]
+  },
+  {
+    "name": "Beelzebufo Saddle",
+    "experience": 115.2,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Wood or Fungal Wood",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Beer Barrel",
+    "experience": 80,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Behemoth Adobe Dinosaur Gate",
+    "experience": 64,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Behemoth Adobe Dinosaur Gateway",
+    "experience": 80,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Behemoth Gate",
+    "experience": 108,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Behemoth Gateway",
+    "experience": 176,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Behemoth Reinforced Dinosaur Gate",
+    "experience": 60,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Behemoth Stone Dinosaur Gateway",
+    "experience": 80,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Behemoth Tek Gate",
+    "experience": 216,
+    "resources": [
+      "Crystal or Primal Crystal",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Element or Red Element"
+    ]
+  },
+  {
+    "name": "Behemoth Tek Gateway",
+    "experience": 352,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element or Red Element"
+    ]
+  },
+  {
+    "name": "Bicep Smooch Emote",
+    "experience": 4,
+    "resources": [
+      "Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Big Bonfire (Primitive Plus)",
+    "experience": 4,
+    "resources": [
+      "Thatch",
+      "Flint",
+      "Stone"
+    ]
+  },
+  {
+    "name": "Birthday Suit Shirt Skin",
+    "experience": 4,
+    "resources": [
+      "Cake Slice"
+    ]
+  },
+  {
+    "name": "Biscuit Batter (Primitive Plus)",
+    "experience": 2.4,
+    "resources": [
+      "Sack of Flour (Primitive Plus)",
+      "Salt (Primitive Plus)",
+      "Soymilk (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Bloodforge",
+    "experience": 132,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Element or Red Element",
+      "Crystal or Primal Crystal",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Blue-Ball Winter Beanie Skin",
+    "experience": 120,
+    "resources": [
+      "Mistletoe",
+      "Coal",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Bola",
+    "experience": 4,
+    "resources": [
+      "Thatch",
+      "Stone",
+      "Fiber",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Bonemeal Fertilizer (Primitive Plus)",
+    "experience": 28.8,
+    "resources": [
+      "Keratin",
+      "Spoiled Meat",
+      "Hide",
+      "Charcoal"
+    ]
+  },
+  {
+    "name": "Boomerang",
+    "experience": 4,
+    "resources": [
+      "Fiber",
+      "Wood or Fungal Wood",
+      "Sand"
+    ]
+  },
+  {
+    "name": "Boot Weights",
+    "experience": 134,
+    "resources": [
+      "Fiber",
+      "Stone"
+    ]
+  },
+  {
+    "name": "Boulder",
+    "experience": 0.2,
+    "resources": [
+      "Stone",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Bow",
+    "experience": 20,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Bow & Eros Skin",
+    "experience": 400,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Fiber",
+      "Box o' Chocolates",
+      "Valentines Dino Candy"
+    ]
+  },
+  {
+    "name": "Brazier (Primitive Plus)",
+    "experience": 1848,
+    "resources": [
+      "Steel Ingot (Primitive Plus)",
+      "Flint"
+    ]
+  },
+  {
+    "name": "Bronto Saddle",
+    "experience": 444,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Bug Repellant",
+    "experience": 4,
+    "resources": [
+      "Pelt, Hair, or Wool",
+      "Narcotic",
+      "Citronal",
+      "Rockarrot"
+    ]
+  },
+  {
+    "name": "Bulbdog-Print Shirt Skin",
+    "experience": 12.8,
+    "resources": [
+      "Cooked Prime Meat, Cooked Prime Fish Meat, Cooked Lamb Chop, or Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Bunk Bed",
+    "experience": 203.2,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Pelt, Hair, or Wool",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Fiber",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Bunny Costume Skin",
+    "experience": 4,
+    "resources": [
+      "Bunny Egg"
+    ]
+  },
+  {
+    "name": "Bunny Hop Dance Emote",
+    "experience": 200,
+    "resources": [
+      "Bunny Egg"
+    ]
+  },
+  {
+    "name": "Bunny Tail Skin",
+    "experience": 4,
+    "resources": [
+      "Bunny Egg"
+    ]
+  },
+  {
+    "name": "C4 Charge",
+    "experience": 145,
+    "resources": [
+      "Gunpowder",
+      "Crystal or Primal Crystal",
+      "Cementing Paste or Achatina Paste",
+      "Fiber",
+      "Hide",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "C4 Remote Detonator",
+    "experience": 212,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Electronics",
+      "Crystal or Primal Crystal",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Cake Batter (Primitive Plus)",
+    "experience": 8,
+    "resources": [
+      "Sack of Flour (Primitive Plus)",
+      "Cane Sugar (Primitive Plus)",
+      "Salt (Primitive Plus)",
+      "Organic Oil (Primitive Plus)",
+      "Dodo Egg"
+    ]
+  },
+  {
+    "name": "Campfire",
+    "experience": 14,
+    "resources": [
+      "Thatch",
+      "Flint",
+      "Stone",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Candle (Primitive Plus)",
+    "experience": 22,
+    "resources": [
+      "Beeswax (Primitive Plus)",
+      "Iron"
+    ]
+  },
+  {
+    "name": "Cannon Ball",
+    "experience": 1.6,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Gunpowder",
+      "Cementing Paste or Achatina Paste",
+      "Obsidian"
+    ]
+  },
+  {
+    "name": "Cannon Shell",
+    "experience": 14.4,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Crystal or Primal Crystal",
+      "Gunpowder",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Canoe",
+    "experience": 375,
+    "resources": [
+      "Fiber",
+      "Hide",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Canteen",
+    "experience": 13,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Hide",
+      "Cementing Paste or Achatina Paste",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Carbonemys Saddle",
+    "experience": 99.2,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Carcharo Saddle",
+    "experience": 1200,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot",
+      "Chitin, Keratin, or Shell Fragment"
+    ]
+  },
+  {
+    "name": "Carno Saddle",
+    "experience": 289.6,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Carving Knife",
+    "experience": 16.8,
+    "resources": [
+      "Metal",
+      "Silica Pearls or Silicate",
+      "Wood"
+    ]
+  },
+  {
+    "name": "Castoroides Saddle",
+    "experience": 206,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Thatch",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Catapult Turret",
+    "experience": 836,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Stone",
+      "Thatch",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Cauldron (Primitive Plus)",
+    "experience": 4.8,
+    "resources": [
+      "Iron Ingot (Primitive Plus)",
+      "Cementing Paste",
+      "Flint",
+      "Stone"
+    ]
+  },
+  {
+    "name": "Chain Bola",
+    "experience": 1.6,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Obsidian"
+    ]
+  },
+  {
+    "name": "Chainsaw",
+    "experience": 120,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Cementing Paste or Achatina Paste",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Chalicotherium Saddle",
+    "experience": 88.8,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Charge Battery",
+    "experience": 4,
+    "resources": [
+      "Crystal or Primal Crystal",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Congealed Gas Ball"
+    ]
+  },
+  {
+    "name": "Charge Lantern",
+    "experience": 26.4,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Electronics",
+      "Red Gem or Red Crystalized Sap",
+      "Charge Battery",
+      "Congealed Gas Ball"
+    ]
+  },
+  {
+    "name": "Chemistry Bench",
+    "experience": 132,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Sparkpowder",
+      "Crystal or Primal Crystal",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Chitin",
+    "experience": 16,
+    "resources": [
+      "Shell Fragment"
+    ]
+  },
+  {
+    "name": "Chitin Boots",
+    "experience": 6.4,
+    "resources": [
+      "Chitin",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Chitin Chestpiece",
+    "experience": 10.4,
+    "resources": [
+      "Chitin",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Chitin Gauntlets",
+    "experience": 5.2,
+    "resources": [
+      "Chitin",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Chitin Helmet",
+    "experience": 7.6,
+    "resources": [
+      "Chitin",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Chitin Leggings",
+    "experience": 12.8,
+    "resources": [
+      "Chitin",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Cigarette (Primitive Plus)",
+    "experience": 0.24,
+    "resources": [
+      "Dried Tobacco (Primitive Plus)",
+      "Note"
+    ]
+  },
+  {
+    "name": "Climbing Pick",
+    "experience": 4,
+    "resources": [
+      "Green Gem",
+      "Fungal Wood",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Cloth Boots",
+    "experience": 3.2,
+    "resources": [
+      "Fiber",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Cloth Gloves",
+    "experience": 2.4,
+    "resources": [
+      "Fiber",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Cloth Hat",
+    "experience": 2.4,
+    "resources": [
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Cloth Pants",
+    "experience": 4,
+    "resources": [
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Cloth Shirt",
+    "experience": 3.2,
+    "resources": [
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Compass",
+    "experience": 7.6,
+    "resources": [
+      "Metal",
+      "Flint",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Compost Bin",
+    "experience": 24,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Compound Bow",
+    "experience": 20,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Construction Table (Primitive Plus)",
+    "experience": 4,
+    "resources": [
+      "Iron Ingot (Primitive Plus)",
+      "Stone",
+      "Wood",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Cookie Dough (Primitive Plus)",
+    "experience": 78,
+    "resources": [
+      "Cane Sugar (Primitive Plus)",
+      "Dodo Egg",
+      "Sack of Flour (Primitive Plus)",
+      "Salt (Primitive Plus)",
+      "Soymilk (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Cooking Station (Primitive Plus)",
+    "experience": 12.8,
+    "resources": [
+      "Fiber",
+      "Wood"
+    ]
+  },
+  {
+    "name": "Corn Starch (Primitive Plus)",
+    "experience": 12.8,
+    "resources": [
+      "Dried Wheat (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Crab Fest Swim Top Skin",
+    "experience": 4,
+    "resources": [
+      "Cooked Prime Meat, Cooked Prime Fish Meat, Cooked Lamb Chop, or Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Crossbow",
+    "experience": 36,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Wood or Fungal Wood",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Cruise Missile",
+    "experience": 972,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Black Pearl",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Cryofridge",
+    "experience": 292,
+    "resources": [
+      "Crystal or Primal Crystal",
+      "Electronics",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Cryopod",
+    "experience": 45.4,
+    "resources": [
+      "Crystal or Primal Crystal",
+      "Fiber",
+      "Hide",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Oil or Oil (Tusoteuthis)",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Cupid Couture Bottom Skin",
+    "experience": 200,
+    "resources": [
+      "Fiber",
+      "Box o' Chocolates",
+      "Valentines Dino Candy"
+    ]
+  },
+  {
+    "name": "Cupid Couture Top Skin",
+    "experience": 200,
+    "resources": [
+      "Fiber",
+      "Box o' Chocolates",
+      "Valentines Dino Candy"
+    ]
+  },
+  {
+    "name": "Daeodon Saddle",
+    "experience": 251.2,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Dance Emote",
+    "experience": 200,
+    "resources": [
+      "Scarecrow",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Deadfall Trap (Primitive Plus)",
+    "experience": 70.4,
+    "resources": [
+      "Fiber",
+      "Wood",
+      "Stone"
+    ]
+  },
+  {
+    "name": "Deinotherium Saddle",
+    "experience": 289.6,
+    "resources": [
+      "Cementing Paste",
+      "Fiber",
+      "Hide",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Wood"
+    ]
+  },
+  {
+    "name": "Delivery Crate",
+    "experience": 14.8,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber",
+      "Gasbags bladder"
+    ]
+  },
+  {
+    "name": "Desert Cloth Boots",
+    "experience": 2.8,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Silk"
+    ]
+  },
+  {
+    "name": "Desert Cloth Gloves",
+    "experience": 2,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Silk"
+    ]
+  },
+  {
+    "name": "Desert Cloth Pants",
+    "experience": 5.6,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Silk"
+    ]
+  },
+  {
+    "name": "Desert Cloth Shirt",
+    "experience": 6,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Silk"
+    ]
+  },
+  {
+    "name": "Desert Goggles and Hat",
+    "experience": 3.2,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Silica Pearls or Silicate",
+      "Crystal or Primal Crystal",
+      "Silk"
+    ]
+  },
+  {
+    "name": "Desmodus Saddle",
+    "experience": 88.8,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Wood",
+      "Metal Ingot"
+    ]
+  },
+  {
+    "name": "Dinghy (Primitive Plus)",
+    "experience": 4,
+    "resources": [
+      "Wood",
+      "Fiber",
+      "Hide",
+      "Beeswax (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Dino Leash",
+    "experience": 32,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Dino Party Hat Skin",
+    "experience": 4,
+    "resources": [
+      "Cake Slice"
+    ]
+  },
+  {
+    "name": "Dino Uncle Sam Hat Skin",
+    "experience": 48,
+    "resources": [
+      "Cooked Meat, Cooked Fish Meat, or Cooked Meat Jerky"
+    ]
+  },
+  {
+    "name": "Dinosaur Gate",
+    "experience": 27.6,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Dinosaur Gateway",
+    "experience": 48.8,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Stone",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Diplodocus Saddle",
+    "experience": 88.8,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Wood or Fungal Wood",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Dire Bear Saddle",
+    "experience": 88.8,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Dodorex Swim Bottom Skin",
+    "experience": 20,
+    "resources": [
+      "Wishbone"
+    ]
+  },
+  {
+    "name": "Dodorex Swim Top Skin",
+    "experience": 20,
+    "resources": [
+      "Wishbone"
+    ]
+  },
+  {
+    "name": "Dodorex-Print Shirt Skin",
+    "experience": 20,
+    "resources": [
+      "Wishbone"
+    ]
+  },
+  {
+    "name": "Doedicurus Saddle",
+    "experience": 125.6,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Stone",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Dunkleosteus Saddle",
+    "experience": 204.8,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Cementing Paste or Achatina Paste",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "E4 Remote Eggsplosives Skin",
+    "experience": 400,
+    "resources": [
+      "Bunny Egg"
+    ]
+  },
+  {
+    "name": "Easter Egghead Skin",
+    "experience": 48,
+    "resources": [
+      "Bunny Egg"
+    ]
+  },
+  {
+    "name": "Eel Swim Bottom Skin",
+    "experience": 12.8,
+    "resources": [
+      "Cooked Prime Meat"
+    ]
+  },
+  {
+    "name": "Eel Swim Top Skin",
+    "experience": 12.8,
+    "resources": [
+      "Cooked Prime Meat"
+    ]
+  },
+  {
+    "name": "Egg Incubator",
+    "experience": 400,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Cementing Paste or Achatina Paste",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Electric Prod",
+    "experience": 26.4,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Electronics",
+      "Cementing Paste or Achatina Paste",
+      "Crystal or Primal Crystal",
+      "AnglerGel"
+    ]
+  },
+  {
+    "name": "Electrical Cable Intersection",
+    "experience": 9.6,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Electrical Generator",
+    "experience": 52.8,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Electrical Outlet",
+    "experience": 17.76,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Wood or Fungal Wood",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Electronic Binoculars (Survival Evolved)",
+    "experience": 3.04,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Electronics",
+      "Obsidian"
+    ]
+  },
+  {
+    "name": "Elevator Track",
+    "experience": 4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Cementing Paste or Achatina Paste",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Equus Saddle",
+    "experience": 88.8,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Wood or Fungal Wood",
+      "Stone"
+    ]
+  },
+  {
+    "name": "Evil Emote",
+    "experience": 4,
+    "resources": []
+  },
+  {
+    "name": "Fabricated Pistol",
+    "experience": 140,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Fabricated Sniper Rifle",
+    "experience": 936,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Fabricator",
+    "experience": 132,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Sparkpowder",
+      "Crystal or Primal Crystal",
+      "Oil or Oil (Tusoteuthis)"
+    ]
+  },
+  {
+    "name": "Feathered Stone Arrow (Primitive Plus)",
+    "experience": 14.8,
+    "resources": [
+      "Thatch",
+      "Flint",
+      "Fiber",
+      "Feathers (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Fermenting Barrel (Primitive Plus)",
+    "experience": 4,
+    "resources": [
+      "Iron Ingot (Primitive Plus)",
+      "Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Fireworks Rocket Launcher Skin",
+    "experience": 4,
+    "resources": [
+      "Cooked Meat, Cooked Fish Meat, or Cooked Meat Jerky"
+    ]
+  },
+  {
+    "name": "Fish Basket",
+    "experience": 2,
+    "resources": [
+      "Fungal Wood",
+      "Fiber",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Fish Bite Swim Bottom Skin",
+    "experience": 12.8,
+    "resources": [
+      "Cooked Prime Meat, Cooked Prime Fish Meat, Cooked Lamb Chop, or Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Fish Bite Swim Top Skin",
+    "experience": 4,
+    "resources": [
+      "Cooked Prime Meat, Cooked Prime Fish Meat, Cooked Lamb Chop, or Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Fish Net",
+    "experience": 4,
+    "resources": [
+      "Thatch",
+      "Stone",
+      "Fiber",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Fishing Rod",
+    "experience": 36,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Fiber",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Flak Boots",
+    "experience": 14.32,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Flak Chestpiece",
+    "experience": 23.12,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Flak Gauntlets",
+    "experience": 10.76,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Flak Helmet",
+    "experience": 17.64,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Flak Leggings",
+    "experience": 28.4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Flame Arrow",
+    "experience": 0.2,
+    "resources": [
+      "Stone Arrow",
+      "Propellant"
+    ]
+  },
+  {
+    "name": "Flame Arrow (Primitive Plus)",
+    "experience": 140,
+    "resources": [
+      "Thatch",
+      "Gunpowder",
+      "Fiber",
+      "Iron"
+    ]
+  },
+  {
+    "name": "Flare Gun",
+    "experience": 0.96,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Fiber",
+      "Sparkpowder",
+      "Gunpowder"
+    ]
+  },
+  {
+    "name": "Flashlight Attachment",
+    "experience": 304,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Flexible Electrical Cable",
+    "experience": 4.8,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Flintlock Pistol (Primitive Plus)",
+    "experience": 200,
+    "resources": [
+      "Iron Ingot (Primitive Plus)",
+      "Wood",
+      "Leather (Primitive Plus)",
+      "Cementing Paste"
+    ]
+  },
+  {
+    "name": "Floaty Swim Bottom Skin",
+    "experience": 12.8,
+    "resources": [
+      "Cooked Prime Meat"
+    ]
+  },
+  {
+    "name": "Floaty Swim Top Skin",
+    "experience": 12.8,
+    "resources": [
+      "Cooked Prime Meat"
+    ]
+  },
+  {
+    "name": "Floppy Straw Summer Hat Skin",
+    "experience": 48,
+    "resources": [
+      "Cooked Prime Meat"
+    ]
+  },
+  {
+    "name": "Floral Swim Bottom Skin",
+    "experience": 12.8,
+    "resources": [
+      "Cooked Prime Meat, Cooked Prime Fish Meat, Cooked Lamb Chop, or Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Floral Swim Top Skin",
+    "experience": 4,
+    "resources": [
+      "Cooked Prime Meat, Cooked Prime Fish Meat, Cooked Lamb Chop, or Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Flying Disc Skin",
+    "experience": 48,
+    "resources": [
+      "Cooked Meat, Cooked Fish Meat, or Cooked Meat Jerky"
+    ]
+  },
+  {
+    "name": "Fresh Firewood (Primitive Plus)",
+    "experience": 33.52,
+    "resources": [
+      "Wood"
+    ]
+  },
+  {
+    "name": "Fur Cap",
+    "experience": 40.04,
+    "resources": [
+      "Pelt, Hair, or Wool",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Fur Chestpiece",
+    "experience": 55.12,
+    "resources": [
+      "Pelt, Hair, or Wool",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Fur Gauntlets",
+    "experience": 26.76,
+    "resources": [
+      "Pelt, Hair, or Wool",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Fur Leggings",
+    "experience": 66.8,
+    "resources": [
+      "Pelt, Hair, or Wool",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Gacha Saddle",
+    "experience": 289.6,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Chitin, Keratin, or Shell Fragment"
+    ]
+  },
+  {
+    "name": "Gallimimus Saddle",
+    "experience": 88.8,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Wood or Fungal Wood",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Gas Collector",
+    "experience": 52,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Crystal or Primal Crystal",
+      "Red Gem or Red Crystalized Sap"
+    ]
+  },
+  {
+    "name": "Gas Mask",
+    "experience": 21.48,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Absorbent Substrate"
+    ]
+  },
+  {
+    "name": "Gasbags Saddle",
+    "experience": 289.6,
+    "resources": [
+      "Chitin, Keratin, or Shell Fragment",
+      "Fiber",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Gasbags-Print Shirt Skin",
+    "experience": 12.8,
+    "resources": [
+      "Cooked Prime Meat, Cooked Prime Fish Meat, Cooked Lamb Chop, or Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Ghillie Boots",
+    "experience": 11.2,
+    "resources": [
+      "Organic Polymer or Corrupted Nodule",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Ghillie Chestpiece",
+    "experience": 16.8,
+    "resources": [
+      "Organic Polymer or Corrupted Nodule",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Ghillie Gauntlets",
+    "experience": 8.4,
+    "resources": [
+      "Organic Polymer or Corrupted Nodule",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Ghillie Leggings",
+    "experience": 22,
+    "resources": [
+      "Organic Polymer or Corrupted Nodule",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Ghillie Mask",
+    "experience": 13.6,
+    "resources": [
+      "Organic Polymer or Corrupted Nodule",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Giant Adobe Hatchframe",
+    "experience": 28.8,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Giant Adobe Trapdoor",
+    "experience": 27.6,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Giant Metal Hatchframe",
+    "experience": 32.64,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Giant Metal Trapdoor",
+    "experience": 11.52,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Giant Reinforced Trapdoor",
+    "experience": 9.12,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Giant Stone Hatchframe",
+    "experience": 19.8,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Giga Poop Swim Bottom Skin",
+    "experience": 12.8,
+    "resources": [
+      "Cooked Prime Meat, Cooked Prime Fish Meat, Cooked Lamb Chop, or Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Giga Poop Swim Top Skin",
+    "experience": 4,
+    "resources": [
+      "Cooked Prime Meat, Cooked Prime Fish Meat, Cooked Lamb Chop, or Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Gigadesmodus Saddle",
+    "experience": 1848,
+    "resources": [
+      "Fiber",
+      "Hide",
+      "Cementing Paste or Achatina Paste",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Silica Pearls or Silicate"
+    ]
+  },
+  {
+    "name": "Giganotosaurus Saddle",
+    "experience": 1212,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Glider Suit Skin",
+    "experience": 90,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Blue Gem or Blue Crystalized Sap",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Glow Stick",
+    "experience": 4,
+    "resources": [
+      "Green Gem or Fragmented Green Gem",
+      "Crystal or Primal Crystal"
+    ]
+  },
+  {
+    "name": "GPS",
+    "experience": 60,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Grape Juice (Primitive Plus)",
+    "experience": 0.2,
+    "resources": [
+      "Grapes (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Gravestone",
+    "experience": 2.92,
+    "resources": [
+      "Stone",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Green-Ball Winter Beanie Skin",
+    "experience": 120,
+    "resources": [
+      "Mistletoe",
+      "Coal",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Greenhouse Ceiling",
+    "experience": 102.4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Greenhouse Door",
+    "experience": 23.2,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Greenhouse Doorframe",
+    "experience": 43.2,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Greenhouse Double Door",
+    "experience": 23.04,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Crystal or Primal Crystal",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Greenhouse Double Doorframe",
+    "experience": 43.2,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Crystal or Primal Crystal",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Greenhouse Triangle Ceiling",
+    "experience": 48,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Crystal or Primal Crystal",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Greenhouse Triangle Roof",
+    "experience": 36.48,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Crystal or Primal Crystal",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Greenhouse Wall",
+    "experience": 36.4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Greenhouse Window",
+    "experience": 4.4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Grenade",
+    "experience": 45.6,
+    "resources": [
+      "Fiber",
+      "Stone",
+      "Gunpowder",
+      "Hide",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Oil or Oil (Tusoteuthis)"
+    ]
+  },
+  {
+    "name": "Grilling Spatula Skin",
+    "experience": 48,
+    "resources": [
+      "Cooked Meat, Cooked Fish Meat, or Cooked Meat Jerky"
+    ]
+  },
+  {
+    "name": "Grindstone (Primitive Plus)",
+    "experience": 0.2,
+    "resources": [
+      "Stone",
+      "Wood"
+    ]
+  },
+  {
+    "name": "Halo Headband Skin",
+    "experience": 200,
+    "resources": [
+      "Metal",
+      "Box o' Chocolates",
+      "Valentines Dino Candy"
+    ]
+  },
+  {
+    "name": "Handcuffs",
+    "experience": 98,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Obsidian"
+    ]
+  },
+  {
+    "name": "Handmill (Primitive Plus)",
+    "experience": 36,
+    "resources": [
+      "Stone",
+      "Wood"
+    ]
+  },
+  {
+    "name": "Hazard Suit Boots",
+    "experience": 9,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Blue Gem or Blue Crystalized Sap",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Congealed Gas Ball"
+    ]
+  },
+  {
+    "name": "Hazard Suit Gloves",
+    "experience": 9,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Blue Gem or Blue Crystalized Sap",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Congealed Gas Ball"
+    ]
+  },
+  {
+    "name": "Hazard Suit Hat",
+    "experience": 7.4,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Blue Gem or Blue Crystalized Sap",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Congealed Gas Ball"
+    ]
+  },
+  {
+    "name": "Hazard Suit Pants",
+    "experience": 13,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Blue Gem or Blue Crystalized Sap",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Congealed Gas Ball"
+    ]
+  },
+  {
+    "name": "Hazard Suit Shirt",
+    "experience": 14,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Blue Gem or Blue Crystalized Sap",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Congealed Gas Ball"
+    ]
+  },
+  {
+    "name": "Headless Costume Skin",
+    "experience": 120,
+    "resources": [
+      "Pumpkin",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Heart-shaped Shield Skin",
+    "experience": 120,
+    "resources": [
+      "Box o' Chocolates",
+      "Valentines Dino Candy",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Heart-shaped Sunglasses Skin",
+    "experience": 4,
+    "resources": [
+      "Box o' Chocolates",
+      "Valentines Dino Candy"
+    ]
+  },
+  {
+    "name": "Heavy Auto Turret",
+    "experience": 280,
+    "resources": [
+      "Auto Turret",
+      "Cementing Paste or Achatina Paste",
+      "Electronics",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Heavy Miner's Helmet",
+    "experience": 132,
+    "resources": [
+      "Electronics",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Hide",
+      "Fiber",
+      "AnglerGel"
+    ]
+  },
+  {
+    "name": "Helicoprion Saddle",
+    "experience": 344,
+    "resources": [
+      "Fiber",
+      "Hide",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Hide Boots",
+    "experience": 2.8,
+    "resources": [
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Hide Gloves",
+    "experience": 2,
+    "resources": [
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Hide Hat",
+    "experience": 3.2,
+    "resources": [
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Hide Pants",
+    "experience": 5.6,
+    "resources": [
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Hide Shirt",
+    "experience": 6,
+    "resources": [
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Hide Sleeping Bag",
+    "experience": 12.4,
+    "resources": [
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "HLN-A Winter Beanie Skin",
+    "experience": 120,
+    "resources": [
+      "Mistletoe",
+      "Coal",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Hockey Mask Skin",
+    "experience": 120,
+    "resources": [
+      "Pumpkin",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Holo-Scope Attachment",
+    "experience": 400,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Homing Underwater Mine",
+    "experience": 224,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Oil or Oil (Tusoteuthis)",
+      "Gunpowder",
+      "Crystal or Primal Crystal",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Hoversail-Print Shirt Skin",
+    "experience": 12.8,
+    "resources": [
+      "Cooked Prime Meat"
+    ]
+  },
+  {
+    "name": "Hula Dance Emote",
+    "experience": 4,
+    "resources": [
+      "Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Hyaenodon Meatpack",
+    "experience": 251.2,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Hydrosphere",
+    "experience": 528,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Crystal",
+      "Fiber",
+      "Hardened Steel Ingot",
+      "Manganese"
+    ]
+  },
+  {
+    "name": "Ice Pop-Print Shirt Skin",
+    "experience": 12.8,
+    "resources": [
+      "Cooked Prime Meat, Cooked Prime Fish Meat, Cooked Lamb Chop, or Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Ichthy Isles Swim Bottom Skin",
+    "experience": 12.8,
+    "resources": [
+      "Cooked Prime Meat, Cooked Prime Fish Meat, Cooked Lamb Chop, or Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Ichthy Isles Swim Top Skin",
+    "experience": 4,
+    "resources": [
+      "Cooked Prime Meat, Cooked Prime Fish Meat, Cooked Lamb Chop, or Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Ichthyosaurus Saddle",
+    "experience": 52.4,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Wood or Fungal Wood",
+      "Metal",
+      "Flint"
+    ]
+  },
+  {
+    "name": "Icing (Primitive Plus)",
+    "experience": 52,
+    "resources": [
+      "Cane Sugar (Primitive Plus)",
+      "Corn Starch (Primitive Plus)",
+      "Soymilk (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Improvised Explosive Device",
+    "experience": 76.2,
+    "resources": [
+      "Gunpowder",
+      "Crystal or Primal Crystal",
+      "Fiber",
+      "Hide",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Inclined Electrical Cable",
+    "experience": 4.8,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Industrial Cooker",
+    "experience": 2800,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Oil or Oil (Tusoteuthis)"
+    ]
+  },
+  {
+    "name": "Industrial Cooker (Primitive Plus)",
+    "experience": 20,
+    "resources": [
+      "Cementing Paste",
+      "Crude Oil (Primitive Plus)",
+      "Iron Ingot (Primitive Plus)",
+      "Steel Ingot (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Industrial Grill",
+    "experience": 10,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Oil or Oil (Tusoteuthis)",
+      "Crystal or Primal Crystal"
+    ]
+  },
+  {
+    "name": "Industrial Grinder",
+    "experience": 132,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Cementing Paste or Achatina Paste",
+      "Oil or Oil (Tusoteuthis)",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Infectarium",
+    "experience": 396,
+    "resources": [
+      "Crystal or Primal Crystal",
+      "Stone",
+      "Wood or Fungal Wood",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Inflatable Rex Costume Skin",
+    "experience": 4,
+    "resources": [
+      "Cooked Prime Meat"
+    ]
+  },
+  {
+    "name": "Jack-O-Lantern Swim Bottom Skin",
+    "experience": 20,
+    "resources": [
+      "Stolen Headstone",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Jack-O-Lantern Swim Top Skin",
+    "experience": 20,
+    "resources": [
+      "Stolen Headstone",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Jack-O-Lantern-Print Shirt Skin",
+    "experience": 12.8,
+    "resources": [
+      "Stolen Headstone",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Jar of Pitch",
+    "experience": 0.2,
+    "resources": [
+      "Clay",
+      "Oil or Oil (Tusoteuthis)",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Jellyfish Swim Bottom Skin",
+    "experience": 12.8,
+    "resources": [
+      "Cooked Prime Meat"
+    ]
+  },
+  {
+    "name": "Jellyfish Swim Top Skin",
+    "experience": 12.8,
+    "resources": [
+      "Cooked Prime Meat"
+    ]
+  },
+  {
+    "name": "Kaprosuchus Saddle",
+    "experience": 70.4,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Chitin, Keratin, or Shell Fragment"
+    ]
+  },
+  {
+    "name": "Karkinos Saddle",
+    "experience": 107.2,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Fungal Wood",
+      "Blue Gem or Blue Crystalized Sap"
+    ]
+  },
+  {
+    "name": "Kibble (Oviraptor Egg)",
+    "experience": 4,
+    "resources": [
+      "Oviraptor Egg",
+      "Longrass",
+      "Prime Meat Jerky",
+      "Mejoberry",
+      "Fiber",
+      "Water"
+    ]
+  },
+  {
+    "name": "Kibble (Pelagornis Egg)",
+    "experience": 4,
+    "resources": [
+      "Pelagornis Egg",
+      "Citronal",
+      "Chitin",
+      "Mejoberry",
+      "Fiber",
+      "Water"
+    ]
+  },
+  {
+    "name": "Kibble (Tapejara Egg)",
+    "experience": 4,
+    "resources": [
+      "Tapejara Egg",
+      "Rockarrot",
+      "Cooked Prime Meat",
+      "Mejoberry",
+      "Fiber",
+      "Water"
+    ]
+  },
+  {
+    "name": "Kibble Mash",
+    "experience": 4,
+    "resources": [
+      "Barnacle",
+      "Cucumis",
+      "Earthworms",
+      "Oryraise",
+      "Seaweed"
+    ]
+  },
+  {
+    "name": "Knock Emote",
+    "experience": 200,
+    "resources": [
+      "Scarecrow",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Lamppost",
+    "experience": 28.8,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Lance",
+    "experience": 4,
+    "resources": [
+      "Flint",
+      "Hide",
+      "Pelt",
+      "Fiber",
+      "Obsidian",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Lantern (Primitive Plus)",
+    "experience": 48,
+    "resources": [
+      "Iron Ingot (Primitive Plus)",
+      "Glass (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Large Bear Trap",
+    "experience": 32,
+    "resources": [
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Large Crop Plot",
+    "experience": 85.6,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber",
+      "Stone"
+    ]
+  },
+  {
+    "name": "Large Elevator Platform",
+    "experience": 4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Large Metal Wall",
+    "experience": 64,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Large Stone Wall",
+    "experience": 36,
+    "resources": [
+      "Stone",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Large Storage Box",
+    "experience": 29.2,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Large Taxidermy Base",
+    "experience": 100,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Stone",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Large Tek Wall",
+    "experience": 64,
+    "resources": [
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Large Wood Elevator Platform",
+    "experience": 4,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Large Wooden Wall",
+    "experience": 24,
+    "resources": [
+      "Fiber",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Laser Attachment",
+    "experience": 544,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Lasso",
+    "experience": 2.4,
+    "resources": [
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Lesser Antidote",
+    "experience": 4,
+    "resources": [
+      "Rare Flower",
+      "Rare Mushroom",
+      "Leech Blood or Horns",
+      "Narcotic"
+    ]
+  },
+  {
+    "name": "Loadout Mannequin",
+    "experience": 4,
+    "resources": [
+      "Thatch",
+      "Wood or Fungal Wood",
+      "Fiber",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Longbow (Primitive Plus)",
+    "experience": 330,
+    "resources": [
+      "Wood",
+      "Fiber",
+      "Leather (Primitive Plus)",
+      "Beeswax (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Love Shackles Skin",
+    "experience": 120,
+    "resources": [
+      "Metal",
+      "Fiber",
+      "Box o' Chocolates",
+      "Valentines Dino Candy"
+    ]
+  },
+  {
+    "name": "Lumber (Primitive Plus)",
+    "experience": 240,
+    "resources": [
+      "Wood"
+    ]
+  },
+  {
+    "name": "M.D.S.M.",
+    "experience": 107.2,
+    "resources": [
+      "Black Pearl",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "M.R.L.M.",
+    "experience": 107.2,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "M.S.C.M.",
+    "experience": 107.2,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "Maewing Saddle",
+    "experience": 289.6,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Magmasaur Saddle",
+    "experience": 600,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Cementing Paste or Achatina Paste",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Magnifying Glass",
+    "experience": 8,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Hide",
+      "Fiber",
+      "Crystal or Primal Crystal",
+      "Obsidian",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Mammoth Saddle",
+    "experience": 188.8,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Managarmr Saddle",
+    "experience": 289.6,
+    "resources": [
+      "Chitin, Keratin, or Shell Fragment",
+      "Fiber",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Manta Saddle",
+    "experience": 52.4,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Wood or Fungal Wood",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Flint"
+    ]
+  },
+  {
+    "name": "Mantis Saddle",
+    "experience": 280,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Market Stall (Primitive Plus)",
+    "experience": 42.8,
+    "resources": [
+      "Lumber (Primitive Plus)",
+      "Leather (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Medium Elevator Platform",
+    "experience": 4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Medium Taxidermy Base",
+    "experience": 10,
+    "resources": [
+      "Stone",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Medium Wood Elevator Platform",
+    "experience": 4,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Megachelon Platform Saddle",
+    "experience": 535.2,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Silica Pearls or Silicate",
+      "Cementing Paste or Achatina Paste",
+      "Shell Fragment"
+    ]
+  },
+  {
+    "name": "Megalania Saddle",
+    "experience": 251.2,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Megaloceros Saddle",
+    "experience": 113.6,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Megalodon Saddle",
+    "experience": 204.8,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Megalodon Tek Saddle",
+    "experience": 344,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "Megalosaurus Saddle",
+    "experience": 289.6,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Megatherium Saddle",
+    "experience": 88.8,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Cementing Paste or Achatina Paste",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Metal Arrow",
+    "experience": 0.1,
+    "resources": [
+      "Thatch",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Metal Billboard",
+    "experience": 64,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Catwalk",
+    "experience": 14.4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Metal Ceiling",
+    "experience": 51.2,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Cliff Platform",
+    "experience": 260,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Blue Gem or Blue Crystalized Sap"
+    ]
+  },
+  {
+    "name": "Metal Dinosaur Gate",
+    "experience": 64,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Dinosaur Gateway",
+    "experience": 93.6,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Door",
+    "experience": 11.6,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Doorframe",
+    "experience": 22,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Double Door",
+    "experience": 11.52,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Metal Double Doorframe",
+    "experience": 22.08,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Metal Fence Foundation",
+    "experience": 9.6,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Fence Support",
+    "experience": 9.6,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Metal Foundation",
+    "experience": 92,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Hammer (Primitive Plus)",
+    "experience": 5.6,
+    "resources": [
+      "Iron Ingot (Primitive Plus)",
+      "Wood",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Metal Hatchframe",
+    "experience": 32.8,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Irrigation Pipe - Flexible",
+    "experience": 2.4,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Metal Irrigation Pipe - Inclined",
+    "experience": 4.8,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Irrigation Pipe - Intake",
+    "experience": 19.2,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Metal Irrigation Pipe - Intersection",
+    "experience": 7.2,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Irrigation Pipe - Straight",
+    "experience": 2.4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Irrigation Pipe - Tap",
+    "experience": 15.2,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Metal Irrigation Pipe - Vertical",
+    "experience": 2.4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Ladder",
+    "experience": 6.4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Metal Machete (Primitive Plus)",
+    "experience": 4,
+    "resources": [
+      "Iron Ingot (Primitive Plus)",
+      "Wood",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Metal Pick",
+    "experience": 4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Wood or Fungal Wood",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Metal Pillar",
+    "experience": 27.2,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Railing",
+    "experience": 8.64,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Ramp",
+    "experience": 64,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Shield",
+    "experience": 46,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Metal Sickle",
+    "experience": 5.6,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Wood or Fungal Wood",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Metal Sign",
+    "experience": 10.4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Spike Wall",
+    "experience": 18.8,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Metal Staircase",
+    "experience": 18.24,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Stairs",
+    "experience": 64,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Metal Trapdoor",
+    "experience": 11.2,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Tree Platform",
+    "experience": 1.992,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Metal Triangle Ceiling",
+    "experience": 51.2,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Metal Triangle Foundation",
+    "experience": 44,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Metal Triangle Roof",
+    "experience": 18.24,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Metal Wall",
+    "experience": 18.4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Wall Sign",
+    "experience": 10.4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Water Reservoir",
+    "experience": 6,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Metal Window",
+    "experience": 2,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Metal Windowframe",
+    "experience": 22.4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Miners Box (Primitive Plus)",
+    "experience": 1440,
+    "resources": [
+      "Wood",
+      "Iron Ingot (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Minigun Turret",
+    "experience": 1280,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Mining Drill",
+    "experience": 720,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Cementing Paste or Achatina Paste",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "Mirror",
+    "experience": 4,
+    "resources": [
+      "Sand",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Crystal or Primal Crystal",
+      "Obsidian",
+      "Silica Pearls or Silicate",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Mobile:TEK Kibble Processor",
+    "experience": 80,
+    "resources": [
+      "Mobile:Element or Eery Element",
+      "Metal Ingot",
+      "Electronics",
+      "Crystal"
+    ]
+  },
+  {
+    "name": "Mortar and Pestle",
+    "experience": 28.8,
+    "resources": [
+      "Stone",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Mosasaur Platform Saddle",
+    "experience": 1848,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Silica Pearls or Silicate",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Mosasaur Saddle",
+    "experience": 464,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Cementing Paste or Achatina Paste",
+      "Silica Pearls or Silicate",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Mosasaur Tek Saddle",
+    "experience": 344,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "Mosh Pit Emote",
+    "experience": 4,
+    "resources": [
+      "Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Motorboat",
+    "experience": 375,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Hide",
+      "Fiber",
+      "Obsidian",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "Multi-Panel Flag",
+    "experience": 22,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Fiber",
+      "Hide",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Murder Turkey Swim Bottom Skin",
+    "experience": 20,
+    "resources": [
+      "Wishbone"
+    ]
+  },
+  {
+    "name": "Murder Turkey Swim Top Skin",
+    "experience": 20,
+    "resources": [
+      "Wishbone"
+    ]
+  },
+  {
+    "name": "Murder-Turkey-Print Shirt Skin",
+    "experience": 12.8,
+    "resources": [
+      "Wishbone"
+    ]
+  },
+  {
+    "name": "Musket (Primitive Plus)",
+    "experience": 8,
+    "resources": [
+      "Iron Ingot (Primitive Plus)",
+      "Wood",
+      "Leather (Primitive Plus)",
+      "Cementing Paste"
+    ]
+  },
+  {
+    "name": "Net Projectile",
+    "experience": 0.8,
+    "resources": [
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Night Vision Goggles",
+    "experience": 25.48,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Electronics",
+      "Cementing Paste or Achatina Paste",
+      "Crystal or Primal Crystal",
+      "AnglerGel",
+      "Absorbent Substrate"
+    ]
+  },
+  {
+    "name": "Noglin Regift Winter Beanie Skin",
+    "experience": 120,
+    "resources": [
+      "Mistletoe",
+      "Coal",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Note",
+    "experience": 0.4,
+    "resources": [
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Obsidian Arrow (Primitive Plus)",
+    "experience": 12.8,
+    "resources": [
+      "Thatch",
+      "Obsidian",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Odd Couple Swim Top Skin",
+    "experience": 20,
+    "resources": [
+      "Box o' Chocolates",
+      "Valentines Dino Candy"
+    ]
+  },
+  {
+    "name": "Oil Tank (Primitive Plus)",
+    "experience": 28.8,
+    "resources": [
+      "Steel Ingot (Primitive Plus)",
+      "Fresh Cement (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Onchopristis Saddle",
+    "experience": 28,
+    "resources": [
+      "Fiber",
+      "Fish Scale",
+      "Flint",
+      "Metal",
+      "Wood"
+    ]
+  },
+  {
+    "name": "Onyc Swim Bottom Skin",
+    "experience": 20,
+    "resources": [
+      "Stolen Headstone",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Onyc Swim Top Skin",
+    "experience": 20,
+    "resources": [
+      "Stolen Headstone",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Pachy Saddle",
+    "experience": 70.4,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Pachyrhinosaurus Saddle",
+    "experience": 88.8,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Paintbrush",
+    "experience": 2.8,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Hide",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Painting Canvas",
+    "experience": 6.4,
+    "resources": [
+      "Fiber",
+      "Wood or Fungal Wood",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Pancake Batter (Primitive Plus)",
+    "experience": 200,
+    "resources": [
+      "Sack of Flour (Primitive Plus)",
+      "Salt (Primitive Plus)",
+      "Organic Oil (Primitive Plus)",
+      "Cashew Milk (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Paracer Platform Saddle",
+    "experience": 535.2,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Silica Pearls or Silicate",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Paracer Saddle",
+    "experience": 297.6,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Parachute",
+    "experience": 11.6,
+    "resources": [
+      "Thatch",
+      "Fiber",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Parasaur Saddle",
+    "experience": 48,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Party Hat Skin",
+    "experience": 4,
+    "resources": [
+      "Cake Slice"
+    ]
+  },
+  {
+    "name": "Pelagornis Saddle",
+    "experience": 172,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Chitin, Keratin, or Shell Fragment"
+    ]
+  },
+  {
+    "name": "Pheromone Dart",
+    "experience": 0.2,
+    "resources": [
+      "Ammonite Bile",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Tranquilizer Dart"
+    ]
+  },
+  {
+    "name": "Phiomia Saddle",
+    "experience": 14.4,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Pike",
+    "experience": 24,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Wood or Fungal Wood",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Pitchfork (Primitive Plus)",
+    "experience": 1848,
+    "resources": [
+      "Wood"
+    ]
+  },
+  {
+    "name": "Plesiosaur Saddle",
+    "experience": 464,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Cementing Paste or Achatina Paste",
+      "Silica Pearls or Silicate"
+    ]
+  },
+  {
+    "name": "Pliers",
+    "experience": 4,
+    "resources": [
+      "Flint",
+      "Obsidian",
+      "Blue Gem or Blue Crystalized Sap",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Congealed Gas Ball"
+    ]
+  },
+  {
+    "name": "Poison Grenade",
+    "experience": 33,
+    "resources": [
+      "Narcotic",
+      "Charcoal",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Sparkpowder",
+      "Gunpowder",
+      "Crystal or Primal Crystal",
+      "Fiber",
+      "Flint"
+    ]
+  },
+  {
+    "name": "Polymer",
+    "experience": 2.24,
+    "resources": [
+      "Obsidian",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Portable Rope Ladder",
+    "experience": 1.992,
+    "resources": [
+      "Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Preserving Bin",
+    "experience": 27.6,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Preserving Campfire (Primitive Plus)",
+    "experience": 0.24,
+    "resources": [
+      "Wood",
+      "Stone",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Pressure Plate",
+    "experience": 200,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Wood or Fungal Wood",
+      "Fiber",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Procoptodon Bunny Costume",
+    "experience": 4,
+    "resources": [
+      "Bunny Egg"
+    ]
+  },
+  {
+    "name": "Procoptodon Saddle",
+    "experience": 344,
+    "resources": [
+      "Hide",
+      "Pelt, Hair, or Wool",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Propellant",
+    "experience": 4,
+    "resources": [
+      "Sulfur",
+      "Cactus Sap or Blood Sap",
+      "Oil or Oil (Tusoteuthis)"
+    ]
+  },
+  {
+    "name": "Pteranodon Saddle",
+    "experience": 172,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Chitin, Keratin, or Shell Fragment"
+    ]
+  },
+  {
+    "name": "Pulmonoscorpius Saddle",
+    "experience": 107.2,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Pump-Action Shotgun",
+    "experience": 648,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Purple-Ball Winter Beanie Skin (Winter Wonderland 5)",
+    "experience": 120,
+    "resources": [
+      "Mistletoe",
+      "Coal",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Quetz Platform Saddle",
+    "experience": 1848,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Silica Pearls or Silicate",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Quetz Saddle",
+    "experience": 464,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Cementing Paste or Achatina Paste",
+      "Silica Pearls or Silicate"
+    ]
+  },
+  {
+    "name": "Radio",
+    "experience": 8,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Sparkpowder"
+    ]
+  },
+  {
+    "name": "Raptor Saddle",
+    "experience": 70.4,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Raptor Sleighing Winter Beanie Skin",
+    "experience": 120,
+    "resources": [
+      "Mistletoe",
+      "Coal",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Re-Fertilizer",
+    "experience": 4,
+    "resources": [
+      "Rare Mushroom",
+      "Rare Flower",
+      "Sparkpowder",
+      "Fertilizer",
+      "Oil or Oil (Tusoteuthis)"
+    ]
+  },
+  {
+    "name": "Reaper Swim Bottom Skin",
+    "experience": 20,
+    "resources": [
+      "Stolen Headstone",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Reaper Swim Top Skin",
+    "experience": 20,
+    "resources": [
+      "Stolen Headstone",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Reaper-Print Shirt Skin",
+    "experience": 12.8,
+    "resources": [
+      "Stolen Headstone",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Recurve Bow (Primitive Plus)",
+    "experience": 74.4,
+    "resources": [
+      "Wood",
+      "Fiber",
+      "Leather (Primitive Plus)",
+      "Beeswax (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Refrigerator",
+    "experience": 292,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Reinforced Dinosaur Gate",
+    "experience": 40,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Reinforced Double Door",
+    "experience": 9.12,
+    "resources": [
+      "Stone",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Reinforced Trapdoor",
+    "experience": 6.8,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Reinforced Window",
+    "experience": 2.4,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Reinforced Wooden Door",
+    "experience": 9.2,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Remote Keypad",
+    "experience": 64,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Retro Sunglasses Skin",
+    "experience": 4,
+    "resources": [
+      "Cooked Meat"
+    ]
+  },
+  {
+    "name": "Rex Saddle",
+    "experience": 344,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Rex Tek Saddle",
+    "experience": 344,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "Riot Boots",
+    "experience": 85.52,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Silica Pearls or Silicate",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Riot Chestpiece",
+    "experience": 138.32,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Silica Pearls or Silicate",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Riot Gauntlets",
+    "experience": 69.16,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Silica Pearls or Silicate",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Riot Helmet",
+    "experience": 103.64,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Silica Pearls or Silicate",
+      "Hide",
+      "Fiber",
+      "Crystal or Primal Crystal"
+    ]
+  },
+  {
+    "name": "Riot Leggings",
+    "experience": 172.8,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Silica Pearls or Silicate",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Riot Shield",
+    "experience": 312,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Silica Pearls or Silicate",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Rock Drake Saddle",
+    "experience": 280,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Red Gem or Red Crystalized Sap"
+    ]
+  },
+  {
+    "name": "Rock Drake Tek Saddle",
+    "experience": 344,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "Rock Golem Saddle",
+    "experience": 280,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Rocket Homing Missile",
+    "experience": 32,
+    "resources": [
+      "Gunpowder",
+      "Crystal or Primal Crystal",
+      "Cementing Paste or Achatina Paste",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Rocket Launcher",
+    "experience": 972,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Rocket Pod",
+    "experience": 14.4,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Crystal or Primal Crystal",
+      "Gunpowder",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Rocket Propelled Grenade",
+    "experience": 14.4,
+    "resources": [
+      "Gunpowder",
+      "Crystal or Primal Crystal",
+      "Cementing Paste or Achatina Paste",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Rocket Turret",
+    "experience": 1800,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Roll Rat Saddle",
+    "experience": 220,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Green Gem or Fragmented Green Gem"
+    ]
+  },
+  {
+    "name": "Rope Ladder",
+    "experience": 1.992,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Sabertooth Saddle",
+    "experience": 251.2,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Sack of Flour (Primitive Plus)",
+    "experience": 4,
+    "resources": [
+      "Dried Wheat (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Santa Costume Skin",
+    "experience": 4,
+    "resources": [
+      "Mistletoe",
+      "Coal",
+      "Pelt"
+    ]
+  },
+  {
+    "name": "Santa Emote",
+    "experience": 200,
+    "resources": [
+      "Mistletoe",
+      "Coal"
+    ]
+  },
+  {
+    "name": "Sarco Saddle",
+    "experience": 144,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Sauropod Heart Swim Bottom Skin",
+    "experience": 12.8,
+    "resources": [
+      "Box o' Chocolates",
+      "Valentines Dino Candy"
+    ]
+  },
+  {
+    "name": "Sauropod Heart Swim Top Skin",
+    "experience": 20,
+    "resources": [
+      "Box o' Chocolates",
+      "Valentines Dino Candy"
+    ]
+  },
+  {
+    "name": "Scare Emote",
+    "experience": 200,
+    "resources": [
+      "Scarecrow",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Scary Dino Pumpkin Helmet Skin",
+    "experience": 120,
+    "resources": [
+      "Pumpkin",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Scary Pumpkin Helmet Skin",
+    "experience": 120,
+    "resources": [
+      "Pumpkin",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Scissors",
+    "experience": 4,
+    "resources": [
+      "Flint",
+      "Obsidian",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Scope Attachment",
+    "experience": 196,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Stone"
+    ]
+  },
+  {
+    "name": "Scout Remote",
+    "experience": 45.4,
+    "resources": [
+      "Element Dust or Red Element Dust",
+      "Electronics",
+      "Crystal or Primal Crystal",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "SCUBA Flippers",
+    "experience": 20.4,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Chitin, Keratin, or Shell Fragment",
+      "Cementing Paste or Achatina Paste",
+      "Silica Pearls or Silicate"
+    ]
+  },
+  {
+    "name": "SCUBA Leggings",
+    "experience": 28.4,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "SCUBA Mask",
+    "experience": 25.48,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Crystal or Primal Crystal",
+      "Silica Pearls or Silicate"
+    ]
+  },
+  {
+    "name": "SCUBA Tank",
+    "experience": 30.24,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Sea Life-Print Shirt Skin",
+    "experience": 12.8,
+    "resources": [
+      "Cooked Prime Meat, Cooked Prime Fish Meat, Cooked Lamb Chop, or Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Self Hug Emote",
+    "experience": 4,
+    "resources": [
+      "Box o' Chocolates",
+      "Valentines Dino Candy"
+    ]
+  },
+  {
+    "name": "Shadowmane Fishing-Print Shirt Skin",
+    "experience": 12.8,
+    "resources": [
+      "Cooked Prime Meat"
+    ]
+  },
+  {
+    "name": "Shag Rug",
+    "experience": 2.92,
+    "resources": [
+      "Fungal Wood",
+      "Hide",
+      "Pelt, Hair, or Wool"
+    ]
+  },
+  {
+    "name": "Shocking Tranquilizer Dart",
+    "experience": 0.2,
+    "resources": [
+      "Bio Toxin",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Tranquilizer Dart"
+    ]
+  },
+  {
+    "name": "Shotgun",
+    "experience": 423.2,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Wood or Fungal Wood",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Silencer Attachment",
+    "experience": 196,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Oil or Oil (Tusoteuthis)",
+      "Chitin, Keratin, or Shell Fragment",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Simple Bed",
+    "experience": 32.4,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Simple Bullet",
+    "experience": 1.6,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Gunpowder"
+    ]
+  },
+  {
+    "name": "Simple Hammock (Primitive Plus)",
+    "experience": 100.8,
+    "resources": [
+      "Wood",
+      "Thatch",
+      "Fiber",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Simple Rifle Ammo",
+    "experience": 3.2,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Gunpowder"
+    ]
+  },
+  {
+    "name": "Simple Shotgun Ammo",
+    "experience": 1.2,
+    "resources": [
+      "Simple Bullet",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Gunpowder"
+    ]
+  },
+  {
+    "name": "Single Panel Flag",
+    "experience": 4,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Fiber",
+      "Hide",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Skeleton Costume Skin",
+    "experience": 4,
+    "resources": [
+      "Stolen Headstone",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Skelly-Print Shirt Skin",
+    "experience": 12.8,
+    "resources": [
+      "Stolen Headstone",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Slingshot",
+    "experience": 3.8,
+    "resources": [
+      "Hide",
+      "Wood or Fungal Wood",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Sloped Adobe Roof",
+    "experience": 26.8,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Sloped Adobe Wall Left",
+    "experience": 7.76,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Sloped Adobe Wall Right",
+    "experience": 7.76,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Sloped Cement Roof (Primitive Plus)",
+    "experience": 102.4,
+    "resources": [
+      "Fresh Cement (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Sloped Greenhouse Wall Left",
+    "experience": 21.76,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Sloped Greenhouse Wall Right",
+    "experience": 21.76,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Sloped Metal Roof",
+    "experience": 51.2,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Sloped Metal Wall Left",
+    "experience": 11.6,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Sloped Metal Wall Right",
+    "experience": 11.2,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Sloped Stone Roof",
+    "experience": 32,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Sloped Stone Wall Left",
+    "experience": 5.6,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Sloped Stone Wall Right",
+    "experience": 5.6,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Sloped Tek Roof",
+    "experience": 100,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Element Shard or Red Element Shard"
+    ]
+  },
+  {
+    "name": "Sloped Tek Wall Left",
+    "experience": 20,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Element Shard or Red Element Shard"
+    ]
+  },
+  {
+    "name": "Sloped Tek Wall Right",
+    "experience": 20,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Element Shard or Red Element Shard"
+    ]
+  },
+  {
+    "name": "Sloped Thatch Roof",
+    "experience": 5.4,
+    "resources": [
+      "Thatch",
+      "Wood or Fungal Wood",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Sloped Thatch Wall Left",
+    "experience": 3.36,
+    "resources": [
+      "Thatch",
+      "Wood or Fungal Wood",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Sloped Thatch Wall Right",
+    "experience": 3.36,
+    "resources": [
+      "Thatch",
+      "Wood or Fungal Wood",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Sloped Wood Wall Left",
+    "experience": 3.76,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Sloped Wood Wall Right",
+    "experience": 3.76,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Sloped Wooden Roof",
+    "experience": 27.8,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Small Crop Plot",
+    "experience": 21.2,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber",
+      "Stone"
+    ]
+  },
+  {
+    "name": "Small Elevator Platform",
+    "experience": 4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Small Taxidermy Base",
+    "experience": 4,
+    "resources": [
+      "Stone",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Small Wood Elevator Platform",
+    "experience": 4,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Smithy",
+    "experience": 25,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Stone",
+      "Wood or Fungal Wood",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Smoke Grenade",
+    "experience": 45.4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Charcoal",
+      "Wood or Fungal Wood",
+      "Hide",
+      "Flint",
+      "Fiber",
+      "Thatch",
+      "Sparkpowder"
+    ]
+  },
+  {
+    "name": "Smokehouse (Primitive Plus)",
+    "experience": 289.6,
+    "resources": [
+      "Lumber (Primitive Plus)",
+      "Wood",
+      "Thatch",
+      "Fiber",
+      "Brick (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Snowman",
+    "experience": 72,
+    "resources": [
+      "Fiber",
+      "Mistletoe",
+      "Obsidian",
+      "Rockarrot",
+      "Wood"
+    ]
+  },
+  {
+    "name": "Snowy Winter Beanie Skin",
+    "experience": 120,
+    "resources": [
+      "Mistletoe",
+      "Coal",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Sparkpowder",
+    "experience": 0.24,
+    "resources": [
+      "Flint",
+      "Stone"
+    ]
+  },
+  {
+    "name": "Spear",
+    "experience": 2.4,
+    "resources": [
+      "Flint",
+      "Wood or Fungal Wood",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Spear Bolt",
+    "experience": 37.2,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Flint",
+      "Fiber",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Spinning Mule (Primitive Plus)",
+    "experience": 356,
+    "resources": [
+      "Steel Ingot (Primitive Plus)",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Spray Painter",
+    "experience": 927,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Cementing Paste or Achatina Paste",
+      "Oil or Oil (Tusoteuthis)",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Spyglass",
+    "experience": 8,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Hide",
+      "Fiber",
+      "Crystal or Primal Crystal"
+    ]
+  },
+  {
+    "name": "Standing Torch",
+    "experience": 3.6,
+    "resources": [
+      "Thatch",
+      "Flint",
+      "Stone",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Steel Handrail (Primitive Plus)",
+    "experience": 125.6,
+    "resources": [
+      "Steel Ingot (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Stimbull Juice (Primitive Plus)",
+    "experience": 0.2,
+    "resources": [
+      "Stimberry",
+      "Cane Sugar (Primitive Plus)",
+      "Narcoberry"
+    ]
+  },
+  {
+    "name": "Stone Arrow",
+    "experience": 0.096,
+    "resources": [
+      "Thatch",
+      "Fiber",
+      "Flint"
+    ]
+  },
+  {
+    "name": "Stone Ceiling",
+    "experience": 32,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Stone Cliff Platform",
+    "experience": 220,
+    "resources": [
+      "Stone",
+      "Fungal Wood",
+      "Fiber",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Stone Dinosaur Gateway",
+    "experience": 66,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Stone Doorframe",
+    "experience": 12.4,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Stone Double Doorframe",
+    "experience": 12.48,
+    "resources": [
+      "Stone",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Stone Fence Foundation",
+    "experience": 12,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Stone Fence Support",
+    "experience": 12,
+    "resources": [
+      "Stone",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Stone Fireplace",
+    "experience": 29.2,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Flint"
+    ]
+  },
+  {
+    "name": "Stone Foundation",
+    "experience": 54,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Stone Hatchet",
+    "experience": 1.6,
+    "resources": [
+      "Thatch",
+      "Flint",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Stone Hatchframe",
+    "experience": 20,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Stone Hunting Knife (Primitive Plus)",
+    "experience": 1.68,
+    "resources": [
+      "Stone",
+      "Wood",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Stone Irrigation Pipe - Inclined",
+    "experience": 2.8,
+    "resources": [
+      "Stone"
+    ]
+  },
+  {
+    "name": "Stone Irrigation Pipe - Intake",
+    "experience": 7.2,
+    "resources": [
+      "Stone"
+    ]
+  },
+  {
+    "name": "Stone Irrigation Pipe - Intersection",
+    "experience": 4,
+    "resources": [
+      "Stone"
+    ]
+  },
+  {
+    "name": "Stone Irrigation Pipe - Straight",
+    "experience": 1.6,
+    "resources": [
+      "Stone"
+    ]
+  },
+  {
+    "name": "Stone Irrigation Pipe - Tap",
+    "experience": 7.6,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Stone Irrigation Pipe - Vertical",
+    "experience": 1.6,
+    "resources": [
+      "Stone"
+    ]
+  },
+  {
+    "name": "Stone Pick",
+    "experience": 1.6,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Stone Pillar",
+    "experience": 12,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Stone Railing",
+    "experience": 5.36,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Stone Staircase",
+    "experience": 10.8,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Stone Stairs",
+    "experience": 32,
+    "resources": [
+      "Stone",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Stone Triangle Ceiling",
+    "experience": 32,
+    "resources": [
+      "Stone",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Stone Triangle Foundation",
+    "experience": 28,
+    "resources": [
+      "Stone",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Stone Triangle Roof",
+    "experience": 10.8,
+    "resources": [
+      "Stone",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Stone Wall",
+    "experience": 21.6,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Stone Windowframe",
+    "experience": 14,
+    "resources": [
+      "Stone",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Storage Barrel (Primitive Plus)",
+    "experience": 14.8,
+    "resources": [
+      "Wood",
+      "Thatch",
+      "Fiber",
+      "Iron Ingot (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Straight Electrical Cable",
+    "experience": 4.8,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Strawman Costume Skin",
+    "experience": 4,
+    "resources": [
+      "Pumpkin",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Sweet Spear Carrot Skin",
+    "experience": 4,
+    "resources": [
+      "Bunny Egg"
+    ]
+  },
+  {
+    "name": "Sword",
+    "experience": 26.4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Wood or Fungal Wood",
+      "Hide"
+    ]
+  },
+  {
+    "name": "T-Rex Swim Bottom Skin",
+    "experience": 12.8,
+    "resources": [
+      "Cooked Prime Meat, Cooked Prime Fish Meat, Cooked Lamb Chop, or Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "T-Rex Swim Top Skin",
+    "experience": 4,
+    "resources": [
+      "Cooked Prime Meat, Cooked Prime Fish Meat, Cooked Lamb Chop, or Prime Meat Jerky"
+    ]
+  },
+  {
+    "name": "Table Lantern (Primitive Plus)",
+    "experience": 200,
+    "resources": [
+      "Iron Ingot (Primitive Plus)",
+      "Glass (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Tanning Rack (Primitive Plus)",
+    "experience": 88.8,
+    "resources": [
+      "Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Tapejara Tek Saddle",
+    "experience": 344,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "Taxidermy Tool",
+    "experience": 3,
+    "resources": [
+      "Flint",
+      "Stone",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Teddy Bear Grenades Skin",
+    "experience": 200,
+    "resources": [
+      "Wool",
+      "Fiber",
+      "Box o' Chocolates",
+      "Valentines Dino Candy"
+    ]
+  },
+  {
+    "name": "Teepee (Primitive Plus)",
+    "experience": 4,
+    "resources": [
+      "Wood",
+      "Leather (Primitive Plus)",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Tek Binoculars (Survival Ascended)",
+    "experience": 20,
+    "resources": [
+      "Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Electronics",
+      "Obsidian"
+    ]
+  },
+  {
+    "name": "Tek Bridge",
+    "experience": 200,
+    "resources": [
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Tek Canteen",
+    "experience": 480,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Element or Red Element",
+      "Cementing Paste or Achatina Paste",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Tek Catwalk",
+    "experience": 30,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element"
+    ]
+  },
+  {
+    "name": "Tek Ceiling",
+    "experience": 100,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element or Red Element"
+    ]
+  },
+  {
+    "name": "Tek Claws",
+    "experience": 720,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "Tek Crop Plot",
+    "experience": 85.6,
+    "resources": [
+      "Element or Red Element",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Sand",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "Tek Dinosaur Gate",
+    "experience": 128,
+    "resources": [
+      "Element or Red Element",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal"
+    ]
+  },
+  {
+    "name": "Tek Dinosaur Gateway",
+    "experience": 188,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element or Red Element"
+    ]
+  },
+  {
+    "name": "Tek Door",
+    "experience": 20,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element or Red Element"
+    ]
+  },
+  {
+    "name": "Tek Doorframe",
+    "experience": 44,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element or Red Element"
+    ]
+  },
+  {
+    "name": "Tek Double Door",
+    "experience": 40,
+    "resources": [
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Tek Double Doorframe",
+    "experience": 44,
+    "resources": [
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Tek Fence Foundation",
+    "experience": 20,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Element Shard or Red Element Shard"
+    ]
+  },
+  {
+    "name": "Tek Fence Support",
+    "experience": 9.6,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Element Shard or Red Element Shard",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Tek Floating Foundation",
+    "experience": 200,
+    "resources": [
+      "Hardened Steel Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element",
+      "Manganese"
+    ]
+  },
+  {
+    "name": "Tek Forcefield",
+    "experience": 132,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Black Pearl",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Element or Red Element"
+    ]
+  },
+  {
+    "name": "Tek Foundation",
+    "experience": 200,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element or Red Element"
+    ]
+  },
+  {
+    "name": "Tek Generator",
+    "experience": 132,
+    "resources": [
+      "Element or Red Element",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Black Pearl",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Tek Gravity Grenade",
+    "experience": 45.4,
+    "resources": [
+      "Element Dust or Red Element Dust",
+      "Crystal or Primal Crystal",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Gunpowder"
+    ]
+  },
+  {
+    "name": "Tek Grenade",
+    "experience": 45.4,
+    "resources": [
+      "Element or Red Element",
+      "Crystal or Primal Crystal",
+      "Cementing Paste or Achatina Paste",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Gunpowder"
+    ]
+  },
+  {
+    "name": "Tek Grenade Launcher",
+    "experience": 720,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Black Pearl",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Tek Hatchframe",
+    "experience": 72,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element or Red Element"
+    ]
+  },
+  {
+    "name": "Tek Helmet",
+    "experience": 3.2,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "Tek Hoversail",
+    "experience": 4,
+    "resources": [
+      "Element or Red Element",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Tek Jump Pad",
+    "experience": 200,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Element or Red Element",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal"
+    ]
+  },
+  {
+    "name": "Tek Ladder",
+    "experience": 12,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element or Red Element"
+    ]
+  },
+  {
+    "name": "Tek Light",
+    "experience": 120,
+    "resources": [
+      "Element or Red Element",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Black Pearl",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Tek Phase Pistol",
+    "experience": 400,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Black Pearl",
+      "Red Gem or Red Crystalized Sap",
+      "Blue Gem or Blue Crystalized Sap",
+      "Green Gem or Fragmented Green Gem"
+    ]
+  },
+  {
+    "name": "Tek Pillar",
+    "experience": 240,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element or Red Element"
+    ]
+  },
+  {
+    "name": "Tek Railgun",
+    "experience": 720,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Congealed Gas Ball",
+      "Element or Red Element",
+      "Black Pearl",
+      "Red Gem or Red Crystalized Sap"
+    ]
+  },
+  {
+    "name": "Tek Railing",
+    "experience": 20,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Tek Ramp",
+    "experience": 128,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element or Red Element"
+    ]
+  },
+  {
+    "name": "Tek Remote Camera",
+    "experience": 32,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Electronics",
+      "Element or Red Element",
+      "Crystal or Primal Crystal"
+    ]
+  },
+  {
+    "name": "Tek Sensor",
+    "experience": 200,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Electronics",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element or Red Element"
+    ]
+  },
+  {
+    "name": "Tek Shield",
+    "experience": 140,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "Tek Shoulder Cannon",
+    "experience": 200,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "Tek Sleeping Pod",
+    "experience": 203.2,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Pelt, Hair, or Wool",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Tek Staircase",
+    "experience": 40,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Element Shard or Red Element Shard"
+    ]
+  },
+  {
+    "name": "Tek Stairs",
+    "experience": 128,
+    "resources": [
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Tek Surveillance Console",
+    "experience": 64,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Electronics",
+      "Element or Red Element",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "Tek Sword",
+    "experience": 720,
+    "resources": [
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "Tek Teleporter",
+    "experience": 132,
+    "resources": [
+      "Element or Red Element",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Crystal or Primal Crystal",
+      "Black Pearl",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Tek Trapdoor",
+    "experience": 24,
+    "resources": [
+      "Crystal or Primal Crystal",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Element or Red Element"
+    ]
+  },
+  {
+    "name": "Tek Triangle Ceiling",
+    "experience": 51.2,
+    "resources": [
+      "Crystal or Primal Crystal",
+      "Element Shard or Red Element Shard",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Tek Triangle Floating Foundation",
+    "experience": 150,
+    "resources": [
+      "Hardened Steel Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element Shard",
+      "Manganese"
+    ]
+  },
+  {
+    "name": "Tek Triangle Foundation",
+    "experience": 100,
+    "resources": [
+      "Crystal or Primal Crystal",
+      "Element Shard or Red Element Shard",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Tek Triangle Roof",
+    "experience": 18.24,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Element Shard or Red Element Shard",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Tek Trough",
+    "experience": 464,
+    "resources": [
+      "Black Pearl",
+      "Crystal or Primal Crystal",
+      "Electronics",
+      "Element or Red Element",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Tek Turret",
+    "experience": 464,
+    "resources": [
+      "Electronics",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Element or Red Element"
+    ]
+  },
+  {
+    "name": "Tek Wall",
+    "experience": 40,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element or Red Element"
+    ]
+  },
+  {
+    "name": "Tek Window",
+    "experience": 8,
+    "resources": [
+      "Crystal or Primal Crystal",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Element or Red Element"
+    ]
+  },
+  {
+    "name": "Tek Windowframe",
+    "experience": 44,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element or Red Element"
+    ]
+  },
+  {
+    "name": "Tent",
+    "experience": 10,
+    "resources": [
+      "Thatch",
+      "Fiber",
+      "Hide",
+      "Wood or Fungal Wood",
+      "Silk"
+    ]
+  },
+  {
+    "name": "Tentacle-Print Shirt Skin",
+    "experience": 12.8,
+    "resources": [
+      "Stolen Headstone",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Terror Bird Saddle",
+    "experience": 66.4,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Thalassian Ammo",
+    "experience": 3.2,
+    "resources": [
+      "Crystal or Primal Crystal",
+      "Hardened Steel Ingot",
+      "Manganese"
+    ]
+  },
+  {
+    "name": "Thalassian Rifle",
+    "experience": 320,
+    "resources": [
+      "Hardened Steel Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal"
+    ]
+  },
+  {
+    "name": "Thatch Ceiling",
+    "experience": 4,
+    "resources": [
+      "Thatch",
+      "Wood or Fungal Wood",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Thatch Door",
+    "experience": 1.72,
+    "resources": [
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Thatch Doorframe",
+    "experience": 2.8,
+    "resources": [
+      "Thatch",
+      "Wood or Fungal Wood",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Thatch Foundation",
+    "experience": 6,
+    "resources": [
+      "Thatch",
+      "Wood or Fungal Wood",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Thatch Wall",
+    "experience": 3.2,
+    "resources": [
+      "Thatch",
+      "Wood or Fungal Wood",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Therizinosaurus Saddle",
+    "experience": 88.8,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Wood or Fungal Wood",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Thorny Dragon Saddle",
+    "experience": 280,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Clay",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Thylacoleo Saddle",
+    "experience": 251.2,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Titanosaur Platform Saddle",
+    "experience": 1848,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Hide",
+      "Cementing Paste or Achatina Paste",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Tomato Juice (Primitive Plus)",
+    "experience": 1.2,
+    "resources": [
+      "Tomato (Primitive Plus)",
+      "Salt (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Torch Sparkler Skin",
+    "experience": 4,
+    "resources": [
+      "Cooked Meat, Cooked Fish Meat, or Cooked Meat Jerky"
+    ]
+  },
+  {
+    "name": "Trading Crate (Bread) (Primitive Plus)",
+    "experience": 600,
+    "resources": [
+      "Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Training Dummy",
+    "experience": 4,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Fiber",
+      "Hide",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Tranq Arrow",
+    "experience": 0.1,
+    "resources": [
+      "Stone Arrow",
+      "Narcotic"
+    ]
+  },
+  {
+    "name": "Tranq Spear Bolt",
+    "experience": 37.2,
+    "resources": [
+      "Spear Bolt",
+      "Tranquilizer Dart"
+    ]
+  },
+  {
+    "name": "Tranq Thalassian Ammo",
+    "experience": 3.2,
+    "resources": [
+      "Thalassian Ammo",
+      "Hardened Steel Ingot",
+      "Narcotic"
+    ]
+  },
+  {
+    "name": "Tranquilizer Dart",
+    "experience": 0.2,
+    "resources": [
+      "Narcotic",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Simple Rifle Ammo"
+    ]
+  },
+  {
+    "name": "Transponder Node",
+    "experience": 53.28,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Electronics",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal"
+    ]
+  },
+  {
+    "name": "Transponder Tracker",
+    "experience": 816,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Electronics",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal"
+    ]
+  },
+  {
+    "name": "Trap Bait (Primitive Plus)",
+    "experience": 6,
+    "resources": [
+      "Raw Meat"
+    ]
+  },
+  {
+    "name": "Trike Saddle",
+    "experience": 88.8,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Tripwire Alarm Trap",
+    "experience": 5.4,
+    "resources": [
+      "Metal",
+      "Wood or Fungal Wood",
+      "Fiber",
+      "Hide",
+      "Oil or Oil (Tusoteuthis)"
+    ]
+  },
+  {
+    "name": "Tripwire Narcotic Trap",
+    "experience": 7.8,
+    "resources": [
+      "Narcotic",
+      "Cementing Paste or Achatina Paste",
+      "Wood or Fungal Wood",
+      "Fiber",
+      "Hide",
+      "Crystal or Primal Crystal"
+    ]
+  },
+  {
+    "name": "Tropeognathus Saddle",
+    "experience": 88.8,
+    "resources": [
+      "Crystal or Primal Crystal",
+      "Fiber",
+      "Hide",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Trophy Wall-Mount",
+    "experience": 14.8,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Tudor Bar (L Shaped) (Primitive Plus)",
+    "experience": 204.8,
+    "resources": [
+      "Lumber (Primitive Plus)",
+      "Wood"
+    ]
+  },
+  {
+    "name": "Ugly Bulbdog Sweater Skin",
+    "experience": 20,
+    "resources": [
+      "Mistletoe",
+      "Coal",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Ugly Caroling Sweater Skin",
+    "experience": 20,
+    "resources": [
+      "Mistletoe",
+      "Coal",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Ugly Cornucopia Sweater Skin",
+    "experience": 20,
+    "resources": [
+      "Wishbone"
+    ]
+  },
+  {
+    "name": "Ugly Dodo's Revenge Sweater Skin",
+    "experience": 20,
+    "resources": [
+      "Wishbone"
+    ]
+  },
+  {
+    "name": "Ugly Foliage Friends Sweater Skin",
+    "experience": 20,
+    "resources": [
+      "Wishbone"
+    ]
+  },
+  {
+    "name": "Ugly Noglin Regift Sweater Skin",
+    "experience": 20,
+    "resources": [
+      "Mistletoe",
+      "Coal",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Ugly Raptor Claws Sweater Skin",
+    "experience": 20,
+    "resources": [
+      "Mistletoe",
+      "Coal",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Ugly Rockwell Sweater Skin",
+    "experience": 20,
+    "resources": [
+      "Mistletoe",
+      "Coal",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Ugly T-Rex Sweater Skin",
+    "experience": 20,
+    "resources": [
+      "Mistletoe",
+      "Coal",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Ugly Trike Sweater Skin",
+    "experience": 20,
+    "resources": [
+      "Wishbone"
+    ]
+  },
+  {
+    "name": "Ugly Turkey Target Sweater Skin",
+    "experience": 20,
+    "resources": [
+      "Wishbone"
+    ]
+  },
+  {
+    "name": "Unassembled Enforcer",
+    "experience": 4,
+    "resources": [
+      "Element Dust or Red Element Dust",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Oil or Oil (Tusoteuthis)"
+    ]
+  },
+  {
+    "name": "Unassembled Exo-Mek",
+    "experience": 240,
+    "resources": [
+      "Element or Red Element",
+      "Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "Unassembled Mek",
+    "experience": 4,
+    "resources": [
+      "Black Pearl",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Unassembled TEK Hover Skiff",
+    "experience": 4,
+    "resources": [
+      "Element or Red Element",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Oil or Oil (Tusoteuthis)",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Uncle Sam Hat Skin",
+    "experience": 48,
+    "resources": [
+      "Cooked Meat, Cooked Fish Meat, or Cooked Meat Jerky"
+    ]
+  },
+  {
+    "name": "Unstable Element Shard",
+    "experience": 20,
+    "resources": [
+      "Element Dust"
+    ]
+  },
+  {
+    "name": "Vacuum Compartment",
+    "experience": 4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "Vacuum Compartment Moonpool",
+    "experience": 4,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Polymer, Organic Polymer, or Corrupted Nodule",
+      "Crystal or Primal Crystal",
+      "Element or Red Element",
+      "Black Pearl"
+    ]
+  },
+  {
+    "name": "Vampire Dodo Swim Bottom Skin",
+    "experience": 20,
+    "resources": [
+      "Stolen Headstone",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Vampire Dodo Swim Top Skin",
+    "experience": 20,
+    "resources": [
+      "Stolen Headstone",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Vault",
+    "experience": 328,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Oil or Oil (Tusoteuthis)",
+      "Polymer, Organic Polymer, or Corrupted Nodule"
+    ]
+  },
+  {
+    "name": "Velonasaur Saddle",
+    "experience": 289.6,
+    "resources": [
+      "Chitin, Keratin, or Shell Fragment",
+      "Fiber",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Vertical Electrical Cable",
+    "experience": 4.8,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Vessel",
+    "experience": 4,
+    "resources": [
+      "Clay",
+      "Wood or Fungal Wood",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Viking Axe (Primitive Plus)",
+    "experience": 4.8,
+    "resources": [
+      "Steel Ingot (Primitive Plus)",
+      "Wood",
+      "Hide"
+    ]
+  },
+  {
+    "name": "War Map",
+    "experience": 6.4,
+    "resources": [
+      "Fiber",
+      "Wood or Fungal Wood",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Wardrums",
+    "experience": 30.8,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Hide",
+      "Fiber",
+      "Thatch"
+    ]
+  },
+  {
+    "name": "Water Jar",
+    "experience": 12.8,
+    "resources": [
+      "Cementing Paste or Achatina Paste",
+      "Hide",
+      "Crystal or Primal Crystal"
+    ]
+  },
+  {
+    "name": "Water Reservoir",
+    "experience": 6,
+    "resources": [
+      "Stone",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
+    "name": "Water Soaker Skin",
+    "experience": 48,
+    "resources": [
+      "Cooked Meat, Cooked Fish Meat, or Cooked Meat Jerky"
+    ]
+  },
+  {
+    "name": "Water Well",
+    "experience": 24,
+    "resources": [
+      "Thatch",
+      "Fiber",
+      "Cementing Paste or Achatina Paste",
+      "Stone",
+      "Wood or Fungal Wood",
+      "Flint"
+    ]
+  },
+  {
+    "name": "Water Well (Primitive Plus)",
+    "experience": 2,
+    "resources": [
+      "Lumber (Primitive Plus)",
+      "Cementing Paste",
+      "Wood",
+      "Fiber",
+      "Iron Ingot (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Weapon Rack (Primitive Plus)",
+    "experience": 3.8,
+    "resources": [
+      "Lumber (Primitive Plus)",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wind Turbine",
+    "experience": 32,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "Windmill (Primitive Plus)",
+    "experience": 4,
+    "resources": [
+      "Wood",
+      "Lumber (Primitive Plus)",
+      "Steel Ingot (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Wood Elevator Track",
+    "experience": 4,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Wood Handrail (Primitive Plus)",
+    "experience": 4,
+    "resources": [
+      "Wood",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wood Post Fence (Primitive Plus)",
+    "experience": 2.92,
+    "resources": [
+      "Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Billboard",
+    "experience": 27.6,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Cabinet (Primitive Plus)",
+    "experience": 36,
+    "resources": [
+      "Lumber (Primitive Plus)",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Catwalk",
+    "experience": 10,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Ceiling",
+    "experience": 22,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Chair",
+    "experience": 2.92,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Club",
+    "experience": 2.8,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Club (Primitive Plus)",
+    "experience": 6,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Doorframe",
+    "experience": 8.4,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Double Door",
+    "experience": 5.832,
+    "resources": [
+      "Fiber",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Wooden Double Doorframe",
+    "experience": 8.448,
+    "resources": [
+      "Fiber",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Wooden Fence Foundation",
+    "experience": 4.76,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Fence Support",
+    "experience": 4.76,
+    "resources": [
+      "Fiber",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Wooden Foundation",
+    "experience": 37.2,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Hatchframe",
+    "experience": 13.6,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Ladder",
+    "experience": 2,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Pillar",
+    "experience": 11.2,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Raft",
+    "experience": 375,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Fiber",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Wooden Railing",
+    "experience": 3.696,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Ramp",
+    "experience": 27.6,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Shield",
+    "experience": 15.2,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Fiber",
+      "Hide"
+    ]
+  },
+  {
+    "name": "Wooden Sign",
+    "experience": 3.2,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Spike Wall",
+    "experience": 14,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Hide",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Staircase",
+    "experience": 7.424,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Stairs",
+    "experience": 27.8,
+    "resources": [
+      "Fiber",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Wooden Table",
+    "experience": 28,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Wooden Trapdoor",
+    "experience": 9.6,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Tree Platform",
+    "experience": 1.992,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Cementing Paste or Achatina Paste",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Triangle Ceiling",
+    "experience": 22.24,
+    "resources": [
+      "Fiber",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Wooden Triangle Foundation",
+    "experience": 18,
+    "resources": [
+      "Fiber",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Wooden Triangle Roof",
+    "experience": 7.424,
+    "resources": [
+      "Fiber",
+      "Thatch",
+      "Wood or Fungal Wood"
+    ]
+  },
+  {
+    "name": "Wooden Wall",
+    "experience": 7.6,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Wall Sign",
+    "experience": 1.6,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Window",
+    "experience": 1.6,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Wooden Windowframe",
+    "experience": 10,
+    "resources": [
+      "Wood or Fungal Wood",
+      "Thatch",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Woolly Rhino Saddle",
+    "experience": 88.8,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Cementing Paste or Achatina Paste",
+      "Metal Ingot or Scrap Metal Ingot"
+    ]
+  },
+  {
+    "name": "Xiphactinus Saddle",
+    "experience": 256,
+    "resources": [
+      "Cementing Paste",
+      "Hide",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Yurt (Primitive Plus)",
+    "experience": 344,
+    "resources": [
+      "Leather (Primitive Plus)",
+      "Fiber",
+      "Beeswax (Primitive Plus)"
+    ]
+  },
+  {
+    "name": "Zip-Line Anchor",
+    "experience": 0.2,
+    "resources": [
+      "Stone Arrow",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Fungal Wood",
+      "Fiber"
+    ]
+  },
+  {
+    "name": "Zip-Line Motor Attachment Skin",
+    "experience": 60,
+    "resources": [
+      "Metal Ingot or Scrap Metal Ingot",
+      "Blue Gem or Blue Crystalized Sap",
+      "Electronics"
+    ]
+  },
+  {
+    "name": "ZombDodo-Print Shirt Skin",
+    "experience": 12.8,
+    "resources": [
+      "Stolen Headstone",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Zombie Emote",
+    "experience": 200,
+    "resources": [
+      "Scarecrow",
+      "Dinosaur Bone"
+    ]
+  },
+  {
+    "name": "Zombie Wyvern-Print Shirt Skin",
+    "experience": 12.8,
+    "resources": [
+      "Stolen Headstone",
+      "Dinosaur Bone"
+    ]
+  }
+]
