@@ -795,6 +795,17 @@
     ]
   },
   {
+    "name": "Bronto Platform Saddle",
+    "experience": 1848,
+    "resources": [
+      "Hide",
+      "Fiber",
+      "Metal Ingot or Scrap Metal Ingot",
+      "Silica Pearls or Silicate",
+      "Cementing Paste or Achatina Paste"
+    ]
+  },
+  {
     "name": "Bug Repellant",
     "experience": 4,
     "resources": [
