@@ -8,7 +8,7 @@ Unofficial local-first crafting experience and blueprint resource calculator for
 - Primitive through Ascendant crafting-XP multipliers.
 - Custom server XP rate, temporary XP buffs, Drakeling Native Biome Boost, and variable Tribe Tower XP bonus.
 - Simultaneous tribe crafting for 1–70 players with 50% shared XP from each nearby tribemate.
-- Current and target level calculation through level 230 from bundled total-XP data.
+- Current and target level calculation through level 245 from bundled total-XP data.
 - Wiki-provided resource types with per-craft quantity input, total crafts, and total resources.
 - Automatic draft restore and locally saved calculations that can be loaded and updated.
 - Responsive dark interface with wrapping desktop steps and a single-column mobile layout.
@@ -26,7 +26,7 @@ crafts per player = ceil(required XP / XP per player per round)
 total items = crafts per player × players
 ```
 
-The current level is treated as the beginning of that level. Resource totals cover every item crafted by every participating player. Levels 221–230 use the same XP increment as level 219–220.
+The current level is treated as the beginning of that level. Resource totals cover every item crafted by every participating player. Levels 221–229 use the same XP increment as level 219–220.
 
 ## Development
 

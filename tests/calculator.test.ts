@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import test from "node:test";
 import { calculate, getInputIssues } from "../src/lib/calculator.ts";
 import type { CalculatorInput, CraftingItem, LevelEntry } from "../src/types/calculator.ts";
@@ -13,6 +14,25 @@ const levels: LevelEntry[] = [
   { level: 1, totalXp: 0 },
   { level: 10, totalXp: 450 },
   { level: 20, totalXp: 1900 },
+];
+
+const suppliedHighLevels: LevelEntry[] = [
+  { level: 230, totalXp: 5993100288 },
+  { level: 231, totalXp: 6108351488 },
+  { level: 232, totalXp: 6225819136 },
+  { level: 233, totalXp: 6345546240 },
+  { level: 234, totalXp: 6467575296 },
+  { level: 235, totalXp: 6591951360 },
+  { level: 236, totalXp: 6718720000 },
+  { level: 237, totalXp: 6847926784 },
+  { level: 238, totalXp: 6979618816 },
+  { level: 239, totalXp: 7113842688 },
+  { level: 240, totalXp: 7250645504 },
+  { level: 241, totalXp: 7390075392 },
+  { level: 242, totalXp: 7532180480 },
+  { level: 243, totalXp: 7677009920 },
+  { level: 244, totalXp: 7824612352 },
+  { level: 245, totalXp: 7975037952 },
 ];
 
 const input = (changes: Partial<CalculatorInput> = {}): CalculatorInput => ({
@@ -43,6 +63,16 @@ test("calculates the supplied ramshackle shotgun blueprint for solo crafting", (
     ["Metal Ingot", 480],
     ["Wood", 120],
   ]);
+});
+
+test("includes the supplied total XP values through level 245", async () => {
+  const bundledLevels = JSON.parse(
+    await readFile(new URL("../src/data/levels.json", import.meta.url), "utf8"),
+  ) as LevelEntry[];
+  assert.deepEqual(bundledLevels.slice(-suppliedHighLevels.length), suppliedHighLevels);
+  const result = calculate(input({ currentLevel: "230", targetLevel: "245" }), bundledLevels);
+  assert.ok(result);
+  assert.equal(result.xpRequired, 1981937664);
 });
 
 test("adds 50 percent shared XP from every other simultaneous crafter", () => {
