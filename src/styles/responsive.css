@@ -1,4 +1,35 @@
 @media (min-width: 1440px) {
+  .hero {
+    display: grid;
+    max-width: none;
+    max-height: 200px;
+    padding: 28px 0 24px;
+    grid-template-columns: minmax(0, 1fr) minmax(420px, 620px);
+    grid-template-rows: auto 1fr;
+    column-gap: 48px;
+  }
+
+  .hero h1 {
+    margin: 10px 0 0;
+    font-size: clamp(40px, 4vw, 56px);
+    grid-row: 2;
+  }
+
+  .hero > p {
+    align-self: end;
+    font-size: 14px;
+    line-height: 1.5;
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .hero-pills {
+    align-self: start;
+    margin-top: 14px;
+    grid-column: 2;
+    grid-row: 2;
+  }
+
   .calculator-layout {
     align-items: stretch;
   }
