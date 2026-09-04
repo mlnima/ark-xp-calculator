@@ -1,3 +1,35 @@
+@media (min-width: 1440px) {
+  .calculator-layout {
+    align-items: stretch;
+  }
+
+  .form-column {
+    display: block;
+    column-count: 2;
+    column-gap: 18px;
+  }
+
+  .step-card {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 18px;
+    break-inside: avoid;
+  }
+
+  .step-card:nth-child(3) {
+    break-before: column;
+  }
+
+  .step-card:nth-child(2),
+  .step-card:nth-child(4) {
+    margin-bottom: 0;
+  }
+
+  .results-panel {
+    align-self: stretch;
+  }
+}
+
 @media (max-width: 980px) {
   .calculator-layout {
     grid-template-columns: 1fr;
