@@ -88,3 +88,23 @@
   font-size: 11px;
   text-align: center;
 }
+
+.grinding-settings {
+  margin-top: 20px;
+}
+
+.recycler-option {
+  margin: 8px 0 0 24px;
+}
+
+.grinding-settings .buff-option:focus-within {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.grinding-note {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.5;
+}

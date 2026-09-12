@@ -10,6 +10,7 @@ Unofficial local-first crafting experience and blueprint resource calculator for
 - Simultaneous tribe crafting for 1–70 players with 50% shared XP from each nearby tribemate.
 - Current and target level calculation through level 245 from bundled total-XP data.
 - Wiki-provided resource types with per-craft quantity input, total crafts, and total resources.
+- Optional grinding and max-rank Recycler to reduce starting materials, with first-batch and recraft counts.
 - Automatic draft restore and locally saved calculations that can be loaded and updated.
 - Responsive dark interface with wrapping desktop steps and a single-column mobile layout.
 - Built-in attribution, privacy disclosure, and distinct unofficial app branding.
@@ -27,6 +28,12 @@ total items = crafts per player × players
 ```
 
 The current level is treated as the beginning of that level. Resource totals cover every item crafted by every participating player. Levels 221–229 use the same XP increment as level 219–220.
+
+With grinding enabled, each player reuses recovered ingredients between batches. For an ingredient costing `c` per item and `n` crafts per player, the starting requirement is `(c + (n - 1) × (c - refund)) × players`. This funds the first craft and excludes refunds from the final craft, which cannot fund earlier items. The first batch is limited by the ingredient that can fund the fewest complete recipes; subsequent crafts use refunds and remaining materials. Total crafting XP and total crafts to reach the target stay unchanged because grinding crafted items gives no XP.
+
+Grinding uses the current English wiki's Ascended return of 30%, rounded up per ingredient per item. The model interprets max-rank Recycler's “30% more” as a relative bonus to that rate (39% before rounding). Both options start unchecked. Only enable grinding for items and ingredients the grinder accepts. The model assumes all listed ingredients can be reused, no spoilage, and all refunds are produced by a player with Recycler when it is selected. Polymer comes back as Organic Polymer. Fuel and the grinder's construction cost are excluded.
+
+Grinding sources checked on 2026-09-12: [Industrial Grinder](https://ark.wiki.gg/wiki/Industrial_Grinder) and [Recycler in the Skill Tree](https://ark.wiki.gg/wiki/Skills). The current English grinder page omits a refund cap; this calculation follows that page's uncapped rate. Localized/older pages list a 150-per-ingredient cap, so capped or modified servers may require more materials.
 
 ## Development
 

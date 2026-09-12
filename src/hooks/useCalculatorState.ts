@@ -36,6 +36,8 @@ const emptyInput = (): CalculatorInput => ({
   playerCount: 1,
   buffIds: [],
   tribeTowerBonus: "",
+  grinding: false,
+  recycler: false,
   resources: [],
 });
 
@@ -57,6 +59,8 @@ const hydrateInput = (stored: unknown, items: CraftingItem[]): CalculatorInput =
     playerCount: Number.isFinite(players) ? Math.min(70, Math.max(1, players)) : 1,
     buffIds,
     tribeTowerBonus: typeof value.tribeTowerBonus === "string" ? value.tribeTowerBonus : "",
+    grinding: value.grinding === true,
+    recycler: value.grinding === true && value.recycler === true,
     resources: resourcesForItem(item, previous),
   };
 };

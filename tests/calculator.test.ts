@@ -44,6 +44,8 @@ const input = (changes: Partial<CalculatorInput> = {}): CalculatorInput => ({
   playerCount: 1,
   buffIds: [],
   tribeTowerBonus: "",
+  grinding: false,
+  recycler: false,
   resources: [
     { id: "metal", name: "Metal Ingot", quantity: "160" },
     { id: "hide", name: "Hide", quantity: "50" },

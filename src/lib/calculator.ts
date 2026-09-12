@@ -1,4 +1,5 @@
 import { buffs } from "../data/buffs.ts";
+import { grindingRules } from "../data/grinding.ts";
 import { qualities } from "../data/qualities.ts";
 import type {
   CalculationResult,
@@ -16,9 +17,13 @@ const selectedLevel = (levels: LevelEntry[], value: string) =>
   levels.find(({ level }) => level === Number(value));
 
 const resourceIssues = (input: CalculatorInput) => {
+  if (input.grinding && !input.resources.length) return ["Enter blueprint resources to calculate grinding"];
   if (!input.resources.length) return [];
   return input.resources.flatMap(({ name, quantity }) => {
     if (!positiveNumber(quantity)) return [`Enter a valid quantity for ${name.trim()}`];
+    if (input.grinding && !Number.isSafeInteger(Number(quantity))) {
+      return [`Enter a whole-number quantity for ${name.trim()} when grinding`];
+    }
     return [];
   });
 };
@@ -41,7 +46,7 @@ export const getInputIssues = (input: CalculatorInput, levels: LevelEntry[]) => 
   return [...issues, ...resourceIssues(input)];
 };
 
-const totalResources = (input: CalculatorInput, totalCrafts: number): ResourceTotal[] => {
+const totalResources = (input: CalculatorInput, craftsPerPlayer: number): ResourceTotal[] => {
   const grouped = new Map<string, { name: string; perCraft: number }>();
   input.resources.forEach(({ name, quantity }) => {
     const trimmed = name.trim();
@@ -55,7 +60,15 @@ const totalResources = (input: CalculatorInput, totalCrafts: number): ResourceTo
     });
   });
   return [...grouped.values()]
-    .map(({ name, perCraft }) => ({ name, perCraft, total: perCraft * totalCrafts }))
+    .map(({ name, perCraft }) => {
+      const bonus = input.recycler ? grindingRules.recyclerBonusPercent : 0;
+      const returned = input.grinding
+        ? Math.min(perCraft, Math.ceil(perCraft * grindingRules.returnPercent * (100 + bonus) / 10000))
+        : 0;
+      const perPlayer = perCraft + (craftsPerPlayer - 1) * (perCraft - returned);
+      const total = input.grinding ? perPlayer * input.playerCount : perCraft * (craftsPerPlayer * input.playerCount);
+      return { name, perCraft, total };
+    })
     .sort((left, right) => left.name.localeCompare(right.name));
 };
 
@@ -83,6 +96,11 @@ export const calculate = (
   const xpRequired = target.totalXp - current.totalXp;
   const craftsPerPlayer = Math.ceil(xpRequired / xpPerPlayerPerRound);
   const totalCrafts = craftsPerPlayer * input.playerCount;
+  const resources = totalResources(input, craftsPerPlayer);
+  const initialCraftsPerPlayer = input.grinding
+    ? Math.min(craftsPerPlayer, ...resources.map(({ perCraft, total }) =>
+      Math.floor(total / input.playerCount / perCraft)))
+    : craftsPerPlayer;
   const projectedXp = craftsPerPlayer * xpPerPlayerPerRound;
   return {
     xpRequired,
@@ -91,9 +109,11 @@ export const calculate = (
     xpPerPlayerPerRound,
     craftsPerPlayer,
     totalCrafts,
+    initialCraftsPerPlayer,
+    recycledCraftsPerPlayer: craftsPerPlayer - initialCraftsPerPlayer,
     projectedXp,
     xpOverTarget: projectedXp - xpRequired,
     combinedMultiplier,
-    resources: totalResources(input, totalCrafts),
+    resources,
   };
 };

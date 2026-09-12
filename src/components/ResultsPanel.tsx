@@ -46,10 +46,21 @@ export const ResultsPanel = ({ input, issues, result }: Props) => {
             </div>
           </div>
           <div className="craft-total">
-            <span>Total items to craft</span>
-            <strong>{formatNumber(result.totalCrafts)}</strong>
-            <p>{formatNumber(result.craftsPerPlayer)} per player × {input.playerCount} {input.playerCount === 1 ? "player" : "players"}</p>
+            <span>{input.grinding ? "First batch to craft" : "Total items to craft"}</span>
+            <strong>{formatNumber(result.initialCraftsPerPlayer * input.playerCount)}</strong>
+            <p>{formatNumber(result.initialCraftsPerPlayer)} per player × {input.playerCount} {input.playerCount === 1 ? "player" : "players"}</p>
           </div>
+          {input.grinding && (
+            <div className="shared-explanation">
+              <Icon name="info" size={17} />
+              <p>
+                Then grind and recraft {formatNumber(result.recycledCraftsPerPlayer)} more per player
+                using refunds and remaining materials across as many batches as needed.
+                Total: {formatNumber(result.totalCrafts)} crafts ({formatNumber(result.craftsPerPlayer)} per player).
+                Grinding items gives no XP; the total crafts needed for your target stays the same.
+              </p>
+            </div>
+          )}
           <div className="result-stat-grid">
             <Stat
               detail="From selected level totals"
@@ -76,7 +87,7 @@ export const ResultsPanel = ({ input, issues, result }: Props) => {
             <div className="resource-result-heading">
               <div>
                 <span className="eyebrow">Blueprint totals</span>
-                <h3>Resources needed</h3>
+                <h3>{input.grinding ? "Starting resources needed" : "Resources needed"}</h3>
               </div>
               <Icon name="cube" />
             </div>

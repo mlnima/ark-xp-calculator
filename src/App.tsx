@@ -6,6 +6,7 @@ import { AppFooter } from "./components/AppFooter";
 import { AppHeader } from "./components/AppHeader";
 import { BlueprintForm } from "./components/BlueprintForm";
 import { ExperienceSettings } from "./components/ExperienceSettings";
+import { GrindingSettings } from "./components/GrindingSettings";
 import { ItemPicker } from "./components/ItemPicker";
 import { LevelSelector } from "./components/LevelSelector";
 import { QualityPicker } from "./components/QualityPicker";
@@ -126,6 +127,16 @@ const App = () => {
                 itemSelected={Boolean(input.item)}
                 onQuantityChange={state.updateResourceQuantity}
                 resources={input.resources}
+              />
+              <GrindingSettings
+                grinding={input.grinding}
+                recycler={input.recycler}
+                onGrindingChange={(grinding) => setInput((current) => ({
+                  ...current,
+                  grinding,
+                  recycler: grinding && current.recycler,
+                }))}
+                onRecyclerChange={(recycler) => setInput((current) => ({ ...current, recycler }))}
               />
             </StepCard>
           </div>
