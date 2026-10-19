@@ -9,6 +9,7 @@ Unofficial local-first crafting experience and blueprint resource calculator for
 - Custom server XP rate, temporary XP buffs, Drakeling Native Biome Boost, and variable Tribe Tower XP bonus.
 - Independent sliders for 1–70 party members and 1–100 active crafting stations, with 50% tribe XP sharing.
 - Multiple stations per crafter and shared-only party members, with completion based on every player reaching the target.
+- Named player rows with individual current/target levels, XP requirements, and target times. Newly added rows copy Player 1's levels.
 - Smithy and Tek Replicator selection with recipe compatibility, per-craft time, and a party-time comparison.
 - Golden Hesperornis Egg, Broth of Enlightenment, and EXP Cake Slice counts per player and for the whole party.
 - Current and target level calculation through level 245 from bundled total-XP data.
@@ -18,6 +19,7 @@ Unofficial local-first crafting experience and blueprint resource calculator for
 - Optional Clockface speed boost: all nearby structures at +100% (2×), or the selected station type at +300% (4×).
 - Optional grinding and max-rank Recycler to reduce starting materials, with first-batch and recraft counts.
 - Automatic draft restore and locally saved calculations that can be loaded and updated.
+- JSON export/import for the entire current setup and saved library, including names, levels, hidden player rows, and selected save.
 - Responsive dark interface with wrapping desktop steps and a single-column mobile layout.
 - Built-in attribution, privacy disclosure, and distinct unofficial app branding.
 
@@ -27,17 +29,21 @@ Each crafter receives full XP from their assigned stations plus 50% from the oth
 
 ```text
 own XP per craft = item XP × quality × server rate × active buff multipliers
-fewest stations owned by a player = floor(active stations / party members)
-lowest XP per player per round = own XP per craft × (active stations + fewest stations owned) / 2
-crafts per station = ceil(required XP / lowest XP per player per round)
+stations owned by player = floor(active stations / party members), with one extra for the first remainder players
+XP per player per round = own XP per craft × (active stations + stations owned by that player) / 2
+player XP required = total XP at their target level - total XP at their current level
+rounds to that player's target = ceil(player XP required / their XP per round)
+crafts per station = maximum rounds to target across all active players
 total items = crafts per station × active stations
 ```
 
-The current level is treated as the beginning of that level. Resource totals cover every active station's crafts. When there are shared-only players, their lower XP determines the session length. With uneven station assignments, the crafter with the fewest stations determines completion. Other crafters can exceed the target. Everyone remains within tribe XP range and all stations continue running until everyone reaches the target. The [official wiki's experience rule](https://ark.wiki.gg/wiki/Experience) describes 50% tribe sharing. Levels 221–229 use the same XP increment as level 219–220.
+Each player's current level is treated as the beginning of that level. Resource totals cover every active station's crafts. Every row has its own name, current level, target level, assigned station count, and XP requirement. The player requiring the most rounds determines the session length; their target can make them the last to finish even when they earn more XP per round. Individual results show XP needed, XP per round, rounds, and time to that player's target. Other players can exceed their targets while stations continue running. Everyone remains within tribe XP range and all stations continue running until everyone reaches the target. The [official wiki's experience rule](https://ark.wiki.gg/wiki/Experience) describes 50% tribe sharing. Levels 221–229 use the same XP increment as level 219–220.
 
-Party time assumes everyone starts together, with the same blueprint, level, and boosts, and every active station runs in parallel: `crafts per station × craft seconds at the selected station`. This is the time until every party member reaches the target. Smithy speed is 1×; Tek Replicator speed is 12×. The editable time field already includes station speed, so it is not divided a second time. Fractional seconds retain full numeric precision for calculations; small durations display up to six decimal places. Quality and XP boosts affect the number of crafts required. All recrafts count toward crafting time when grinding is selected. Gathering, station loading, grinding/transfers, pauses, and fuel are excluded, so elapsed play time may be longer. Selected temporary effects must be maintained throughout the session.
+Party time assumes everyone starts together, with their own levels, the same blueprint and boosts, and every active station runs in parallel: `crafts per station × craft seconds at the selected station`. This is the time until every party member reaches their target. Smithy speed is 1×; Tek Replicator speed is 12×. The editable time field already includes station speed, so it is not divided a second time. Fractional seconds retain full numeric precision for calculations; small durations display up to six decimal places. Quality and XP boosts affect the number of crafts required. All recrafts count toward crafting time when grinding is selected. Gathering, station loading, grinding/transfers, pauses, and fuel are excluded, so elapsed play time may be longer. Selected temporary effects must be maintained throughout the session.
 
-Party size and station count are saved independently in drafts and named calculations. Saved plans without a station count retain one station per player. Changing party size does not change the number of active stations.
+Party size, station count, player names, and individual levels are saved in drafts and named calculations. New player names are numbered (`Player 1`, `Player 2`, etc.) and can be edited. New rows copy both levels from Player 1; existing rows retain their edits. Reducing party size keeps inactive rows for later restoration, and those rows do not affect calculations. Existing saved plans with shared levels are restored as named rows with those levels. Saved plans without a station count retain one station per player. Changing party size does not change the number of active stations.
+
+Export JSON downloads a versioned file containing the entire draft, settings, player rows (including inactive rows), saved calculations, the current calculation name, and active saved selection. Unfinished drafts can also be exported. Import validates the complete file before applying it, restores the draft, and adds saved calculations while retaining existing saves. Matching saves are reused; conflicting IDs receive a new ID so existing plans are not overwritten. Unsupported or malformed files show an error without changing the current form. Imported data is also saved locally. Calculation results are recomputed from the bundled item and level data.
 
 Recipe times, primitive ingredient quantities, source URLs, and station compatibility are bundled in `src/data/crafting.json`. ASA crafting times from ARK Unity's item data take priority over wiki times where available; wiki recipes provide ingredient quantities. For example, [Shotgun](https://ark-unity.com/ark-survival-ascended/items/primitive-shotgun/) takes 15 seconds before station speed and [Flak Chestpiece](https://ark-unity.com/ark-survival-ascended/items/primitive-flak-chestpiece/) takes 5 seconds. Each researched time populates the editable field automatically. Smithy is selected initially, both stations remain selectable, and changing station converts an entered override to the new station's speed. Incompatible recipes show a message instead of a false time estimate. A genuinely missing time stays empty for manual entry.
 

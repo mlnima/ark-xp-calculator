@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import itemsData from "./data/items.json";
-import levelsData from "./data/levels.json";
+import levelsData from "./data/levels.json" with { type: "json" };
 import sourceData from "./data/source.json";
 import { AppFooter } from "./components/AppFooter";
 import { AppHeader } from "./components/AppHeader";
@@ -9,7 +9,7 @@ import { CraftingSettings } from "./components/CraftingSettings";
 import { ExperienceSettings } from "./components/ExperienceSettings";
 import { GrindingSettings } from "./components/GrindingSettings";
 import { ItemPicker } from "./components/ItemPicker";
-import { LevelSelector } from "./components/LevelSelector";
+import { PlayerLevels } from "./components/PlayerLevels";
 import { QualityPicker } from "./components/QualityPicker";
 import { ResultsPanel } from "./components/ResultsPanel";
 import { SavedCalculations } from "./components/SavedCalculations";
@@ -25,6 +25,7 @@ import "./styles/picker.css";
 import "./styles/results.css";
 import "./styles/crafting.css";
 import "./styles/saved.css";
+import "./styles/players.css";
 import "./styles/responsive.css";
 
 const items = itemsData as CraftingItem[];
@@ -66,6 +67,8 @@ const App = () => {
           onLoad={state.loadCalculation}
           onSaveNew={state.saveNew}
           onUpdate={state.updateSaved}
+          onExport={state.exportData}
+          onImport={state.importData}
         />
         <div className="calculator-layout">
           <div className="form-column">
@@ -99,7 +102,7 @@ const App = () => {
             >
               <ExperienceSettings
                 onBuffChange={toggleBuff}
-                onPlayerCountChange={(playerCount) => setInput((current) => ({ ...current, playerCount }))}
+                onPlayerCountChange={state.updatePlayerCount}
                 onStationCountChange={(stationCount) => setInput((current) => ({ ...current, stationCount }))}
                 onServerRateChange={(serverRate) => setInput((current) => ({ ...current, serverRate }))}
                 onTribeTowerBonusChange={(tribeTowerBonus) => setInput((current) => ({
@@ -114,17 +117,15 @@ const App = () => {
               />
             </StepCard>
             <StepCard
-              description="Select the starting level and the target every party member should reach."
+              description="Name each player and set their own starting and target levels."
               icon="levels"
               number="03"
               title="Current & target level"
             >
-              <LevelSelector
-                currentLevel={input.currentLevel}
+              <PlayerLevels
+                input={input}
                 levels={levels}
-                onCurrentChange={(currentLevel) => setInput((current) => ({ ...current, currentLevel }))}
-                onTargetChange={(targetLevel) => setInput((current) => ({ ...current, targetLevel }))}
-                targetLevel={input.targetLevel}
+                onChange={state.updatePlayer}
               />
             </StepCard>
             <StepCard

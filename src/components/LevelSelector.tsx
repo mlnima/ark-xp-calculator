@@ -1,6 +1,5 @@
 import { formatNumber } from "../lib/format";
 import type { LevelEntry } from "../types/calculator";
-import { Icon } from "./Icon";
 
 type Props = {
   levels: LevelEntry[];
@@ -8,6 +7,7 @@ type Props = {
   targetLevel: string;
   onCurrentChange: (value: string) => void;
   onTargetChange: (value: string) => void;
+  playerLabel: string;
 };
 
 const LevelOptions = ({ levels }: { levels: LevelEntry[] }) => (
@@ -25,14 +25,14 @@ export const LevelSelector = ({
   targetLevel,
   onCurrentChange,
   onTargetChange,
+  playerLabel,
 }: Props) => (
   <div className="settings-stack">
-    <div className="level-track" aria-hidden="true"><span /><i /><span /></div>
     <div className="split-fields">
       <label className="input-field">
         <span className="field-label">Current level</span>
         <span className="input-shell select-shell">
-          <select value={currentLevel} onChange={(event) => onCurrentChange(event.target.value)}>
+          <select aria-label={`Current level for ${playerLabel}`} value={currentLevel} onChange={(event) => onCurrentChange(event.target.value)}>
             <LevelOptions levels={levels} />
           </select>
         </span>
@@ -40,15 +40,11 @@ export const LevelSelector = ({
       <label className="input-field">
         <span className="field-label">Target level</span>
         <span className="input-shell select-shell">
-          <select value={targetLevel} onChange={(event) => onTargetChange(event.target.value)}>
+          <select aria-label={`Target level for ${playerLabel}`} value={targetLevel} onChange={(event) => onTargetChange(event.target.value)}>
             <LevelOptions levels={levels} />
           </select>
         </span>
       </label>
-    </div>
-    <div className="inline-note">
-      <Icon name="info" size={17} />
-      <span>Calculation starts at the beginning of the selected current level. Levels above 220 reuse the level 219 to 220 XP requirement.</span>
     </div>
   </div>
 );

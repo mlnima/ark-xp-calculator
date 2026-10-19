@@ -42,6 +42,24 @@ export type ResourceInput = {
   quantity: string;
 };
 
+export type PartyPlayer = {
+  name: string;
+  currentLevel: string;
+  targetLevel: string;
+};
+
+export type PlayerResult = PartyPlayer & {
+  index: number;
+  stations: number;
+  xpRequired: number;
+  xpPerRound: number;
+  sharedXpPerRound: number;
+  roundsToTarget: number;
+  projectedXp: number;
+  xpOverTarget: number;
+  secondsToTarget: number | null;
+};
+
 export type CalculatorInput = {
   item: CraftingItem | null;
   qualityId: QualityId | "";
@@ -51,8 +69,7 @@ export type CalculatorInput = {
   clockEnabled: boolean;
   clockMode: ClockMode | "";
   serverRate: string;
-  currentLevel: string;
-  targetLevel: string;
+  players: PartyPlayer[];
   playerCount: number;
   stationCount: number;
   buffIds: BuffId[];
@@ -77,6 +94,8 @@ export type ResourceTotal = {
 };
 
 export type CalculationResult = {
+  players: PlayerResult[];
+  limitingPlayerIndex: number;
   xpRequired: number;
   ownXpPerCraft: number;
   sharedXpPerRound: number;

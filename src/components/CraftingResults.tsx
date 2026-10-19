@@ -46,7 +46,7 @@ export const CraftingResults = ({ input, result }: Props) => {
             </table>
           ) : <p className="crafting-help">Select Golden Hesperornis Egg, Broth of Enlightenment, or EXP Cake Slice to include supplies.</p>}
           <p className="crafting-help">
-            Everyone starts together at the same level with the same blueprint and boosts. All active stations run in parallel.
+            Everyone starts together with their own levels and the same blueprint and boosts. All active stations run in parallel.
             Quality, XP rate, and boosts affect the crafts needed; station speed sets the craft time.
             Reapply selected boosts throughout. Supplies include the first dose and renewals, rounded up per player.
             Gathering, loading, pauses, and {input.grinding ? "grinding/transfer time are excluded; every recraft is included." : "fuel are excluded."}

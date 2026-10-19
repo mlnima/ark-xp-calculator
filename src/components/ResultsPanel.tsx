@@ -4,6 +4,7 @@ import { partySetup } from "../lib/party";
 import type { CalculationResult, CalculatorInput } from "../types/calculator";
 import { Icon } from "./Icon";
 import { CraftingResults } from "./CraftingResults";
+import { PlayerResults } from "./PlayerResults";
 
 type Props = {
   input: CalculatorInput;
@@ -68,8 +69,8 @@ export const ResultsPanel = ({ input, issues, result, onSplitResourcesChange }: 
           )}
           <div className="result-stat-grid">
             <Stat
-              detail="From selected level totals"
-              label="XP needed / player"
+              detail={result.players[result.limitingPlayerIndex].name}
+              label="Last player XP needed"
               value={formatCompact(result.xpRequired)}
             />
             <Stat
@@ -84,14 +85,15 @@ export const ResultsPanel = ({ input, issues, result, onSplitResourcesChange }: 
             />
             <Stat
               detail={`${formatNumber(result.xpOverTarget)} XP above target`}
-              label="Lowest player XP / round"
+              label="Last player XP / round"
               value={formatNumber(result.xpPerPlayerPerRound)}
             />
           </div>
           {party.sharingPlayers > 0 && (
-            <p className="crafting-help">Shared-only player: {formatNumber(result.passiveXpPerRound)} XP per round from {input.stationCount} stations. Their progress determines when the party finishes.</p>
+            <p className="crafting-help">Shared-only players receive {formatNumber(result.passiveXpPerRound)} XP per round from {input.stationCount} stations. Each player's levels determine how many rounds they need.</p>
           )}
           <CraftingResults input={input} result={result} />
+          <PlayerResults result={result} />
           <div className="resource-results">
             <div className="resource-result-heading">
               <div>

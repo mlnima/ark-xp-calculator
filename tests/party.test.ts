@@ -1,3 +1,4 @@
+import { testPlayers } from "./fixtures.ts";
 import assert from "node:assert/strict";
 import test from "node:test";
 import { calculate, getInputIssues } from "../src/lib/calculator.ts";
@@ -10,7 +11,7 @@ const input = (playerCount: number, stationCount: number): CalculatorInput => ({
   item: { name: "Rex Saddle", experience: 100, resources: ["Metal", "Wood"] },
   qualityId: "primitive", stationId: "smithy", craftSeconds: "12", craftTimeBasis: "station",
   clockEnabled: false, clockMode: "", serverRate: "1", currentLevel: "1", targetLevel: "2",
-  playerCount, stationCount, buffIds: [], tribeTowerBonus: "", grinding: false, recycler: false,
+  playerCount, stationCount, players: testPlayers(playerCount), buffIds: [], tribeTowerBonus: "", grinding: false, recycler: false,
   splitResources: false, resources: [
     { id: "metal", name: "Metal", quantity: "100" },
     { id: "wood", name: "Wood", quantity: "7" },

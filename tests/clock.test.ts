@@ -1,3 +1,4 @@
+import { testPlayers } from "./fixtures.ts";
 import assert from "node:assert/strict";
 import test from "node:test";
 import { calculate } from "../src/lib/calculator.ts";
@@ -10,7 +11,7 @@ const input = (): CalculatorInput => ({
   item: { name: "Rex Saddle", experience: 100, resources: ["Metal Ingot"] },
   qualityId: "primitive", stationId: "smithy", craftSeconds: "24", craftTimeBasis: "station",
   clockEnabled: false, clockMode: "", serverRate: "1", currentLevel: "1", targetLevel: "2",
-  playerCount: 1, stationCount: 1, buffIds: ["broth", "egg", "cake"], tribeTowerBonus: "", grinding: false,
+  playerCount: 1, stationCount: 1, players: testPlayers(1), buffIds: ["broth", "egg", "cake"], tribeTowerBonus: "", grinding: false,
   recycler: false, splitResources: true, resources: [{ id: "metal", name: "Metal Ingot", quantity: "100" }],
 });
 
@@ -66,7 +67,7 @@ test("clock speed and rounding stay consistent across party sizes, stations, and
   for (const playerCount of [1, 3, 70]) {
     for (const stationId of ["smithy", "replicator"] as const) {
       for (const grinding of [false, true]) {
-        const plan = withStation({ ...input(), playerCount, stationCount: playerCount, grinding, recycler: grinding }, stationId);
+        const plan = withStation({ ...input(), playerCount, players: testPlayers(playerCount), stationCount: playerCount, grinding, recycler: grinding }, stationId);
         const normal = calculate(plan, levels)!;
         for (const mode of ["area", "targeted"] as const) {
           const result = calculate(withClock(plan, true, mode), levels)!;

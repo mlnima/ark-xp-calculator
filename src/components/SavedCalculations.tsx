@@ -1,4 +1,5 @@
 import type { SavedCalculation } from "../types/calculator";
+import { JsonTransfer } from "./JsonTransfer";
 
 type Props = {
   calculations: SavedCalculation[];
@@ -9,6 +10,8 @@ type Props = {
   onLoad: (id: string) => void;
   onSaveNew: () => void;
   onUpdate: () => void;
+  onExport: () => string;
+  onImport: (text: string) => void;
 };
 
 export const SavedCalculations = ({
@@ -20,6 +23,8 @@ export const SavedCalculations = ({
   onLoad,
   onSaveNew,
   onUpdate,
+  onExport,
+  onImport,
 }: Props) => {
   const named = Boolean(calculationName.trim());
   return (
@@ -44,6 +49,7 @@ export const SavedCalculations = ({
           <button disabled={!canSave || !named || !activeId} onClick={onUpdate} type="button">Update loaded</button>
         </div>
       </div>
+      <JsonTransfer onExport={onExport} onImport={onImport} />
       <div className="saved-list">
         {calculations.map((calculation) => (
           <button
@@ -54,7 +60,7 @@ export const SavedCalculations = ({
           >
             <strong>{calculation.name}</strong>
             <span>{calculation.input.item?.name || "No item selected"}</span>
-            <small>Level {calculation.input.currentLevel || "—"} → {calculation.input.targetLevel || "—"}</small>
+            <small>{calculation.input.playerCount} players · {calculation.input.stationCount} stations</small>
           </button>
         ))}
         {!calculations.length && <p>No saved calculations yet.</p>}

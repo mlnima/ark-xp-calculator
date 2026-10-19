@@ -1,3 +1,4 @@
+import { testPlayers } from "./fixtures.ts";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
@@ -45,8 +46,6 @@ const input = (changes: Partial<CalculatorInput> = {}): CalculatorInput => ({
   clockMode: "",
   splitResources: false,
   serverRate: "1",
-  currentLevel: "1",
-  targetLevel: "20",
   playerCount: 1,
   buffIds: [],
   tribeTowerBonus: "",
@@ -57,6 +56,7 @@ const input = (changes: Partial<CalculatorInput> = {}): CalculatorInput => ({
     { id: "hide", name: "Hide", quantity: "50" },
     { id: "wood", name: "Wood", quantity: "40" },
   ],
+  players: testPlayers(changes.playerCount ?? 1, "1", "20"),
   ...changes,
   stationCount: changes.stationCount ?? changes.playerCount ?? 1,
 });
@@ -79,7 +79,7 @@ test("includes the supplied total XP values through level 245", async () => {
     await readFile(new URL("../src/data/levels.json", import.meta.url), "utf8"),
   ) as LevelEntry[];
   assert.deepEqual(bundledLevels.slice(-suppliedHighLevels.length), suppliedHighLevels);
-  const result = calculate(input({ currentLevel: "230", targetLevel: "245" }), bundledLevels);
+  const result = calculate(input({ players: testPlayers(1, "230", "245") }), bundledLevels);
   assert.ok(result);
   assert.equal(result.xpRequired, 1981937664);
 });
@@ -134,10 +134,10 @@ test("combines duplicate blueprint resource names", () => {
 
 test("rejects incomplete levels and blueprint quantities", () => {
   const issues = getInputIssues(input({
-    targetLevel: "1",
+    players: testPlayers(1, "1", "1"),
     resources: [{ id: "metal", name: "Metal Ingot", quantity: "" }],
   }), levels);
-  assert.ok(issues.includes("Target level must be higher than current level"));
+  assert.ok(issues.includes("Player 1: Target level must be higher than current level"));
   assert.ok(issues.includes("Enter a valid quantity for Metal Ingot"));
-  assert.equal(calculate(input({ targetLevel: "1" }), levels), null);
+  assert.equal(calculate(input({ players: testPlayers(1, "1", "1") }), levels), null);
 });

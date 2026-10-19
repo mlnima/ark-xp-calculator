@@ -1,3 +1,4 @@
+import { testPlayers } from "./fixtures.ts";
 import assert from "node:assert/strict";
 import test from "node:test";
 import { calculate } from "../src/lib/calculator.ts";
@@ -17,14 +18,13 @@ const input = (changes: Partial<CalculatorInput> = {}): CalculatorInput => ({
   clockMode: "",
   splitResources: false,
   serverRate: "1",
-  currentLevel: "1",
-  targetLevel: "2",
   playerCount: 1,
   buffIds: [],
   tribeTowerBonus: "",
   grinding: false,
   recycler: false,
   resources: [{ id: "metal", name: "Metal Ingot", quantity: "100" }],
+  players: testPlayers(changes.playerCount ?? 1, "1", "2"),
   ...changes,
   stationCount: changes.stationCount ?? changes.playerCount ?? 1,
 });

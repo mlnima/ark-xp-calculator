@@ -4,6 +4,7 @@ import { qualities } from "../data/qualities.ts";
 import { partyLimits } from "../data/party.ts";
 import { partySetup } from "./party.ts";
 import { calculateTiming } from "./crafting.ts";
+import { calculatePlayers, playerIssues } from "./players.ts";
 import type {
   CalculationResult,
   CalculatorInput,
@@ -15,9 +16,6 @@ const positiveNumber = (value: string) => {
   const parsed = Number(value);
   return Number.isFinite(parsed) && parsed > 0 ? parsed : null;
 };
-
-const selectedLevel = (levels: LevelEntry[], value: string) =>
-  levels.find(({ level }) => level === Number(value));
 
 const resourceIssues = (input: CalculatorInput) => {
   if (input.grinding && !input.resources.length) return ["Enter blueprint resources to calculate grinding"];
@@ -45,14 +43,7 @@ export const getInputIssues = (input: CalculatorInput, levels: LevelEntry[]) => 
   if (input.buffIds.includes("tower") && !positiveNumber(input.tribeTowerBonus)) {
     issues.push("Enter the active Tribe Tower XP bonus");
   }
-  const current = selectedLevel(levels, input.currentLevel);
-  const target = selectedLevel(levels, input.targetLevel);
-  if (!current) issues.push("Choose the current level");
-  if (!target) issues.push("Choose the target level");
-  if (current && target && target.level <= current.level) {
-    issues.push("Target level must be higher than current level");
-  }
-  return [...issues, ...resourceIssues(input)];
+  return [...issues, ...playerIssues(input, levels), ...resourceIssues(input)];
 };
 
 const totalResources = (input: CalculatorInput, craftsPerStation: number): ResourceTotal[] => {
@@ -86,10 +77,8 @@ export const calculate = (
   levels: LevelEntry[],
 ): CalculationResult | null => {
   if (getInputIssues(input, levels).length || !input.item || !input.qualityId) return null;
-  const current = selectedLevel(levels, input.currentLevel);
-  const target = selectedLevel(levels, input.targetLevel);
   const quality = qualities.find(({ id }) => id === input.qualityId);
-  if (!current || !target || !quality) return null;
+  if (!quality) return null;
   const rate = positiveNumber(input.serverRate) || 0;
   const buffMultiplier = input.buffIds.reduce((total, id) => {
     const buff = buffs.find((entry) => entry.id === id);
@@ -101,13 +90,14 @@ export const calculate = (
   const combinedMultiplier = quality.multiplier * rate * buffMultiplier;
   const ownXpPerCraft = input.item.experience * combinedMultiplier;
   const party = partySetup(input);
-  const fewestOwnedStations = Math.floor(input.stationCount / input.playerCount);
-  const sharedXpPerRound = ownXpPerCraft * 0.5 * (input.stationCount - fewestOwnedStations);
-  const xpPerPlayerPerRound = ownXpPerCraft * fewestOwnedStations + sharedXpPerRound;
+  const progress = calculatePlayers(input, levels, ownXpPerCraft);
+  const limiting = progress.reduce((last, player) =>
+    player.xpRequired / player.xpPerRound > last.xpRequired / last.xpPerRound ? player : last);
+  const { xpRequired, sharedXpPerRound } = limiting;
+  const xpPerPlayerPerRound = limiting.xpPerRound;
   const crafterXpPerRound = ownXpPerCraft * (party.minStationsPerCrafter + input.stationCount) / 2;
   const passiveXpPerRound = ownXpPerCraft * input.stationCount / 2;
-  const xpRequired = target.totalXp - current.totalXp;
-  const craftsPerStation = Math.ceil(xpRequired / xpPerPlayerPerRound);
+  const craftsPerStation = Math.max(...progress.map(({ roundsToTarget }) => roundsToTarget));
   const totalCrafts = craftsPerStation * input.stationCount;
   const resources = totalResources(input, craftsPerStation);
   const initialCraftsPerStation = input.grinding
@@ -115,7 +105,16 @@ export const calculate = (
       Math.floor(total / input.stationCount / perCraft)))
     : craftsPerStation;
   const projectedXp = craftsPerStation * xpPerPlayerPerRound;
+  const timing = calculateTiming(input, craftsPerStation);
+  const players = progress.map((player) => ({
+    ...player,
+    projectedXp: craftsPerStation * player.xpPerRound,
+    xpOverTarget: craftsPerStation * player.xpPerRound - player.xpRequired,
+    secondsToTarget: timing ? player.roundsToTarget * timing.secondsPerCraft : null,
+  }));
   return {
+    players,
+    limitingPlayerIndex: limiting.index,
     xpRequired,
     ownXpPerCraft,
     sharedXpPerRound,
@@ -129,7 +128,7 @@ export const calculate = (
     projectedXp,
     xpOverTarget: projectedXp - xpRequired,
     combinedMultiplier,
-    timing: calculateTiming(input, craftsPerStation),
+    timing,
     resources,
   };
 };
