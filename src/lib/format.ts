@@ -2,6 +2,17 @@ const numberFormatter = new Intl.NumberFormat(undefined, { maximumFractionDigits
 
 export const formatNumber = (value: number) => numberFormatter.format(value);
 
+export const formatDuration = (seconds: number): string => {
+  if (seconds < 0.01) return "<0.01 s";
+  if (seconds < 60) return `${formatNumber(seconds)} s`;
+  const rounded = Math.ceil(seconds);
+  const days = Math.floor(rounded / 86400);
+  const hours = Math.floor(rounded % 86400 / 3600);
+  const minutes = Math.floor(rounded % 3600 / 60);
+  const remainder = rounded % 60;
+  return `${days ? `${days}d ` : ""}${hours ? `${hours}h ` : ""}${minutes ? `${minutes}m ` : ""}${remainder ? `${remainder}s` : ""}`.trim();
+};
+
 export const formatCompact = (value: number) =>
   new Intl.NumberFormat(undefined, {
     notation: value >= 10000 ? "compact" : "standard",

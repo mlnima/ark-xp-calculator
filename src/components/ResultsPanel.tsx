@@ -2,6 +2,7 @@ import { qualities } from "../data/qualities";
 import { formatCompact, formatNumber } from "../lib/format";
 import type { CalculationResult, CalculatorInput } from "../types/calculator";
 import { Icon } from "./Icon";
+import { CraftingResults } from "./CraftingResults";
 
 type Props = {
   input: CalculatorInput;
@@ -83,6 +84,7 @@ export const ResultsPanel = ({ input, issues, result }: Props) => {
               value={formatNumber(result.xpPerPlayerPerRound)}
             />
           </div>
+          <CraftingResults input={input} result={result} />
           <div className="resource-results">
             <div className="resource-result-heading">
               <div>

@@ -38,6 +38,8 @@ const suppliedHighLevels: LevelEntry[] = [
 const input = (changes: Partial<CalculatorInput> = {}): CalculatorInput => ({
   item: shotgun,
   qualityId: "ramshackle",
+  stationId: "",
+  craftSeconds: "",
   serverRate: "1",
   currentLevel: "1",
   targetLevel: "20",

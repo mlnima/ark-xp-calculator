@@ -8,6 +8,7 @@
     "build": "tsc && vite build",
     "test": "node --experimental-strip-types --test tests/*.test.ts",
     "data:sync": "node scripts/sync-wiki.mjs",
+    "data:crafting": "node scripts/sync-crafting.mjs",
     "preview": "vite preview",
     "tauri": "tauri"
   },

@@ -1,6 +1,7 @@
 import { buffs } from "../data/buffs.ts";
 import { grindingRules } from "../data/grinding.ts";
 import { qualities } from "../data/qualities.ts";
+import { calculateTiming } from "./crafting.ts";
 import type {
   CalculationResult,
   CalculatorInput,
@@ -114,6 +115,7 @@ export const calculate = (
     projectedXp,
     xpOverTarget: projectedXp - xpRequired,
     combinedMultiplier,
+    timing: calculateTiming(input, craftsPerPlayer),
     resources,
   };
 };

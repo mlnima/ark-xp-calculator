@@ -1,3 +1,5 @@
+import type { CraftingTiming, StationId } from "./crafting";
+
 export type QualityId =
   | "primitive"
   | "ramshackle"
@@ -6,7 +8,7 @@ export type QualityId =
   | "mastercraft"
   | "ascendant";
 
-export type BuffId = "broth" | "toilet" | "egg" | "note2" | "note4" | "tower" | "drakeling";
+export type BuffId = "broth" | "toilet" | "egg" | "cake" | "note2" | "note4" | "tower" | "drakeling";
 
 export type CraftingItem = {
   name: string;
@@ -31,6 +33,7 @@ export type Buff = {
   label: string;
   multiplier: number;
   detail: string;
+  durationSeconds?: number;
 };
 
 export type ResourceInput = {
@@ -42,6 +45,8 @@ export type ResourceInput = {
 export type CalculatorInput = {
   item: CraftingItem | null;
   qualityId: QualityId | "";
+  stationId: StationId | "";
+  craftSeconds: string;
   serverRate: string;
   currentLevel: string;
   targetLevel: string;
@@ -77,5 +82,6 @@ export type CalculationResult = {
   projectedXp: number;
   xpOverTarget: number;
   combinedMultiplier: number;
+  timing: CraftingTiming | null;
   resources: ResourceTotal[];
 };

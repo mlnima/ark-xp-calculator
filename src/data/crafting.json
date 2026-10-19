@@ -1,0 +1,5714 @@
+{
+  "checkedAt": "2026-10-19",
+  "sourceUrl": "https://ark.wiki.gg/",
+  "recipes": {
+    "Adobe Window": {
+      "baseSeconds": 2,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Araneo Swim Bottom Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Adobe Doorframe": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Advanced Rifle Bullet": {
+      "baseSeconds": 1,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Adobe Railing": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "APS Mailbox (Primitive Plus)": {
+      "baseSeconds": null,
+      "stations": [
+        "Construction Table (Primitive Plus)"
+      ]
+    },
+    "Alpha Raptor Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Adobe Hatchframe": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Advanced Bullet": {
+      "baseSeconds": 1,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Allosaurus Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Air Guitar Emote": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Adobe Fence Support": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Araneo Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Adobe Triangle Roof": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Arthropluera Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Adobe Fence Foundation": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Advanced Sniper Bullet": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Advanced Workbench (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Advanced Workbench (Primitive Plus)"
+      ]
+    },
+    "Adobe Ladder": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Air Drums Emote": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Archer Flex Emote": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "ARK Anniversary Surprise Cake": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Amarberry Juice (Primitive Plus)": {
+      "baseSeconds": 30,
+      "stations": [
+        "Fruit Press (Primitive Plus)"
+      ]
+    },
+    "Artifact Pedestal": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Adobe Trapdoor": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Araneo Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Adobe Ceiling": {
+      "baseSeconds": 4,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Adobe Double Door": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Alpha Raptor Swim Bottom Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Adobe Dinosaur Gate": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Adobe Wall": {
+      "baseSeconds": 2,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Argentavis Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Adobe Stairs": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Adobe Pillar": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Ammo Box": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Adobe Triangle Ceiling": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Angler Hat Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Air Conditioner": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Adobe Triangle Foundation": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Adobe Double Doorframe": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Adobe Staircase": {
+      "baseSeconds": 2,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Adobe Dinosaur Gateway": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Adobe Door": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Adobe Ramp": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Adobe Windowframe": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Absorbent Substrate": {
+      "baseSeconds": 12,
+      "stations": [
+        "Chemistry Bench"
+      ]
+    },
+    "Ankylo Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Adobe Foundation": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Andrewsarchus Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator"
+      ]
+    },
+    "Air Jar": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Bakers Oven (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": [
+        "Construction Table (Primitive Plus)"
+      ]
+    },
+    "Auto Turret": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Behemoth Gateway": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Behemoth Gate": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Basilisk Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Behemoth Adobe Dinosaur Gateway": {
+      "baseSeconds": 3,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Boulder": {
+      "baseSeconds": 5,
+      "stations": [
+        "Catapult Turret"
+      ]
+    },
+    "BearHug Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Behemoth Reinforced Dinosaur Gate": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "C4 Charge": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Biscuit Batter (Primitive Plus)": {
+      "baseSeconds": 2,
+      "stations": [
+        "Cooking Station (Primitive Plus)"
+      ]
+    },
+    "Big Bonfire (Primitive Plus)": {
+      "baseSeconds": null,
+      "stations": []
+    },
+    "C4 Remote Detonator": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Basilosaurus Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Bow": {
+      "baseSeconds": 10,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Bola": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "BattleAxe (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": [
+        "Grindstone (Primitive Plus)"
+      ]
+    },
+    "Astrodelphis Starwing Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Astrocetus Tek Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Bicep Smooch Emote": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Backflip Emote": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Bow & Eros Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Birthday Suit Shirt Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "BearHug Swim Bottom Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Blue-Ball Winter Beanie Skin": {
+      "baseSeconds": null,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Barrel of Gunpowder (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy"
+      ]
+    },
+    "Beer Barrel": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Behemoth Tek Gateway": {
+      "baseSeconds": 120,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Bulbdog-Print Shirt Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Bunny Tail Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Bronto Platform Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Bonemeal Fertilizer (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": [
+        "Handmill (Primitive Plus)",
+        "Alchemy Table (Primitive Plus)"
+      ]
+    },
+    "Boomerang": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Campfire": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Bug Repellant": {
+      "baseSeconds": 8,
+      "stations": [
+        "Mortar and Pestle",
+        "Chemistry Bench",
+        "Equus Saddle"
+      ]
+    },
+    "Bunny Hop Dance Emote": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Behemoth Stone Dinosaur Gateway": {
+      "baseSeconds": 3,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Assault Rifle": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Cannon Ball": {
+      "baseSeconds": 1,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Candle (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": []
+    },
+    "Cake Batter (Primitive Plus)": {
+      "baseSeconds": 2,
+      "stations": [
+        "Cooking Station (Primitive Plus)"
+      ]
+    },
+    "Beelzebufo Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Bronto Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Behemoth Tek Gate": {
+      "baseSeconds": 120,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Behemoth Adobe Dinosaur Gate": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Brazier (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": [
+        "Construction Table (Primitive Plus)"
+      ]
+    },
+    "Bunk Bed": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Bunny Costume Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Boot Weights": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Bloodforge": {
+      "baseSeconds": null,
+      "stations": [
+        "Tek Replicator"
+      ]
+    },
+    "Canteen": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Desert Cloth Gloves": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Catapult Turret": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Cigarette (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": []
+    },
+    "Chalicotherium Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Cloth Pants": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Cannon Shell": {
+      "baseSeconds": 1,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Chitin Gauntlets": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Cryofridge": {
+      "baseSeconds": 5,
+      "stations": [
+        "Obelisk",
+        "Supply Crate",
+        "Loot Crate",
+        "Treasure Chest",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Crab Fest Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Canoe": {
+      "baseSeconds": 15,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Cookie Dough (Primitive Plus)": {
+      "baseSeconds": 10,
+      "stations": [
+        "Cooking Station (Primitive Plus)"
+      ]
+    },
+    "Chitin Chestpiece": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Chitin Helmet": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Construction Table (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": []
+    },
+    "Compound Bow": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Cloth Shirt": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Chainsaw": {
+      "baseSeconds": 15,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Cloth Boots": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Charge Lantern": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Cryopod": {
+      "baseSeconds": 5,
+      "stations": [
+        "Obelisk",
+        "Supply Crate",
+        "Loot Crate",
+        "Treasure Chest",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Chain Bola": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Cruise Missile": {
+      "baseSeconds": 15,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Compost Bin": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Corn Starch (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": [
+        "Handmill (Primitive Plus)"
+      ]
+    },
+    "Cauldron (Primitive Plus)": {
+      "baseSeconds": 10,
+      "stations": [
+        "Construction Table (Primitive Plus)"
+      ]
+    },
+    "Cloth Hat": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Chitin Leggings": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Carno Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Chitin Boots": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Compass": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory",
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Cloth Gloves": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Delivery Crate": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Cooking Station (Primitive Plus)": {
+      "baseSeconds": null,
+      "stations": [
+        "Construction Table (Primitive Plus)"
+      ]
+    },
+    "Chitin": {
+      "baseSeconds": 0.2,
+      "stations": [
+        "Industrial Grinder"
+      ]
+    },
+    "Crossbow": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Charge Battery": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Dance Emote": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Cupid Couture Bottom Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Carbonemys Saddle": {
+      "baseSeconds": 12,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Cupid Couture Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Desert Cloth Boots": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Chemistry Bench": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Deadfall Trap (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": []
+    },
+    "Climbing Pick": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Daeodon Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Castoroides Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Carcharo Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator"
+      ]
+    },
+    "Deinotherium Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator"
+      ]
+    },
+    "Carving Knife": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Dinosaur Gateway": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Fish Net": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Evil Emote": {
+      "baseSeconds": 5,
+      "stations": []
+    },
+    "Fermenting Barrel (Primitive Plus)": {
+      "baseSeconds": null,
+      "stations": [
+        "Construction Table (Primitive Plus)"
+      ]
+    },
+    "Flame Arrow (Primitive Plus)": {
+      "baseSeconds": 2,
+      "stations": []
+    },
+    "Fabricated Sniper Rifle": {
+      "baseSeconds": 15,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Fish Bite Swim Bottom Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Dinghy (Primitive Plus)": {
+      "baseSeconds": 15,
+      "stations": []
+    },
+    "Desert Cloth Shirt": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Doedicurus Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Dino Party Hat Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Fireworks Rocket Launcher Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Electrical Outlet": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Electrical Generator": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "E4 Remote Eggsplosives Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Electrical Cable Intersection": {
+      "baseSeconds": 3,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Diplodocus Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Fish Bite Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Electronic Binoculars (Survival Evolved)": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Easter Egghead Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Fabricator": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Helicoprion Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Dodorex-Print Shirt Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Dinosaur Gate": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Flak Leggings": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Flame Arrow": {
+      "baseSeconds": 1,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Flashlight Attachment": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Dodorex Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Flak Gauntlets": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Flare Gun": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Fishing Rod": {
+      "baseSeconds": 10,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Eel Swim Bottom Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Egg Incubator": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Exo-Mek"
+      ]
+    },
+    "Fabricated Pistol": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Flak Helmet": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Electric Prod": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Dunkleosteus Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Elevator Track": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Desert Cloth Pants": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Dino Uncle Sam Hat Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Equus Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Flak Chestpiece": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Flak Boots": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Desert Goggles and Hat": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Dire Bear Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Dodorex Swim Bottom Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Fish Basket": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Feathered Stone Arrow (Primitive Plus)": {
+      "baseSeconds": 0.5,
+      "stations": []
+    },
+    "Dino Leash": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Eel Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Desmodus Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator"
+      ]
+    },
+    "Giganotosaurus Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Glow Stick": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Fur Cap": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Giant Adobe Hatchframe": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Ghillie Boots": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Greenhouse Door": {
+      "baseSeconds": 3,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Gasbags-Print Shirt Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Greenhouse Triangle Roof": {
+      "baseSeconds": 2,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "GPS": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Greenhouse Window": {
+      "baseSeconds": 2,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Fur Leggings": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Gravestone": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Greenhouse Doorframe": {
+      "baseSeconds": 3,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Fur Chestpiece": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Gas Mask": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Greenhouse Double Doorframe": {
+      "baseSeconds": 3,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Giant Metal Trapdoor": {
+      "baseSeconds": 3,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Flintlock Pistol (Primitive Plus)": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Advanced Workbench (Primitive Plus)"
+      ]
+    },
+    "Giga Poop Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Giant Adobe Trapdoor": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Giga Poop Swim Bottom Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Greenhouse Triangle Ceiling": {
+      "baseSeconds": 4,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Fur Gauntlets": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Floral Swim Bottom Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Ghillie Leggings": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Ghillie Mask": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Floaty Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Gas Collector": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Grape Juice (Primitive Plus)": {
+      "baseSeconds": 15,
+      "stations": [
+        "Fruit Press (Primitive Plus)"
+      ]
+    },
+    "Ghillie Gauntlets": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Giant Reinforced Trapdoor": {
+      "baseSeconds": 3,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Greenhouse Double Door": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator"
+      ]
+    },
+    "Giant Stone Hatchframe": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Flying Disc Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Gasbags Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Glider Suit Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Giant Metal Hatchframe": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Gacha Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Greenhouse Wall": {
+      "baseSeconds": 2,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Flexible Electrical Cable": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Greenhouse Ceiling": {
+      "baseSeconds": 4,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Gallimimus Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Green-Ball Winter Beanie Skin": {
+      "baseSeconds": null,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Floaty Swim Bottom Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Fresh Firewood (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": [
+        "Lumber Station (Primitive Plus)"
+      ]
+    },
+    "Grenade": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Floppy Straw Summer Hat Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Ghillie Chestpiece": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Floral Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Gigadesmodus Saddle": {
+      "baseSeconds": 15,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Industrial Cooker": {
+      "baseSeconds": 15,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Hide Shirt": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Ichthy Isles Swim Bottom Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Hula Dance Emote": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Handcuffs": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Homing Underwater Mine": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Heavy Miner's Helmet": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Ichthy Isles Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Inclined Electrical Cable": {
+      "baseSeconds": 3,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Hide Pants": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Grindstone (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": [
+        "Construction Table (Primitive Plus)"
+      ]
+    },
+    "Grilling Spatula Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Ice Pop-Print Shirt Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Industrial Grinder": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Hazard Suit Gloves": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Jellyfish Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Handmill (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": [
+        "Construction Table (Primitive Plus)"
+      ]
+    },
+    "Jack-O-Lantern Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Inflatable Rex Costume Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Jack-O-Lantern-Print Shirt Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Heart-shaped Shield Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Improvised Explosive Device": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "HLN-A Winter Beanie Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Hyaenodon Meatpack": {
+      "baseSeconds": 10,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Icing (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Station (Primitive Plus)"
+      ]
+    },
+    "Holo-Scope Attachment": {
+      "baseSeconds": 10,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Industrial Cooker (Primitive Plus)": {
+      "baseSeconds": 15,
+      "stations": [
+        "Advanced Workbench (Primitive Plus)"
+      ]
+    },
+    "Hazard Suit Hat": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Hide Boots": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Hide Gloves": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Halo Headband Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Jack-O-Lantern Swim Bottom Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Hazard Suit Pants": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Heart-shaped Sunglasses Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Ichthyosaurus Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Hockey Mask Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Hazard Suit Boots": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Hide Sleeping Bag": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Hoversail-Print Shirt Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Kaprosuchus Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Hazard Suit Shirt": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Jar of Pitch": {
+      "baseSeconds": 5,
+      "stations": []
+    },
+    "Heavy Auto Turret": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Headless Costume Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Industrial Grill": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Hide Hat": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Jellyfish Swim Bottom Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Helicoprion Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Helicoprion Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Infectarium": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Hydrosphere": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator"
+      ]
+    },
+    "Lesser Antidote": {
+      "baseSeconds": 40,
+      "stations": [
+        "Mortar and Pestle",
+        "Chemistry Bench",
+        "Equus Saddle"
+      ]
+    },
+    "Lance": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Lumber (Primitive Plus)": {
+      "baseSeconds": 1.5,
+      "stations": [
+        "Lumber Station (Primitive Plus)"
+      ]
+    },
+    "Mantis Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Maewing Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Exo-Mek"
+      ]
+    },
+    "Magnifying Glass": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Medium Elevator Platform": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Medium Wood Elevator Platform": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Loadout Mannequin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Exo-Mek"
+      ]
+    },
+    "Love Shackles Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Longbow (Primitive Plus)": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy"
+      ]
+    },
+    "Megachelon Platform Saddle": {
+      "baseSeconds": 15,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Large Wood Elevator Platform": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Catwalk": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Megalodon Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Metal Billboard": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Knock Emote": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Large Taxidermy Base": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Manta Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Large Storage Box": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Large Wooden Wall": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Large Elevator Platform": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Megatherium Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "M.R.L.M.": {
+      "baseSeconds": 10,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Karkinos Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Lamppost": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Large Crop Plot": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Lantern (Primitive Plus)": {
+      "baseSeconds": null,
+      "stations": [
+        "Construction Table (Primitive Plus)"
+      ]
+    },
+    "Magmasaur Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Large Tek Wall": {
+      "baseSeconds": null,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Large Stone Wall": {
+      "baseSeconds": 2,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Medium Taxidermy Base": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Laser Attachment": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Kibble (Tapejara Egg)": {
+      "baseSeconds": null,
+      "stations": []
+    },
+    "Megalosaurus Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Market Stall (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": []
+    },
+    "M.D.S.M.": {
+      "baseSeconds": 10,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Megalodon Tek Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Mammoth Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Lasso": {
+      "baseSeconds": 0.75,
+      "stations": [
+        "Equus Saddle"
+      ]
+    },
+    "Megaloceros Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Large Bear Trap": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Large Metal Wall": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Exo-Mek"
+      ]
+    },
+    "Kibble (Pelagornis Egg)": {
+      "baseSeconds": null,
+      "stations": []
+    },
+    "Megalania Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Kibble (Oviraptor Egg)": {
+      "baseSeconds": null,
+      "stations": []
+    },
+    "Metal Arrow": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "M.S.C.M.": {
+      "baseSeconds": 10,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Managarmr Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Kibble Mash": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Metal Wall Sign": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Trapdoor": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Ramp": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Sign": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Pillar": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Stairs": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Sickle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Triangle Ceiling": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Irrigation Pipe - Intersection": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Mirror": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Dinosaur Gate": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Cliff Platform": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Foundation": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Machete (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Advanced Workbench (Primitive Plus)"
+      ]
+    },
+    "Metal Window": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Railing": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Mobile:TEK Kibble Processor": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator"
+      ]
+    },
+    "Metal Irrigation Pipe - Straight": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Irrigation Pipe - Inclined": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Irrigation Pipe - Vertical": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Mortar and Pestle": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Metal Windowframe": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Irrigation Pipe - Intake": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Spike Wall": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Hammer (Primitive Plus)": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy"
+      ]
+    },
+    "Metal Wall": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Water Reservoir": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Mosasaur Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Pick": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Fence Support": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Triangle Foundation": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Exo-Mek"
+      ]
+    },
+    "Mosasaur Platform Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Dinosaur Gateway": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Ladder": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Irrigation Pipe - Flexible": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Fence Foundation": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Door": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Double Door": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Double Doorframe": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Tree Platform": {
+      "baseSeconds": 3,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Ceiling": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Miners Box (Primitive Plus)": {
+      "baseSeconds": null,
+      "stations": [
+        "Construction Table (Primitive Plus)"
+      ]
+    },
+    "Metal Triangle Roof": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Exo-Mek"
+      ]
+    },
+    "Minigun Turret": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Irrigation Pipe - Tap": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Shield": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Staircase": {
+      "baseSeconds": 2,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Mining Drill": {
+      "baseSeconds": 15,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Doorframe": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Metal Hatchframe": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Pelagornis Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Murder Turkey Swim Bottom Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Procoptodon Bunny Costume": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Procoptodon Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Paracer Platform Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Quetz Platform Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Parachute": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Pump-Action Shotgun": {
+      "baseSeconds": 15,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Preserving Bin": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Pteranodon Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Painting Canvas": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Murder Turkey Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Pachyrhinosaurus Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Note": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Murder-Turkey-Print Shirt Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Mosasaur Tek Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Pulmonoscorpius Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Pachy Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Onyc Swim Bottom Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Purple-Ball Winter Beanie Skin (Winter Wonderland 5)": {
+      "baseSeconds": null,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Paracer Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Quetz Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Night Vision Goggles": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Pressure Plate": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Odd Couple Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Polymer": {
+      "baseSeconds": 2,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Net Projectile": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Onyc Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Obsidian Arrow (Primitive Plus)": {
+      "baseSeconds": 2,
+      "stations": []
+    },
+    "Paintbrush": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Noglin Regift Winter Beanie Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Pitchfork (Primitive Plus)": {
+      "baseSeconds": null,
+      "stations": []
+    },
+    "Mosh Pit Emote": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Party Hat Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Phiomia Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Multi-Panel Flag": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Portable Rope Ladder": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Plesiosaur Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Poison Grenade": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Pike": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Motorboat": {
+      "baseSeconds": 15,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Musket (Primitive Plus)": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy"
+      ]
+    },
+    "Preserving Campfire (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": []
+    },
+    "Pheromone Dart": {
+      "baseSeconds": 1,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Pancake Batter (Primitive Plus)": {
+      "baseSeconds": 2,
+      "stations": [
+        "Cooking Station (Primitive Plus)"
+      ]
+    },
+    "Pliers": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Propellant": {
+      "baseSeconds": 5,
+      "stations": [
+        "Mortar and Pestle",
+        "Chemistry Bench",
+        "Equus Saddle"
+      ]
+    },
+    "Parasaur Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Oil Tank (Primitive Plus)": {
+      "baseSeconds": 3,
+      "stations": [
+        "Construction Table (Primitive Plus)"
+      ]
+    },
+    "Onchopristis Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Recurve Bow (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy"
+      ]
+    },
+    "SCUBA Flippers": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Rocket Pod": {
+      "baseSeconds": 1,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Riot Shield": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Reinforced Window": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Rocket Propelled Grenade": {
+      "baseSeconds": 1,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Rocket Homing Missile": {
+      "baseSeconds": 1,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Reinforced Double Door": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Reaper-Print Shirt Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Rope Ladder": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Riot Boots": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Scare Emote": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Re-Fertilizer": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Rock Drake Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Rex Tek Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Riot Leggings": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Raptor Sleighing Winter Beanie Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Rock Golem Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Scary Dino Pumpkin Helmet Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Riot Gauntlets": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Reinforced Wooden Door": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Roll Rat Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Refrigerator": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "SCUBA Mask": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Remote Keypad": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Riot Helmet": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Santa Emote": {
+      "baseSeconds": 5,
+      "stations": []
+    },
+    "Riot Chestpiece": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "SCUBA Leggings": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Sack of Flour (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": [
+        "Handmill (Primitive Plus)",
+        "Windmill (Primitive Plus)"
+      ]
+    },
+    "Santa Costume Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Scope Attachment": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Sauropod Heart Swim Bottom Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Sabertooth Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Reaper Swim Bottom Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Rex Saddle": {
+      "baseSeconds": 12,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Rocket Turret": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Sauropod Heart Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Scary Pumpkin Helmet Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Scout Remote": {
+      "baseSeconds": 5,
+      "stations": [
+        "City Terminal",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Reinforced Trapdoor": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Rocket Launcher": {
+      "baseSeconds": 15,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Reinforced Dinosaur Gate": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Raptor Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Scissors": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Retro Sunglasses Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Radio": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Reaper Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Sarco Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Rock Drake Tek Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Single Panel Flag": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Sloped Adobe Roof": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Simple Rifle Ammo": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Simple Hammock (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": []
+    },
+    "Sloped Stone Roof": {
+      "baseSeconds": 4,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Smithy": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Sloped Metal Roof": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Sloped Stone Wall Left": {
+      "baseSeconds": 2,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Sloped Adobe Wall Left": {
+      "baseSeconds": 2,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Snowy Winter Beanie Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Snowman": {
+      "baseSeconds": null,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Sloped Tek Wall Right": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Sloped Tek Wall Left": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Sloped Stone Wall Right": {
+      "baseSeconds": 2,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Sloped Metal Wall Left": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Smoke Grenade": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Sloped Thatch Wall Left": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Small Elevator Platform": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Sloped Greenhouse Wall Right": {
+      "baseSeconds": 2,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Shag Rug": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Spear Bolt": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Sloped Wood Wall Right": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Small Taxidermy Base": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Simple Bullet": {
+      "baseSeconds": 1,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Sloped Thatch Wall Right": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Spear": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Sloped Adobe Wall Right": {
+      "baseSeconds": 2,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Sloped Tek Roof": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Skeleton Costume Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Sloped Wood Wall Left": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Sloped Wooden Roof": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Shotgun": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Skelly-Print Shirt Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Small Crop Plot": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "SCUBA Tank": {
+      "baseSeconds": 5,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Self Hug Emote": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Sparkpowder": {
+      "baseSeconds": 1,
+      "stations": [
+        "Mortar and Pestle",
+        "Chemistry Bench",
+        "Handmill (Primitive Plus)",
+        "Equus Saddle"
+      ]
+    },
+    "Silencer Attachment": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Shocking Tranquilizer Dart": {
+      "baseSeconds": 1,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Sloped Thatch Roof": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Sea Life-Print Shirt Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Simple Bed": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Slingshot": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Sloped Greenhouse Wall Left": {
+      "baseSeconds": 2,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Simple Shotgun Ammo": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Sloped Cement Roof (Primitive Plus)": {
+      "baseSeconds": 4,
+      "stations": []
+    },
+    "Shadowmane Fishing-Print Shirt Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Small Wood Elevator Platform": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Sloped Metal Wall Right": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Smokehouse (Primitive Plus)": {
+      "baseSeconds": null,
+      "stations": [
+        "Construction Table (Primitive Plus)"
+      ]
+    },
+    "Tapejara Tek Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Stone Fence Support": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Stone Hatchet": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Stone Dinosaur Gateway": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Stone Irrigation Pipe - Vertical": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Stone Triangle Ceiling": {
+      "baseSeconds": 4,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Stone Double Doorframe": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Stone Staircase": {
+      "baseSeconds": 2,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Stone Ceiling": {
+      "baseSeconds": 4,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Stone Wall": {
+      "baseSeconds": 2,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Storage Barrel (Primitive Plus)": {
+      "baseSeconds": null,
+      "stations": []
+    },
+    "T-Rex Swim Bottom Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Stone Irrigation Pipe - Straight": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Stone Cliff Platform": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Stone Hunting Knife (Primitive Plus)": {
+      "baseSeconds": null,
+      "stations": []
+    },
+    "Spinning Mule (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": [
+        "Construction Table (Primitive Plus)"
+      ]
+    },
+    "Spray Painter": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Table Lantern (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": [
+        "Construction Table (Primitive Plus)"
+      ]
+    },
+    "Stone Pillar": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Stone Irrigation Pipe - Intersection": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Stone Stairs": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Stone Triangle Foundation": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Teddy Bear Grenades Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Stone Irrigation Pipe - Tap": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Tek Bridge": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Stone Fireplace": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Stone Triangle Roof": {
+      "baseSeconds": 2,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Standing Torch": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Taxidermy Tool": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Sweet Spear Carrot Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Stone Pick": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Tanning Rack (Primitive Plus)": {
+      "baseSeconds": null,
+      "stations": []
+    },
+    "Sword": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Stone Doorframe": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Stimbull Juice (Primitive Plus)": {
+      "baseSeconds": 30,
+      "stations": [
+        "Fruit Press (Primitive Plus)"
+      ]
+    },
+    "Straight Electrical Cable": {
+      "baseSeconds": 3,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Stone Irrigation Pipe - Inclined": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Tek Binoculars (Survival Ascended)": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Replicator"
+      ]
+    },
+    "Stone Hatchframe": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Teepee (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": []
+    },
+    "T-Rex Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Stone Irrigation Pipe - Intake": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Stone Railing": {
+      "baseSeconds": 2,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Stone Windowframe": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Stone Arrow": {
+      "baseSeconds": 0.5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Stone Fence Foundation": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Steel Handrail (Primitive Plus)": {
+      "baseSeconds": 2,
+      "stations": [
+        "Construction Table (Primitive Plus)"
+      ]
+    },
+    "Strawman Costume Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Spyglass": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Stone Foundation": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Tek Shield": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Pillar": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Hatchframe": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Jump Pad": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Surveillance Console": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Ceiling": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Ladder": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Double Doorframe": {
+      "baseSeconds": null,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Fence Foundation": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Phase Pistol": {
+      "baseSeconds": 10,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Helmet": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Door": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Railing": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Dinosaur Gate": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Staircase": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Turret": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Window": {
+      "baseSeconds": 45,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Ramp": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Claws": {
+      "baseSeconds": 15,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Sword": {
+      "baseSeconds": 15,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Foundation": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Triangle Roof": {
+      "baseSeconds": null,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Double Door": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Canteen": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Remote Camera": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Surveillance Console"
+      ]
+    },
+    "Tek Grenade": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Sleeping Pod": {
+      "baseSeconds": null,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Grenade Launcher": {
+      "baseSeconds": 15,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Stairs": {
+      "baseSeconds": null,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Triangle Foundation": {
+      "baseSeconds": null,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Railgun": {
+      "baseSeconds": 15,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Light": {
+      "baseSeconds": 50,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Hoversail": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Sensor": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Trough": {
+      "baseSeconds": null,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Gravity Grenade": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Dinosaur Gateway": {
+      "baseSeconds": 120,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Crop Plot": {
+      "baseSeconds": 5,
+      "stations": []
+    },
+    "Tek Shoulder Cannon": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Teleporter": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Forcefield": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Catwalk": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Fence Support": {
+      "baseSeconds": null,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Generator": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Trapdoor": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Triangle Ceiling": {
+      "baseSeconds": null,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Wall": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Doorframe": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tek Floating Foundation": {
+      "baseSeconds": 8,
+      "stations": [
+        "Tek Replicator"
+      ]
+    },
+    "Tek Triangle Floating Foundation": {
+      "baseSeconds": 8,
+      "stations": [
+        "Tek Replicator"
+      ]
+    },
+    "Tripwire Alarm Trap": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Trophy Wall-Mount": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Thatch Door": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Trike Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Thatch Foundation": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Tripwire Narcotic Trap": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Thorny Dragon Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Ugly Bulbdog Sweater Skin": {
+      "baseSeconds": null,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Tranq Arrow": {
+      "baseSeconds": 1,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Ugly Raptor Claws Sweater Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Tranquilizer Dart": {
+      "baseSeconds": 1,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Ugly Trike Sweater Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Unassembled Mek": {
+      "baseSeconds": 2,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Unassembled TEK Hover Skiff": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Trading Crate (Bread) (Primitive Plus)": {
+      "baseSeconds": null,
+      "stations": []
+    },
+    "Unassembled Enforcer": {
+      "baseSeconds": 5,
+      "stations": [
+        "City Terminal",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Terror Bird Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Training Dummy": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Trap Bait (Primitive Plus)": {
+      "baseSeconds": null,
+      "stations": []
+    },
+    "Tranq Spear Bolt": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Ugly Foliage Friends Sweater Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Therizinosaurus Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Thatch Wall": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Ugly Noglin Regift Sweater Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Transponder Tracker": {
+      "baseSeconds": 10,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Ugly Turkey Target Sweater Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Titanosaur Platform Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Torch Sparkler Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Ugly Dodo's Revenge Sweater Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Tomato Juice (Primitive Plus)": {
+      "baseSeconds": 30,
+      "stations": [
+        "Fruit Press (Primitive Plus)"
+      ]
+    },
+    "Thatch Doorframe": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Thatch Ceiling": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Uncle Sam Hat Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Ugly Caroling Sweater Skin": {
+      "baseSeconds": null,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Tentacle-Print Shirt Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Ugly Cornucopia Sweater Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Tek Windowframe": {
+      "baseSeconds": 90,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Ugly Rockwell Sweater Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Thylacoleo Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Vacuum Compartment": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tent": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Unassembled Exo-Mek": {
+      "baseSeconds": 30,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Unstable Element Shard": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory",
+        "Makeshift Megalab"
+      ]
+    },
+    "Transponder Node": {
+      "baseSeconds": 3,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Ugly T-Rex Sweater Skin": {
+      "baseSeconds": null,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Tropeognathus Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Tudor Bar (L Shaped) (Primitive Plus)": {
+      "baseSeconds": 4,
+      "stations": [
+        "Construction Table (Primitive Plus)"
+      ]
+    },
+    "Thalassian Ammo": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator"
+      ]
+    },
+    "Tranq Thalassian Ammo": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator"
+      ]
+    },
+    "Thalassian Rifle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator"
+      ]
+    },
+    "Water Soaker Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot",
+        "Smithy"
+      ]
+    },
+    "Wooden Ceiling": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wooden Catwalk": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wooden Double Door": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wooden Foundation": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Vessel": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wooden Spike Wall": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wood Elevator Track": {
+      "baseSeconds": 5,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Wooden Sign": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wooden Chair": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Vampire Dodo Swim Bottom Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Wooden Staircase": {
+      "baseSeconds": 2,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wooden Fence Foundation": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wooden Pillar": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Velonasaur Saddle": {
+      "baseSeconds": 10,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Wooden Cabinet (Primitive Plus)": {
+      "baseSeconds": null,
+      "stations": [
+        "Construction Table (Primitive Plus)"
+      ]
+    },
+    "Vault": {
+      "baseSeconds": null,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Wardrums": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wooden Fence Support": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Weapon Rack (Primitive Plus)": {
+      "baseSeconds": null,
+      "stations": []
+    },
+    "Wind Turbine": {
+      "baseSeconds": 3,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Wooden Club": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Windmill (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": []
+    },
+    "Wooden Shield": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wooden Billboard": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wooden Triangle Foundation": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Water Well": {
+      "baseSeconds": 3,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wood Handrail (Primitive Plus)": {
+      "baseSeconds": 2,
+      "stations": []
+    },
+    "Wooden Triangle Ceiling": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wood Post Fence (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": []
+    },
+    "Vampire Dodo Swim Top Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Water Well (Primitive Plus)": {
+      "baseSeconds": 25,
+      "stations": [
+        "Construction Table (Primitive Plus)"
+      ]
+    },
+    "Wooden Table": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "War Map": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Water Reservoir": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wooden Railing": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wooden Stairs": {
+      "baseSeconds": 5,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wooden Hatchframe": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wooden Ramp": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Vacuum Compartment Moonpool": {
+      "baseSeconds": 5,
+      "stations": [
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Wooden Double Doorframe": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Water Jar": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wooden Raft": {
+      "baseSeconds": 15,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Viking Axe (Primitive Plus)": {
+      "baseSeconds": null,
+      "stations": [
+        "Grindstone (Primitive Plus)"
+      ]
+    },
+    "Wooden Ladder": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wooden Tree Platform": {
+      "baseSeconds": 3,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Wooden Club (Primitive Plus)": {
+      "baseSeconds": null,
+      "stations": []
+    },
+    "Vertical Electrical Cable": {
+      "baseSeconds": 3,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Wooden Trapdoor": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Wooden Doorframe": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Zip-Line Motor Attachment Skin": {
+      "baseSeconds": 10,
+      "stations": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Wooden Wall": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Yurt (Primitive Plus)": {
+      "baseSeconds": 5,
+      "stations": []
+    },
+    "Zombie Emote": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Wooden Triangle Roof": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Zombie Wyvern-Print Shirt Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Wooden Wall Sign": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Woolly Rhino Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "Wooden Windowframe": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Zip-Line Anchor": {
+      "baseSeconds": 1,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    },
+    "ZombDodo-Print Shirt Skin": {
+      "baseSeconds": 5,
+      "stations": [
+        "Cooking Pot"
+      ]
+    },
+    "Wooden Window": {
+      "baseSeconds": null,
+      "stations": [
+        "Inventory"
+      ]
+    },
+    "Xiphactinus Saddle": {
+      "baseSeconds": null,
+      "stations": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Tek Replicator",
+        "Exo-Mek"
+      ]
+    }
+  }
+}

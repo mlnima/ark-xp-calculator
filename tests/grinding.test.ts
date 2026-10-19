@@ -7,6 +7,8 @@ const levels = [{ level: 1, totalXp: 0 }, { level: 2, totalXp: 10000 }];
 const input = (changes: Partial<CalculatorInput> = {}): CalculatorInput => ({
   item: { name: "Test recipe", experience: 100, resources: ["Metal Ingot"] },
   qualityId: "primitive",
+  stationId: "",
+  craftSeconds: "",
   serverRate: "1",
   currentLevel: "1",
   targetLevel: "2",

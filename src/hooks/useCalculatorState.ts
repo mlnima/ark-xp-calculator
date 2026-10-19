@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { buffs } from "../data/buffs";
 import { qualities } from "../data/qualities";
+import { craftingStations } from "../data/crafting";
 import type {
   BuffId,
   CalculatorInput,
@@ -30,6 +31,8 @@ const resourcesForItem = (item: CraftingItem | null, previous: ResourceInput[] =
 const emptyInput = (): CalculatorInput => ({
   item: null,
   qualityId: "",
+  stationId: "",
+  craftSeconds: "",
   serverRate: "",
   currentLevel: "",
   targetLevel: "",
@@ -53,6 +56,8 @@ const hydrateInput = (stored: unknown, items: CraftingItem[]): CalculatorInput =
   return {
     item,
     qualityId,
+    stationId: craftingStations.some(({ id }) => id === value.stationId) ? value.stationId || "" : "",
+    craftSeconds: typeof value.craftSeconds === "string" ? value.craftSeconds : "",
     serverRate: typeof value.serverRate === "string" ? value.serverRate : "",
     currentLevel: typeof value.currentLevel === "string" ? value.currentLevel : "",
     targetLevel: typeof value.targetLevel === "string" ? value.targetLevel : "",
@@ -87,6 +92,8 @@ export const useCalculatorState = (items: CraftingItem[]) => {
   const selectItem = (item: CraftingItem) => setInput((current) => ({
     ...current,
     item,
+    stationId: "",
+    craftSeconds: "",
     resources: resourcesForItem(item),
   }));
   const updateResourceQuantity = (id: string, quantity: string) => setInput((current) => ({

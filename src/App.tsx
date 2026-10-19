@@ -5,6 +5,7 @@ import sourceData from "./data/source.json";
 import { AppFooter } from "./components/AppFooter";
 import { AppHeader } from "./components/AppHeader";
 import { BlueprintForm } from "./components/BlueprintForm";
+import { CraftingSettings } from "./components/CraftingSettings";
 import { ExperienceSettings } from "./components/ExperienceSettings";
 import { GrindingSettings } from "./components/GrindingSettings";
 import { ItemPicker } from "./components/ItemPicker";
@@ -22,6 +23,7 @@ import "./styles/forms.css";
 import "./styles/blueprint.css";
 import "./styles/picker.css";
 import "./styles/results.css";
+import "./styles/crafting.css";
 import "./styles/saved.css";
 import "./styles/responsive.css";
 
@@ -81,6 +83,11 @@ const App = () => {
               <QualityPicker
                 onChange={(qualityId) => setInput((current) => ({ ...current, qualityId }))}
                 selected={input.qualityId}
+              />
+              <CraftingSettings
+                input={input}
+                onStationChange={(stationId) => setInput((current) => ({ ...current, stationId }))}
+                onCraftSecondsChange={(craftSeconds) => setInput((current) => ({ ...current, craftSeconds }))}
               />
             </StepCard>
             <StepCard
