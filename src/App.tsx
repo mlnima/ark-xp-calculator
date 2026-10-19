@@ -53,7 +53,7 @@ const App = () => {
           <p>Choose your blueprint, tribe setup, and active boosts. The plan updates instantly with per-player XP and the full resource haul.</p>
           <div className="hero-pills">
             <span>50% tribe share</span>
-            <span>1–70 crafters</span>
+            <span>1–70 players</span>
             <span>Primitive–Ascendant</span>
           </div>
         </section>
@@ -92,7 +92,7 @@ const App = () => {
               />
             </StepCard>
             <StepCard
-              description="Apply the server rate, temporary buffs, and nearby tribe crafters."
+              description="Set the party size, active stations, server rate, and temporary buffs."
               icon="boost"
               number="02"
               title="Rates, boosts & tribe"
@@ -100,19 +100,21 @@ const App = () => {
               <ExperienceSettings
                 onBuffChange={toggleBuff}
                 onPlayerCountChange={(playerCount) => setInput((current) => ({ ...current, playerCount }))}
+                onStationCountChange={(stationCount) => setInput((current) => ({ ...current, stationCount }))}
                 onServerRateChange={(serverRate) => setInput((current) => ({ ...current, serverRate }))}
                 onTribeTowerBonusChange={(tribeTowerBonus) => setInput((current) => ({
                   ...current,
                   tribeTowerBonus,
                 }))}
                 playerCount={input.playerCount}
+                stationCount={input.stationCount}
                 selectedBuffs={input.buffIds}
                 serverRate={input.serverRate}
                 tribeTowerBonus={input.tribeTowerBonus}
               />
             </StepCard>
             <StepCard
-              description="Select the level you are starting at and the level every crafter should reach."
+              description="Select the starting level and the target every party member should reach."
               icon="levels"
               number="03"
               title="Current & target level"

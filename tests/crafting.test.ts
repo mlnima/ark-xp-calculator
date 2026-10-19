@@ -26,13 +26,14 @@ const input = (changes: Partial<CalculatorInput> = {}): CalculatorInput => ({
   recycler: false,
   resources: [{ id: "metal", name: "Metal Ingot", quantity: "100" }],
   ...changes,
+  stationCount: changes.stationCount ?? changes.playerCount ?? 1,
 });
 
 test("uses the published recipe time and compares both station queues", () => {
   const plan = input();
   plan.craftSeconds = defaultCraftSeconds(plan.item, plan.stationId);
   const result = calculate(plan, levels)!;
-  assert.equal(result.craftsPerPlayer, 100);
+  assert.equal(result.craftsPerStation, 100);
   assert.equal(result.timing?.partySeconds, 1000);
   assert.deepEqual(result.timing?.stations.map(({ secondsPerCraft, partySeconds }) =>
     [secondsPerCraft, partySeconds]), [[10, 1000], [10 / 12, 100 * (10 / 12)]]);
@@ -42,7 +43,7 @@ test("uses the published recipe time and compares both station queues", () => {
 test("cake adds ten percent XP and stacks with the selected egg and broth", () => {
   const result = calculate(input({ buffIds: ["broth", "egg", "cake"] }), levels)!;
   assert.equal(result.combinedMultiplier, 1.5 * 1.1 * 1.1);
-  assert.equal(result.craftsPerPlayer, 56);
+  assert.equal(result.craftsPerStation, 56);
   assert.equal(result.timing?.partySeconds, 672);
   assert.deepEqual(result.timing?.consumables.map(({ id, perPlayer, total }) =>
     [id, perPlayer, total]), [["broth", 1, 1], ["egg", 2, 2], ["cake", 2, 2]]);
@@ -62,7 +63,7 @@ test("counts initial doses and renewals at each exact buff boundary", () => {
 test("party time uses parallel crafting and rounds doses per player before multiplying", () => {
   const plan = input({ playerCount: 2, buffIds: ["egg", "broth", "cake"] });
   const result = calculate(plan, levels)!;
-  assert.equal(result.craftsPerPlayer, 37);
+  assert.equal(result.craftsPerStation, 37);
   assert.equal(result.totalCrafts, 74);
   assert.equal(result.timing?.partySeconds, 444);
   assert.deepEqual(result.timing?.consumables.map(({ perPlayer, total }) => [perPlayer, total]),
@@ -90,15 +91,15 @@ test("quality, XP rate, buffs, and party size affect the time to target", () => 
   ]) {
     const result = calculate(input(changes), levels)!;
     assert.ok(result.timing!.partySeconds < 1200);
-    assert.equal(result.timing!.partySeconds, result.craftsPerPlayer * 12);
+    assert.equal(result.timing!.partySeconds, result.craftsPerStation * 12);
     assert.ok(result.projectedXp >= result.xpRequired);
   }
 });
 
 test("grinding time includes every recraft instead of just the first batch", () => {
   const result = calculate(input({ grinding: true, recycler: true, buffIds: ["cake"] }), levels)!;
-  assert.ok(result.initialCraftsPerPlayer < result.craftsPerPlayer);
-  assert.equal(result.timing?.partySeconds, result.craftsPerPlayer * 12);
+  assert.ok(result.initialCraftsPerStation < result.craftsPerStation);
+  assert.equal(result.timing?.partySeconds, result.craftsPerStation * 12);
   assert.equal(result.timing?.consumables[0].perPlayer, 2);
 });
 

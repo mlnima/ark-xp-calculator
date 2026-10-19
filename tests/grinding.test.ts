@@ -23,6 +23,7 @@ const input = (changes: Partial<CalculatorInput> = {}): CalculatorInput => ({
   recycler: false,
   resources: [{ id: "metal", name: "Metal Ingot", quantity: "100" }],
   ...changes,
+  stationCount: changes.stationCount ?? changes.playerCount ?? 1,
 });
 
 test("grinding and Recycler lower starting resources and the first craft batch", () => {
@@ -30,8 +31,8 @@ test("grinding and Recycler lower starting resources and the first craft batch",
   const grinding = calculate(input({ grinding: true }), levels)!;
   const recycler = calculate(input({ grinding: true, recycler: true }), levels)!;
   assert.deepEqual([normal, grinding, recycler].map((result) => result.resources[0].total), [10000, 7030, 6139]);
-  assert.deepEqual([normal, grinding, recycler].map((result) => result.initialCraftsPerPlayer), [100, 70, 61]);
-  assert.deepEqual([normal, grinding, recycler].map((result) => result.recycledCraftsPerPlayer), [0, 30, 39]);
+  assert.deepEqual([normal, grinding, recycler].map((result) => result.initialCraftsPerStation), [100, 70, 61]);
+  assert.deepEqual([normal, grinding, recycler].map((result) => result.recycledCraftsPerStation), [0, 30, 39]);
   for (const result of [normal, grinding, recycler]) {
     assert.equal(result.totalCrafts, 100);
     assert.equal(result.projectedXp, 10000);
@@ -46,12 +47,12 @@ test("Recycler has no effect when grinding is off", () => {
 test("each tribe crafter retains materials to fund their first craft", () => {
   const grinding = calculate(input({ grinding: true, playerCount: 2 }), levels)!;
   const recycler = calculate(input({ grinding: true, recycler: true, playerCount: 2 }), levels)!;
-  assert.equal(grinding.craftsPerPlayer, 67);
+  assert.equal(grinding.craftsPerStation, 67);
   assert.equal(grinding.totalCrafts, 134);
   assert.equal(grinding.resources[0].total, 9440);
   assert.equal(recycler.resources[0].total, 8252);
-  assert.equal(grinding.initialCraftsPerPlayer, 47);
-  assert.equal(recycler.initialCraftsPerPlayer, 41);
+  assert.equal(grinding.initialCraftsPerStation, 47);
+  assert.equal(recycler.initialCraftsPerStation, 41);
   assert.ok(grinding.projectedXp >= grinding.xpRequired);
   assert.ok(recycler.projectedXp >= recycler.xpRequired);
 });
@@ -59,9 +60,9 @@ test("each tribe crafter retains materials to fund their first craft", () => {
 test("one craft per player still needs the full recipe before any refunds exist", () => {
   for (const recycler of [false, true]) {
     const result = calculate(input({ grinding: true, recycler, playerCount: 70, serverRate: "100" }), levels)!;
-    assert.equal(result.craftsPerPlayer, 1);
-    assert.equal(result.initialCraftsPerPlayer, 1);
-    assert.equal(result.recycledCraftsPerPlayer, 0);
+    assert.equal(result.craftsPerStation, 1);
+    assert.equal(result.initialCraftsPerStation, 1);
+    assert.equal(result.recycledCraftsPerStation, 0);
     assert.equal(result.resources[0].total, 7000);
   }
 });
@@ -79,8 +80,8 @@ test("rounds each ingredient refund per item and handles complete recovery of sm
   const recycler = calculate({ ...recipe, recycler: true }, levels)!;
   assert.deepEqual(normal.resources.map(({ total }) => total), [1, 403, 201]);
   assert.deepEqual(recycler.resources.map(({ total }) => total), [1, 403, 102]);
-  assert.equal(normal.initialCraftsPerPlayer, 1);
-  assert.equal(recycler.initialCraftsPerPlayer, 1);
+  assert.equal(normal.initialCraftsPerStation, 1);
+  assert.equal(recycler.initialCraftsPerStation, 1);
 });
 
 test("rejects missing and fractional blueprint costs when grinding", () => {
@@ -110,9 +111,9 @@ test("initial inventories reach the XP target through repeated batch crafting an
       const inventory = result.resources.map(({ total }) => total / playerCount);
       let completed = 0;
       let batches = 0;
-      while (completed < result.craftsPerPlayer) {
+      while (completed < result.craftsPerStation) {
         const batch = Math.min(
-          result.craftsPerPlayer - completed,
+          result.craftsPerStation - completed,
           ...inventory.map((quantity, index) => Math.floor(quantity / costs[index])),
         );
         assert.ok(batch > 0, "must be able to craft the next batch without gathering more resources");
@@ -122,7 +123,7 @@ test("initial inventories reach the XP target through repeated batch crafting an
           inventory[index] = quantity - batch * costs[index] + batch * refunds[index];
         });
       }
-      assert.equal(completed, result.craftsPerPlayer);
+      assert.equal(completed, result.craftsPerStation);
       assert.ok(batches > 1);
       assert.ok(completed * result.xpPerPlayerPerRound >= result.xpRequired);
     }

@@ -54,6 +54,7 @@ export type CalculatorInput = {
   currentLevel: string;
   targetLevel: string;
   playerCount: number;
+  stationCount: number;
   buffIds: BuffId[];
   tribeTowerBonus: string;
   grinding: boolean;
@@ -80,10 +81,12 @@ export type CalculationResult = {
   ownXpPerCraft: number;
   sharedXpPerRound: number;
   xpPerPlayerPerRound: number;
-  craftsPerPlayer: number;
+  craftsPerStation: number;
   totalCrafts: number;
-  initialCraftsPerPlayer: number;
-  recycledCraftsPerPlayer: number;
+  initialCraftsPerStation: number;
+  recycledCraftsPerStation: number;
+  crafterXpPerRound: number;
+  passiveXpPerRound: number;
   projectedXp: number;
   xpOverTarget: number;
   combinedMultiplier: number;

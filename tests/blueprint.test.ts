@@ -9,7 +9,7 @@ import type { CalculatorInput } from "../src/types/calculator.ts";
 
 const input = (): CalculatorInput => ({
   item: null, qualityId: "", stationId: "smithy", craftSeconds: "", craftTimeBasis: "station", clockEnabled: false, clockMode: "",
-  serverRate: "1", currentLevel: "1", targetLevel: "2", playerCount: 3, buffIds: [],
+  serverRate: "1", currentLevel: "1", targetLevel: "2", playerCount: 3, stationCount: 3, buffIds: [],
   tribeTowerBonus: "", grinding: false, recycler: false, splitResources: false, resources: [],
 });
 const shotgun = items.find(({ name }) => name === "Shotgun")!;
@@ -68,7 +68,7 @@ test("fractional craft times do not add an extra consumable at exact expiry", ()
 test("party resource shares cover every craft without changing XP, timing, or supplies", () => {
   for (const playerCount of [1, 3, 70]) {
     for (const grinding of [false, true]) {
-      const plan = { ...ready(), playerCount, grinding, recycler: grinding, buffIds: ["egg" as const] };
+      const plan = { ...ready(), playerCount, stationCount: playerCount, grinding, recycler: grinding, buffIds: ["egg" as const] };
       const result = calculate(plan, levels)!;
       const split = calculate({ ...plan, splitResources: true }, levels)!;
       assert.deepEqual(result, split);

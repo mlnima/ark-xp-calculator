@@ -58,13 +58,14 @@ const input = (changes: Partial<CalculatorInput> = {}): CalculatorInput => ({
     { id: "wood", name: "Wood", quantity: "40" },
   ],
   ...changes,
+  stationCount: changes.stationCount ?? changes.playerCount ?? 1,
 });
 
 test("calculates the supplied ramshackle shotgun blueprint for solo crafting", () => {
   const result = calculate(input(), levels);
   assert.ok(result);
   assert.equal(result.ownXpPerCraft, 846.4);
-  assert.equal(result.craftsPerPlayer, 3);
+  assert.equal(result.craftsPerStation, 3);
   assert.equal(result.totalCrafts, 3);
   assert.deepEqual(result.resources.map(({ name, total }) => [name, total]), [
     ["Hide", 150],
@@ -88,7 +89,7 @@ test("adds 50 percent shared XP from every other simultaneous crafter", () => {
   assert.ok(result);
   assert.equal(result.sharedXpPerRound, 423.2);
   assert.equal(result.xpPerPlayerPerRound, 1269.6);
-  assert.equal(result.craftsPerPlayer, 2);
+  assert.equal(result.craftsPerStation, 2);
   assert.equal(result.totalCrafts, 4);
   assert.equal(result.resources.find(({ name }) => name === "Metal Ingot")?.total, 640);
 });
@@ -97,7 +98,7 @@ test("supports the full 70-player range", () => {
   const result = calculate(input({ playerCount: 70 }), levels);
   assert.ok(result);
   assert.equal(result.sharedXpPerRound, result.ownXpPerCraft * 34.5);
-  assert.equal(result.totalCrafts, result.craftsPerPlayer * 70);
+  assert.equal(result.totalCrafts, result.craftsPerStation * 70);
 });
 
 test("multiplies quality, rate, and compatible active buffs", () => {

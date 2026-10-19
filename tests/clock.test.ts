@@ -10,7 +10,7 @@ const input = (): CalculatorInput => ({
   item: { name: "Rex Saddle", experience: 100, resources: ["Metal Ingot"] },
   qualityId: "primitive", stationId: "smithy", craftSeconds: "24", craftTimeBasis: "station",
   clockEnabled: false, clockMode: "", serverRate: "1", currentLevel: "1", targetLevel: "2",
-  playerCount: 1, buffIds: ["broth", "egg", "cake"], tribeTowerBonus: "", grinding: false,
+  playerCount: 1, stationCount: 1, buffIds: ["broth", "egg", "cake"], tribeTowerBonus: "", grinding: false,
   recycler: false, splitResources: true, resources: [{ id: "metal", name: "Metal Ingot", quantity: "100" }],
 });
 
@@ -19,7 +19,7 @@ test("area and targeted clock modes give 2x and 4x speed without changing XP or 
   const normal = calculate(plan, levels)!;
   const area = calculate(withClock(plan, true, "area"), levels)!;
   const targeted = calculate(withClock(plan, true, "targeted"), levels)!;
-  assert.equal(normal.craftsPerPlayer, 67);
+  assert.equal(normal.craftsPerStation, 67);
   assert.deepEqual([normal, area, targeted].map(({ timing }) => timing?.secondsPerCraft), [24, 12, 6]);
   assert.deepEqual([normal, area, targeted].map(({ timing }) => timing?.partySeconds), [1608, 804, 402]);
   assert.deepEqual([normal, area, targeted].map(({ timing }) => timing?.consumables.map(({ perPlayer }) => perPlayer)),
@@ -27,7 +27,7 @@ test("area and targeted clock modes give 2x and 4x speed without changing XP or 
   for (const result of [area, targeted]) {
     assert.equal(result.combinedMultiplier, normal.combinedMultiplier);
     assert.equal(result.ownXpPerCraft, normal.ownXpPerCraft);
-    assert.equal(result.craftsPerPlayer, normal.craftsPerPlayer);
+    assert.equal(result.craftsPerStation, normal.craftsPerStation);
     assert.deepEqual(result.resources, normal.resources);
   }
 });
@@ -66,7 +66,7 @@ test("clock speed and rounding stay consistent across party sizes, stations, and
   for (const playerCount of [1, 3, 70]) {
     for (const stationId of ["smithy", "replicator"] as const) {
       for (const grinding of [false, true]) {
-        const plan = withStation({ ...input(), playerCount, grinding, recycler: grinding }, stationId);
+        const plan = withStation({ ...input(), playerCount, stationCount: playerCount, grinding, recycler: grinding }, stationId);
         const normal = calculate(plan, levels)!;
         for (const mode of ["area", "targeted"] as const) {
           const result = calculate(withClock(plan, true, mode), levels)!;

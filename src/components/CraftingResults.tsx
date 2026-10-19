@@ -16,8 +16,8 @@ export const CraftingResults = ({ input, result }: Props) => {
         <>
           <strong className="party-duration">{formatDuration(timing.partySeconds)}</strong>
           <p className="crafting-help">
-            Average per player and whole party · {input.playerCount} parallel {input.playerCount === 1 ? "station" : "stations"}
-            <br />{formatNumber(result.craftsPerPlayer)} crafts per player · {formatDuration(timing.secondsPerCraft)} per craft
+            Time until every player reaches the target · {input.stationCount} parallel {input.stationCount === 1 ? "station" : "stations"}
+            <br />{formatNumber(result.craftsPerStation)} crafts per station · {formatDuration(timing.secondsPerCraft)} per craft
             {input.clockEnabled && <><br />Clockface: {clockModes.find(({ id }) => id === input.clockMode)?.label} · {clockSpeed(input)}× speed</>}
           </p>
           <div className="station-comparison" aria-label="Station time comparison">
@@ -46,7 +46,7 @@ export const CraftingResults = ({ input, result }: Props) => {
             </table>
           ) : <p className="crafting-help">Select Golden Hesperornis Egg, Broth of Enlightenment, or EXP Cake Slice to include supplies.</p>}
           <p className="crafting-help">
-            Everyone starts together at the same level with the same blueprint and boosts.
+            Everyone starts together at the same level with the same blueprint and boosts. All active stations run in parallel.
             Quality, XP rate, and boosts affect the crafts needed; station speed sets the craft time.
             Reapply selected boosts throughout. Supplies include the first dose and renewals, rounded up per player.
             Gathering, loading, pauses, and {input.grinding ? "grinding/transfer time are excluded; every recraft is included." : "fuel are excluded."}

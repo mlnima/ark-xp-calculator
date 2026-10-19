@@ -1,5 +1,6 @@
 import { qualities } from "../data/qualities";
 import { formatCompact, formatNumber } from "../lib/format";
+import { partySetup } from "../lib/party";
 import type { CalculationResult, CalculatorInput } from "../types/calculator";
 import { Icon } from "./Icon";
 import { CraftingResults } from "./CraftingResults";
@@ -21,6 +22,7 @@ const Stat = ({ label, value, detail }: { label: string; value: string; detail: 
 
 export const ResultsPanel = ({ input, issues, result, onSplitResourcesChange }: Props) => {
   const quality = qualities.find(({ id }) => id === input.qualityId);
+  const party = partySetup(input);
   return (
     <aside className="results-panel" aria-live="polite">
       <div className="results-topline">
@@ -49,16 +51,17 @@ export const ResultsPanel = ({ input, issues, result, onSplitResourcesChange }: 
           </div>
           <div className="craft-total">
             <span>{input.grinding ? "First batch to craft" : "Total items to craft"}</span>
-            <strong>{formatNumber(result.initialCraftsPerPlayer * input.playerCount)}</strong>
-            <p>{formatNumber(result.initialCraftsPerPlayer)} per player × {input.playerCount} {input.playerCount === 1 ? "player" : "players"}</p>
+            <strong>{formatNumber(result.initialCraftsPerStation * input.stationCount)}</strong>
+            <p>{formatNumber(result.initialCraftsPerStation)} per station × {input.stationCount} active {input.stationCount === 1 ? "station" : "stations"}</p>
+            <p>{party.craftingPlayers} crafting · {party.sharingPlayers} shared XP only</p>
           </div>
           {input.grinding && (
             <div className="shared-explanation">
               <Icon name="info" size={17} />
               <p>
-                Then grind and recraft {formatNumber(result.recycledCraftsPerPlayer)} more per player
+                Then grind and recraft {formatNumber(result.recycledCraftsPerStation)} more per station
                 using refunds and remaining materials across as many batches as needed.
-                Total: {formatNumber(result.totalCrafts)} crafts ({formatNumber(result.craftsPerPlayer)} per player).
+                Total: {formatNumber(result.totalCrafts)} crafts ({formatNumber(result.craftsPerStation)} per station).
                 Grinding items gives no XP; the total crafts needed for your target stays the same.
               </p>
             </div>
@@ -75,16 +78,19 @@ export const ResultsPanel = ({ input, issues, result, onSplitResourcesChange }: 
               value={formatNumber(result.ownXpPerCraft)}
             />
             <Stat
-              detail={`${input.playerCount - 1} nearby crafters at 50%`}
-              label="Shared XP / round"
-              value={formatNumber(result.sharedXpPerRound)}
+              detail={`${party.minStationsPerCrafter} owned ${party.minStationsPerCrafter === 1 ? "station" : "stations"} plus tribe share; minimum`}
+              label="Crafter XP / round"
+              value={formatNumber(result.crafterXpPerRound)}
             />
             <Stat
               detail={`${formatNumber(result.xpOverTarget)} XP above target`}
-              label="XP / player / round"
+              label="Lowest player XP / round"
               value={formatNumber(result.xpPerPlayerPerRound)}
             />
           </div>
+          {party.sharingPlayers > 0 && (
+            <p className="crafting-help">Shared-only player: {formatNumber(result.passiveXpPerRound)} XP per round from {input.stationCount} stations. Their progress determines when the party finishes.</p>
+          )}
           <CraftingResults input={input} result={result} />
           <div className="resource-results">
             <div className="resource-result-heading">
@@ -116,7 +122,7 @@ export const ResultsPanel = ({ input, issues, result, onSplitResourcesChange }: 
           </div>
           <div className="shared-explanation">
             <Icon name="info" size={17} />
-            <p>Each player gets full XP from their own craft plus 50% of each nearby tribemate’s craft. Resource totals cover every player’s items.</p>
+            <p>One round is one craft at every active station. Each crafter gets full XP from their assigned stations plus 50% from the others. Shared-only players get 50% from every station. Everyone remains in tribe XP range; all stations keep running until everyone reaches the target. Resource totals cover every station’s items.</p>
           </div>
         </div>
       )}

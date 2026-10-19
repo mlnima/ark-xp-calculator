@@ -20,7 +20,7 @@ export const CraftingSettings = ({ input, onStationChange, onCraftSecondsChange,
   return (
     <div className="crafting-settings settings-stack">
       <label className="input-field">
-        <span className="field-label">Crafting station per player</span>
+        <span className="field-label">Crafting station type</span>
         <span className="input-shell select-shell">
           <select
             onChange={(event) => onStationChange(event.target.value as StationId)}
@@ -58,7 +58,7 @@ export const CraftingSettings = ({ input, onStationChange, onCraftSecondsChange,
         <span>
           {input.item && !available.some(({ id }) => id === input.stationId)
             ? `This recipe lists ${recipe?.stations.join(", ") || "no verified stations"}. Select a compatible station for time and supply totals.`
-            : "Smithy: 1× speed. Tek Replicator: 12× speed for normal recipes. Each player uses a separate station."}
+            : "Smithy: 1× speed. Tek Replicator: 12× speed for normal recipes. Set how many stations run in the party section."}
           {recipe?.sourceUrl && <> <a href={recipe.timeSourceUrl || recipe.sourceUrl} rel="noreferrer" target="_blank">Crafting time source</a> · checked {craftingCheckedAt}.</>}
         </span>
       </div>

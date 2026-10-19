@@ -7,7 +7,8 @@ Unofficial local-first crafting experience and blueprint resource calculator for
 - 762 searchable crafting items with names and crafting XP.
 - Primitive through Ascendant crafting-XP multipliers.
 - Custom server XP rate, temporary XP buffs, Drakeling Native Biome Boost, and variable Tribe Tower XP bonus.
-- Simultaneous tribe crafting for 1–70 players with 50% shared XP from each nearby tribemate.
+- Independent sliders for 1–70 party members and 1–100 active crafting stations, with 50% tribe XP sharing.
+- Multiple stations per crafter and shared-only party members, with completion based on every player reaching the target.
 - Smithy and Tek Replicator selection with recipe compatibility, per-craft time, and a party-time comparison.
 - Golden Hesperornis Egg, Broth of Enlightenment, and EXP Cake Slice counts per player and for the whole party.
 - Current and target level calculation through level 245 from bundled total-XP data.
@@ -22,19 +23,21 @@ Unofficial local-first crafting experience and blueprint resource calculator for
 
 ## Calculation
 
-Each player receives their full crafting XP plus 50% of the crafting XP earned by every other nearby crafter:
+Each crafter receives full XP from their assigned stations plus 50% from the other stations. Shared-only players receive 50% from every active station. Stations are assigned evenly across as many players as possible: 10 stations and 50 players means 10 crafters and 40 shared-only players; 20 stations and one player means that player runs all 20. One round completes one craft at every station:
 
 ```text
-own XP = item XP × quality × server rate × active buff multipliers
-shared XP per round = own XP × 0.5 × (players - 1)
-XP per player per round = own XP + shared XP per round
-crafts per player = ceil(required XP / XP per player per round)
-total items = crafts per player × players
+own XP per craft = item XP × quality × server rate × active buff multipliers
+fewest stations owned by a player = floor(active stations / party members)
+lowest XP per player per round = own XP per craft × (active stations + fewest stations owned) / 2
+crafts per station = ceil(required XP / lowest XP per player per round)
+total items = crafts per station × active stations
 ```
 
-The current level is treated as the beginning of that level. Resource totals cover every item crafted by every participating player. Levels 221–229 use the same XP increment as level 219–220.
+The current level is treated as the beginning of that level. Resource totals cover every active station's crafts. When there are shared-only players, their lower XP determines the session length. With uneven station assignments, the crafter with the fewest stations determines completion. Other crafters can exceed the target. Everyone remains within tribe XP range and all stations continue running until everyone reaches the target. The [official wiki's experience rule](https://ark.wiki.gg/wiki/Experience) describes 50% tribe sharing. Levels 221–229 use the same XP increment as level 219–220.
 
-Party time assumes everyone starts together, with the same blueprint, level, and boosts, using one independent station per player. It is also the average time per player in this model: `crafts per player × craft seconds at the selected station`. Smithy speed is 1×; Tek Replicator speed is 12×. The editable time field already includes station speed, so it is not divided a second time. Fractional seconds retain full numeric precision for calculations; small durations display up to six decimal places. Quality and XP boosts affect the number of crafts required. All recrafts count toward crafting time when grinding is selected. Gathering, station loading, grinding/transfers, pauses, and fuel are excluded, so elapsed play time may be longer. Selected temporary effects must be maintained throughout the session.
+Party time assumes everyone starts together, with the same blueprint, level, and boosts, and every active station runs in parallel: `crafts per station × craft seconds at the selected station`. This is the time until every party member reaches the target. Smithy speed is 1×; Tek Replicator speed is 12×. The editable time field already includes station speed, so it is not divided a second time. Fractional seconds retain full numeric precision for calculations; small durations display up to six decimal places. Quality and XP boosts affect the number of crafts required. All recrafts count toward crafting time when grinding is selected. Gathering, station loading, grinding/transfers, pauses, and fuel are excluded, so elapsed play time may be longer. Selected temporary effects must be maintained throughout the session.
+
+Party size and station count are saved independently in drafts and named calculations. Saved plans without a station count retain one station per player. Changing party size does not change the number of active stations.
 
 Recipe times, primitive ingredient quantities, source URLs, and station compatibility are bundled in `src/data/crafting.json`. ASA crafting times from ARK Unity's item data take priority over wiki times where available; wiki recipes provide ingredient quantities. For example, [Shotgun](https://ark-unity.com/ark-survival-ascended/items/primitive-shotgun/) takes 15 seconds before station speed and [Flak Chestpiece](https://ark-unity.com/ark-survival-ascended/items/primitive-flak-chestpiece/) takes 5 seconds. Each researched time populates the editable field automatically. Smithy is selected initially, both stations remain selectable, and changing station converts an entered override to the new station's speed. Incompatible recipes show a message instead of a false time estimate. A genuinely missing time stays empty for manual entry.
 
@@ -46,7 +49,7 @@ Consumable supplies cover the entire selected station's crafting session: `ceil(
 
 Mechanics checked on 2026-10-19: [Golden Hesperornis Egg](https://ark.wiki.gg/wiki/Golden_Hesperornis_Egg), [Broth of Enlightenment](https://ark.wiki.gg/wiki/Broth_of_Enlightenment), [EXP Cake Slice](https://ark.wiki.gg/wiki/EXP_Cake_Slice), [Smithy](https://ark.wiki.gg/wiki/Smithy), [Tek Replicator](https://ark.wiki.gg/wiki/Tek_Replicator), and [Crafting Skill](https://ark.wiki.gg/wiki/Crafting_Skill). Player Crafting Skill does not speed up station crafting.
 
-With grinding enabled, each player reuses recovered ingredients between batches. For an ingredient costing `c` per item and `n` crafts per player, the starting requirement is `(c + (n - 1) × (c - refund)) × players`. This funds the first craft and excludes refunds from the final craft, which cannot fund earlier items. The first batch is limited by the ingredient that can fund the fewest complete recipes; subsequent crafts use refunds and remaining materials. Total crafting XP and total crafts to reach the target stay unchanged because grinding crafted items gives no XP.
+With grinding enabled, each station reuses recovered ingredients between batches. For an ingredient costing `c` per item and `n` crafts per station, the starting requirement is `(c + (n - 1) × (c - refund)) × active stations`. This funds a first craft at every parallel station and excludes refunds from the final craft, which cannot fund earlier items. The first batch is limited by the ingredient that can fund the fewest complete recipes; subsequent crafts use refunds and remaining materials. Resource shares divide these starting supplies across all party members. Total crafting XP and total crafts to reach the target stay unchanged because grinding crafted items gives no XP.
 
 Grinding uses the current English wiki's Ascended return of 30%, rounded up per ingredient per item. The model interprets max-rank Recycler's “30% more” as a relative bonus to that rate (39% before rounding). Both options start unchecked. Only enable grinding for items and ingredients the grinder accepts. The model assumes all listed ingredients can be reused, no spoilage, and all refunds are produced by a player with Recycler when it is selected. Polymer comes back as Organic Polymer. Fuel and the grinder's construction cost are excluded.
 

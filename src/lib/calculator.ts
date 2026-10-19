@@ -1,6 +1,8 @@
 import { buffs } from "../data/buffs.ts";
 import { grindingRules } from "../data/grinding.ts";
 import { qualities } from "../data/qualities.ts";
+import { partyLimits } from "../data/party.ts";
+import { partySetup } from "./party.ts";
 import { calculateTiming } from "./crafting.ts";
 import type {
   CalculationResult,
@@ -34,6 +36,12 @@ export const getInputIssues = (input: CalculatorInput, levels: LevelEntry[]) => 
   if (!input.item) issues.push("Choose a crafting item");
   if (!input.qualityId) issues.push("Choose the blueprint quality");
   if (!positiveNumber(input.serverRate)) issues.push("Enter a server XP rate above zero");
+  if (!Number.isInteger(input.playerCount) || input.playerCount < 1 || input.playerCount > partyLimits.players) {
+    issues.push(`Choose between 1 and ${partyLimits.players} players`);
+  }
+  if (!Number.isInteger(input.stationCount) || input.stationCount < 1 || input.stationCount > partyLimits.stations) {
+    issues.push(`Choose between 1 and ${partyLimits.stations} active stations`);
+  }
   if (input.buffIds.includes("tower") && !positiveNumber(input.tribeTowerBonus)) {
     issues.push("Enter the active Tribe Tower XP bonus");
   }
@@ -47,7 +55,7 @@ export const getInputIssues = (input: CalculatorInput, levels: LevelEntry[]) => 
   return [...issues, ...resourceIssues(input)];
 };
 
-const totalResources = (input: CalculatorInput, craftsPerPlayer: number): ResourceTotal[] => {
+const totalResources = (input: CalculatorInput, craftsPerStation: number): ResourceTotal[] => {
   const grouped = new Map<string, { name: string; perCraft: number }>();
   input.resources.forEach(({ name, quantity }) => {
     const trimmed = name.trim();
@@ -66,8 +74,8 @@ const totalResources = (input: CalculatorInput, craftsPerPlayer: number): Resour
       const returned = input.grinding
         ? Math.min(perCraft, Math.ceil(perCraft * grindingRules.returnPercent * (100 + bonus) / 10000))
         : 0;
-      const perPlayer = perCraft + (craftsPerPlayer - 1) * (perCraft - returned);
-      const total = input.grinding ? perPlayer * input.playerCount : perCraft * (craftsPerPlayer * input.playerCount);
+      const perStation = perCraft + (craftsPerStation - 1) * (perCraft - returned);
+      const total = input.grinding ? perStation * input.stationCount : perCraft * (craftsPerStation * input.stationCount);
       return { name, perCraft, total, perPlayer: Math.ceil(total / input.playerCount) };
     })
     .sort((left, right) => left.name.localeCompare(right.name));
@@ -92,30 +100,36 @@ export const calculate = (
   }, 1);
   const combinedMultiplier = quality.multiplier * rate * buffMultiplier;
   const ownXpPerCraft = input.item.experience * combinedMultiplier;
-  const sharedXpPerRound = ownXpPerCraft * 0.5 * (input.playerCount - 1);
-  const xpPerPlayerPerRound = ownXpPerCraft + sharedXpPerRound;
+  const party = partySetup(input);
+  const fewestOwnedStations = Math.floor(input.stationCount / input.playerCount);
+  const sharedXpPerRound = ownXpPerCraft * 0.5 * (input.stationCount - fewestOwnedStations);
+  const xpPerPlayerPerRound = ownXpPerCraft * fewestOwnedStations + sharedXpPerRound;
+  const crafterXpPerRound = ownXpPerCraft * (party.minStationsPerCrafter + input.stationCount) / 2;
+  const passiveXpPerRound = ownXpPerCraft * input.stationCount / 2;
   const xpRequired = target.totalXp - current.totalXp;
-  const craftsPerPlayer = Math.ceil(xpRequired / xpPerPlayerPerRound);
-  const totalCrafts = craftsPerPlayer * input.playerCount;
-  const resources = totalResources(input, craftsPerPlayer);
-  const initialCraftsPerPlayer = input.grinding
-    ? Math.min(craftsPerPlayer, ...resources.map(({ perCraft, total }) =>
-      Math.floor(total / input.playerCount / perCraft)))
-    : craftsPerPlayer;
-  const projectedXp = craftsPerPlayer * xpPerPlayerPerRound;
+  const craftsPerStation = Math.ceil(xpRequired / xpPerPlayerPerRound);
+  const totalCrafts = craftsPerStation * input.stationCount;
+  const resources = totalResources(input, craftsPerStation);
+  const initialCraftsPerStation = input.grinding
+    ? Math.min(craftsPerStation, ...resources.map(({ perCraft, total }) =>
+      Math.floor(total / input.stationCount / perCraft)))
+    : craftsPerStation;
+  const projectedXp = craftsPerStation * xpPerPlayerPerRound;
   return {
     xpRequired,
     ownXpPerCraft,
     sharedXpPerRound,
     xpPerPlayerPerRound,
-    craftsPerPlayer,
+    craftsPerStation,
     totalCrafts,
-    initialCraftsPerPlayer,
-    recycledCraftsPerPlayer: craftsPerPlayer - initialCraftsPerPlayer,
+    initialCraftsPerStation,
+    recycledCraftsPerStation: craftsPerStation - initialCraftsPerStation,
+    crafterXpPerRound,
+    passiveXpPerRound,
     projectedXp,
     xpOverTarget: projectedXp - xpRequired,
     combinedMultiplier,
-    timing: calculateTiming(input, craftsPerPlayer),
+    timing: calculateTiming(input, craftsPerStation),
     resources,
   };
 };

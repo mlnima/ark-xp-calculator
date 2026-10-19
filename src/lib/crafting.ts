@@ -29,12 +29,12 @@ export const getTimingIssues = (input: CalculatorInput) => {
   return issues;
 };
 
-export const calculateTiming = (input: CalculatorInput, craftsPerPlayer: number): CraftingTiming | null => {
+export const calculateTiming = (input: CalculatorInput, craftsPerStation: number): CraftingTiming | null => {
   if (getTimingIssues(input).length) return null;
   const seconds = baseCraftSeconds(input)!;
   const stations = stationsForInput(input).map(({ id, label, speed }) => {
     const secondsPerCraft = id === input.stationId ? Number(input.craftSeconds) : seconds / speed;
-    return { id, label, secondsPerCraft, partySeconds: craftsPerPlayer * secondsPerCraft };
+    return { id, label, secondsPerCraft, partySeconds: craftsPerStation * secondsPerCraft };
   });
   const selected = stations.find(({ id }) => id === input.stationId)!;
   if (!Number.isFinite(selected.partySeconds) || selected.partySeconds <= 0) return null;

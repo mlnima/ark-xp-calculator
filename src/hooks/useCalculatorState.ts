@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { buffs } from "../data/buffs";
 import { qualities } from "../data/qualities";
 import { clockModes, craftingStations } from "../data/crafting";
+import { restorePartyCounts } from "../lib/party";
 import { clockSpeed, defaultCraftSeconds, fillPrimitiveResources, resourcesForItem, stationSpeed, withClock, withCraftingItem, withQuality, withStation } from "../lib/blueprint";
 import type { ClockMode, StationId } from "../types/crafting";
 import type {
@@ -35,6 +36,7 @@ const emptyInput = (): CalculatorInput => ({
   currentLevel: "",
   targetLevel: "",
   playerCount: 1,
+  stationCount: 1,
   buffIds: [],
   tribeTowerBonus: "",
   grinding: false,
@@ -51,7 +53,6 @@ const hydrateInput = (stored: unknown, items: CraftingItem[]): CalculatorInput =
   const buffIds = Array.isArray(value.buffIds)
     ? value.buffIds.filter((id): id is BuffId => buffs.some((buff) => buff.id === id))
     : [];
-  const players = Number(value.playerCount);
   const clockEnabled = value.clockEnabled === true;
   const clockMode = clockModes.find(({ id }) => id === value.clockMode)?.id || "";
   const stationId = craftingStations.find(({ id }) => id === value.stationId)?.id || "smithy";
@@ -71,7 +72,7 @@ const hydrateInput = (stored: unknown, items: CraftingItem[]): CalculatorInput =
     serverRate: typeof value.serverRate === "string" ? value.serverRate : "",
     currentLevel: typeof value.currentLevel === "string" ? value.currentLevel : "",
     targetLevel: typeof value.targetLevel === "string" ? value.targetLevel : "",
-    playerCount: Number.isFinite(players) ? Math.min(70, Math.max(1, players)) : 1,
+    ...restorePartyCounts(value),
     buffIds,
     tribeTowerBonus: typeof value.tribeTowerBonus === "string" ? value.tribeTowerBonus : "",
     grinding: value.grinding === true,
