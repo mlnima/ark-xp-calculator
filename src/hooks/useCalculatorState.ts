@@ -1,12 +1,14 @@
 import { useEffect, useState } from "react";
 import { buffs } from "../data/buffs";
 import { qualities } from "../data/qualities";
-import { craftingStations } from "../data/crafting";
+import { clockModes, craftingStations } from "../data/crafting";
+import { clockSpeed, defaultCraftSeconds, fillPrimitiveResources, resourcesForItem, stationSpeed, withClock, withCraftingItem, withQuality, withStation } from "../lib/blueprint";
+import type { ClockMode, StationId } from "../types/crafting";
 import type {
   BuffId,
   CalculatorInput,
   CraftingItem,
-  ResourceInput,
+  QualityId,
   SavedCalculation,
 } from "../types/calculator";
 
@@ -21,18 +23,14 @@ const readStored = <T,>(key: string, fallback: T): T => {
   }
 };
 
-const resourcesForItem = (item: CraftingItem | null, previous: ResourceInput[] = []): ResourceInput[] =>
-  item?.resources.map((name, index) => ({
-    id: `resource-${index}`,
-    name,
-    quantity: previous.find((resource) => resource.name === name)?.quantity || "",
-  })) || [];
-
 const emptyInput = (): CalculatorInput => ({
   item: null,
   qualityId: "",
-  stationId: "",
+  stationId: "smithy",
   craftSeconds: "",
+  craftTimeBasis: "station",
+  clockEnabled: false,
+  clockMode: "",
   serverRate: "",
   currentLevel: "",
   targetLevel: "",
@@ -41,6 +39,7 @@ const emptyInput = (): CalculatorInput => ({
   tribeTowerBonus: "",
   grinding: false,
   recycler: false,
+  splitResources: false,
   resources: [],
 });
 
@@ -53,11 +52,22 @@ const hydrateInput = (stored: unknown, items: CraftingItem[]): CalculatorInput =
     ? value.buffIds.filter((id): id is BuffId => buffs.some((buff) => buff.id === id))
     : [];
   const players = Number(value.playerCount);
-  return {
+  const clockEnabled = value.clockEnabled === true;
+  const clockMode = clockModes.find(({ id }) => id === value.clockMode)?.id || "";
+  const stationId = craftingStations.find(({ id }) => id === value.stationId)?.id || "smithy";
+  const storedSeconds = typeof value.craftSeconds === "string" ? value.craftSeconds : "";
+  const craftSeconds = value.craftTimeBasis === "station" || !storedSeconds
+    ? storedSeconds
+    : String(Number(storedSeconds) / stationSpeed(stationId));
+  const defaultSeconds = defaultCraftSeconds(item, stationId);
+  const input: CalculatorInput = {
     item,
     qualityId,
-    stationId: craftingStations.some(({ id }) => id === value.stationId) ? value.stationId || "" : "",
-    craftSeconds: typeof value.craftSeconds === "string" ? value.craftSeconds : "",
+    stationId,
+    craftSeconds: craftSeconds || (defaultSeconds ? String(Number(defaultSeconds) / clockSpeed({ clockEnabled, clockMode })) : ""),
+    craftTimeBasis: "station",
+    clockEnabled,
+    clockMode,
     serverRate: typeof value.serverRate === "string" ? value.serverRate : "",
     currentLevel: typeof value.currentLevel === "string" ? value.currentLevel : "",
     targetLevel: typeof value.targetLevel === "string" ? value.targetLevel : "",
@@ -66,8 +76,10 @@ const hydrateInput = (stored: unknown, items: CraftingItem[]): CalculatorInput =
     tribeTowerBonus: typeof value.tribeTowerBonus === "string" ? value.tribeTowerBonus : "",
     grinding: value.grinding === true,
     recycler: value.grinding === true && value.recycler === true,
+    splitResources: value.splitResources === true,
     resources: resourcesForItem(item, previous),
   };
+  return { ...input, resources: fillPrimitiveResources(input) };
 };
 
 const loadSaved = (items: CraftingItem[]): SavedCalculation[] => {
@@ -89,13 +101,11 @@ export const useCalculatorState = (items: CraftingItem[]) => {
   useEffect(() => localStorage.setItem(draftKey, JSON.stringify(input)), [input]);
   useEffect(() => localStorage.setItem(savedKey, JSON.stringify(saved)), [saved]);
 
-  const selectItem = (item: CraftingItem) => setInput((current) => ({
-    ...current,
-    item,
-    stationId: "",
-    craftSeconds: "",
-    resources: resourcesForItem(item),
-  }));
+  const selectItem = (item: CraftingItem) => setInput((current) => withCraftingItem(current, item));
+  const selectQuality = (qualityId: QualityId) => setInput((current) => withQuality(current, qualityId));
+  const selectStation = (stationId: StationId) => setInput((current) => withStation(current, stationId));
+  const updateClock = (clockEnabled: boolean, clockMode: ClockMode | "") =>
+    setInput((current) => withClock(current, clockEnabled, clockMode));
   const updateResourceQuantity = (id: string, quantity: string) => setInput((current) => ({
     ...current,
     resources: current.resources.map((resource) =>
@@ -130,6 +140,9 @@ export const useCalculatorState = (items: CraftingItem[]) => {
     calculationName,
     setCalculationName,
     selectItem,
+    selectQuality,
+    selectStation,
+    updateClock,
     updateResourceQuantity,
     saveNew,
     updateSaved,

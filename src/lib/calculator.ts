@@ -68,7 +68,7 @@ const totalResources = (input: CalculatorInput, craftsPerPlayer: number): Resour
         : 0;
       const perPlayer = perCraft + (craftsPerPlayer - 1) * (perCraft - returned);
       const total = input.grinding ? perPlayer * input.playerCount : perCraft * (craftsPerPlayer * input.playerCount);
-      return { name, perCraft, total };
+      return { name, perCraft, total, perPlayer: Math.ceil(total / input.playerCount) };
     })
     .sort((left, right) => left.name.localeCompare(right.name));
 };

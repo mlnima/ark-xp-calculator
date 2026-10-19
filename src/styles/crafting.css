@@ -16,6 +16,23 @@
   line-height: 1.6;
 }
 
+.resource-split-option {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  color: var(--text);
+  font-size: 11px;
+  gap: 8px;
+}
+
+.resource-split-option input {
+  accent-color: var(--accent);
+}
+
+.resource-results > .crafting-help {
+  margin-bottom: 10px;
+}
+
 .crafting-results {
   grid-column: 1 / -1;
 }

@@ -1,10 +1,11 @@
 const numberFormatter = new Intl.NumberFormat(undefined, { maximumFractionDigits: 2 });
+const durationFormatter = new Intl.NumberFormat(undefined, { maximumFractionDigits: 6 });
 
 export const formatNumber = (value: number) => numberFormatter.format(value);
 
 export const formatDuration = (seconds: number): string => {
-  if (seconds < 0.01) return "<0.01 s";
-  if (seconds < 60) return `${formatNumber(seconds)} s`;
+  if (seconds < 0.000001) return "<0.000001 s";
+  if (seconds < 60) return `${durationFormatter.format(seconds)} s`;
   const rounded = Math.ceil(seconds);
   const days = Math.floor(rounded / 86400);
   const hours = Math.floor(rounded % 86400 / 3600);

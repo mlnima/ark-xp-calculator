@@ -8,6 +8,7 @@ type Props = {
   input: CalculatorInput;
   issues: string[];
   result: CalculationResult | null;
+  onSplitResourcesChange: (value: boolean) => void;
 };
 
 const Stat = ({ label, value, detail }: { label: string; value: string; detail: string }) => (
@@ -18,7 +19,7 @@ const Stat = ({ label, value, detail }: { label: string; value: string; detail: 
   </div>
 );
 
-export const ResultsPanel = ({ input, issues, result }: Props) => {
+export const ResultsPanel = ({ input, issues, result, onSplitResourcesChange }: Props) => {
   const quality = qualities.find(({ id }) => id === input.qualityId);
   return (
     <aside className="results-panel" aria-live="polite">
@@ -89,21 +90,26 @@ export const ResultsPanel = ({ input, issues, result }: Props) => {
             <div className="resource-result-heading">
               <div>
                 <span className="eyebrow">Blueprint totals</span>
-                <h3>{input.grinding ? "Starting resources needed" : "Resources needed"}</h3>
+                <h3>{input.splitResources ? "Resources each player brings" : input.grinding ? "Starting resources needed" : "Resources needed"}</h3>
               </div>
               <Icon name="cube" />
             </div>
+            <label className="resource-split-option">
+              <input checked={input.splitResources} onChange={(event) => onSplitResourcesChange(event.target.checked)} type="checkbox" />
+              Split resources across party
+            </label>
+            {input.splitResources && <p className="crafting-help">Equal shares across {input.playerCount} players, rounded up to whole units.{input.grinding ? " These are starting supplies; reuse grinding refunds." : ""}</p>}
             <div className="resource-table" role="table" aria-label="Total blueprint resources">
               <div className="resource-table-head" role="row">
                 <span role="columnheader">Resource</span>
-                <span role="columnheader">Each</span>
-                <span role="columnheader">Total</span>
+                <span role="columnheader">{input.splitResources ? "Party total" : "Each"}</span>
+                <span role="columnheader">{input.splitResources ? "Each brings" : "Total"}</span>
               </div>
               {result.resources.map((resource) => (
                 <div className="resource-table-row" key={resource.name} role="row">
                   <strong role="cell">{resource.name}</strong>
-                  <span role="cell">{formatNumber(resource.perCraft)}</span>
-                  <b role="cell">{formatNumber(resource.total)}</b>
+                  <span role="cell">{formatNumber(input.splitResources ? resource.total : resource.perCraft)}</span>
+                  <b role="cell">{formatNumber(input.splitResources ? resource.perPlayer : resource.total)}</b>
                 </div>
               ))}
             </div>

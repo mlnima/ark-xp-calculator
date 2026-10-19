@@ -1,4 +1,6 @@
 import { getTimingIssues } from "../lib/crafting";
+import { clockSpeed } from "../lib/blueprint";
+import { clockModes } from "../data/crafting";
 import { formatDuration, formatNumber } from "../lib/format";
 import type { CalculationResult, CalculatorInput } from "../types/calculator";
 
@@ -16,6 +18,7 @@ export const CraftingResults = ({ input, result }: Props) => {
           <p className="crafting-help">
             Average per player and whole party · {input.playerCount} parallel {input.playerCount === 1 ? "station" : "stations"}
             <br />{formatNumber(result.craftsPerPlayer)} crafts per player · {formatDuration(timing.secondsPerCraft)} per craft
+            {input.clockEnabled && <><br />Clockface: {clockModes.find(({ id }) => id === input.clockMode)?.label} · {clockSpeed(input)}× speed</>}
           </p>
           <div className="station-comparison" aria-label="Station time comparison">
             {timing.stations.map((station) => (
@@ -26,6 +29,7 @@ export const CraftingResults = ({ input, result }: Props) => {
               </div>
             ))}
           </div>
+          {input.clockEnabled && <p className="crafting-help">Clock speed applies throughout this estimate. Retarget the clock when comparing another station type.</p>}
           <h3>XP consumables needed</h3>
           {timing.consumables.length ? (
             <table className="consumable-table">

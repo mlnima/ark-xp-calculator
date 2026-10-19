@@ -1,8 +1,12 @@
 export type StationId = "smithy" | "replicator";
+export type ClockMode = "area" | "targeted";
 
 export type CraftingRecipe = {
   baseSeconds: number | null;
   stations: string[];
+  ingredients: { name: string; quantity: number }[];
+  sourceUrl: string;
+  timeSourceUrl?: string;
 };
 
 export type StationEstimate = {

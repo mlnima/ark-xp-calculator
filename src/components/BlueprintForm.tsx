@@ -11,7 +11,7 @@ export const BlueprintForm = ({ itemSelected, resources, onQuantityChange }: Pro
     <div className="resource-heading">
       <div>
         <span className="field-label">Crafting requirements</span>
-        <p>Resource types come from the selected item. Enter each amount shown on your blueprint.</p>
+        <p>Primitive costs fill empty fields. Every amount stays editable for your blueprint.</p>
       </div>
     </div>
     <div className="resource-list">

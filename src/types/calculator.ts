@@ -1,4 +1,4 @@
-import type { CraftingTiming, StationId } from "./crafting";
+import type { ClockMode, CraftingTiming, StationId } from "./crafting";
 
 export type QualityId =
   | "primitive"
@@ -45,8 +45,11 @@ export type ResourceInput = {
 export type CalculatorInput = {
   item: CraftingItem | null;
   qualityId: QualityId | "";
-  stationId: StationId | "";
+  stationId: StationId;
   craftSeconds: string;
+  craftTimeBasis: "station";
+  clockEnabled: boolean;
+  clockMode: ClockMode | "";
   serverRate: string;
   currentLevel: string;
   targetLevel: string;
@@ -55,6 +58,7 @@ export type CalculatorInput = {
   tribeTowerBonus: string;
   grinding: boolean;
   recycler: boolean;
+  splitResources: boolean;
   resources: ResourceInput[];
 };
 
@@ -68,6 +72,7 @@ export type ResourceTotal = {
   name: string;
   perCraft: number;
   total: number;
+  perPlayer: number;
 };
 
 export type CalculationResult = {

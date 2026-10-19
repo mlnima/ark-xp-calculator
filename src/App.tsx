@@ -81,13 +81,14 @@ const App = () => {
                 selected={input.item}
               />
               <QualityPicker
-                onChange={(qualityId) => setInput((current) => ({ ...current, qualityId }))}
+                onChange={state.selectQuality}
                 selected={input.qualityId}
               />
               <CraftingSettings
                 input={input}
-                onStationChange={(stationId) => setInput((current) => ({ ...current, stationId }))}
+                onStationChange={state.selectStation}
                 onCraftSecondsChange={(craftSeconds) => setInput((current) => ({ ...current, craftSeconds }))}
+                onClockChange={state.updateClock}
               />
             </StepCard>
             <StepCard
@@ -125,7 +126,7 @@ const App = () => {
               />
             </StepCard>
             <StepCard
-              description="Resource types load from the selected item. Copy only each per-craft amount from your blueprint."
+              description="Primitive costs fill empty fields automatically. You can edit every amount to match your blueprint."
               icon="blueprint"
               number="04"
               title="Your blueprint"
@@ -147,7 +148,12 @@ const App = () => {
               />
             </StepCard>
           </div>
-          <ResultsPanel input={input} issues={issues} result={result} />
+          <ResultsPanel
+            input={input}
+            issues={issues}
+            result={result}
+            onSplitResourcesChange={(splitResources) => setInput((current) => ({ ...current, splitResources }))}
+          />
         </div>
       </main>
       <AppFooter source={sourceData} />
