@@ -5,13 +5,11 @@ import type { CalculationResult, CalculatorInput } from "../types/calculator";
 import { Icon } from "./Icon";
 import { CraftingResults } from "./CraftingResults";
 import { PlayerResults } from "./PlayerResults";
-import { ResourceResults } from "./ResourceResults";
 
 type Props = {
   input: CalculatorInput;
   issues: string[];
   result: CalculationResult | null;
-  onSplitResourcesChange: (value: boolean) => void;
 };
 
 const Stat = ({ label, value, detail }: { label: string; value: string; detail: string }) => (
@@ -22,7 +20,7 @@ const Stat = ({ label, value, detail }: { label: string; value: string; detail: 
   </div>
 );
 
-export const ResultsPanel = ({ input, issues, result, onSplitResourcesChange }: Props) => {
+export const ResultsPanel = ({ input, issues, result }: Props) => {
   const quality = qualities.find(({ id }) => id === input.qualityId);
   const party = partySetup(input);
   return (
@@ -114,11 +112,6 @@ export const ResultsPanel = ({ input, issues, result, onSplitResourcesChange }: 
           )}
           <CraftingResults input={input} result={result} />
           <PlayerResults result={result} />
-          <ResourceResults
-            input={input}
-            result={result}
-            onSplitResourcesChange={onSplitResourcesChange}
-          />
           <div className="shared-explanation">
             <Icon name="info" size={17} />
             <p>

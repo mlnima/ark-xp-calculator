@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { calculate } from "../src/lib/calculator.ts";
-import { emptyInput, hydrateInput } from "../src/lib/input-state.ts";
+import { defaultInput, hydrateInput } from "../src/lib/input-state.ts";
 import { resizeParty } from "../src/lib/players.ts";
 import { allocateResourceShares, wholeResourceTotal } from "../src/lib/resource-shares.ts";
 
@@ -13,7 +13,8 @@ const levels = [
 ];
 
 const input = () => ({
-  ...emptyInput(),
+  ...defaultInput(),
+  buffIds: [],
   item: { name: "Rex Saddle", experience: 100, resources: ["Metal", "Wood"] },
   qualityId: "primitive" as const,
   serverRate: "1",
@@ -162,7 +163,7 @@ test("allocation mode leaves XP, crafts, timing, and resource totals unchanged",
 });
 
 test("equal allocation is the default and stored allocation choices survive restoration", () => {
-  assert.equal(emptyInput().splitResources, true);
+  assert.equal(defaultInput().splitResources, true);
   assert.equal(hydrateInput({}, []).splitResources, true);
   assert.equal(hydrateInput({ splitResources: true }, []).splitResources, true);
   assert.equal(hydrateInput({ splitResources: false }, []).splitResources, false);

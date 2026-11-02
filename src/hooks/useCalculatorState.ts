@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { withClock, withCraftingItem, withQuality, withStation } from "../lib/blueprint";
-import { emptyInput, hydrateInput, loadSaved, readStored, storageKeys } from "../lib/input-state";
+import { hydrateInput, loadSaved, readStored, storageKeys } from "../lib/input-state";
 import { resizeParty } from "../lib/players";
 import { mergeSaved, parseBackup, serializeBackup } from "../lib/backup";
 import type { ClockMode, StationId } from "../types/crafting";
@@ -9,12 +9,16 @@ import type { CalculatorInput, CraftingItem, PartyPlayer, QualityId } from "../t
 type Metadata = { activeSavedId: string; calculationName: string };
 
 export const useCalculatorState = (items: CraftingItem[]) => {
-  const [input, setInput] = useState<CalculatorInput>(() => hydrateInput(readStored(storageKeys.draft, emptyInput()), items));
+  const [input, setInput] = useState<CalculatorInput>(() =>
+    hydrateInput(readStored(storageKeys.draft, {}), items),
+  );
   const [saved, setSaved] = useState(() => loadSaved(items));
   const [metadata, setMetadata] = useState<Metadata>(() => {
     const stored = readStored<Partial<Metadata>>(storageKeys.metadata, {});
     return {
-      activeSavedId: saved.some(({ id }) => id === stored.activeSavedId) ? stored.activeSavedId || "" : "",
+      activeSavedId: saved.some(({ id }) => id === stored.activeSavedId)
+        ? stored.activeSavedId || ""
+        : "",
       calculationName: typeof stored.calculationName === "string" ? stored.calculationName : "",
     };
   });
@@ -25,18 +29,32 @@ export const useCalculatorState = (items: CraftingItem[]) => {
   useEffect(() => localStorage.setItem(storageKeys.metadata, JSON.stringify(metadata)), [metadata]);
 
   const selectItem = (item: CraftingItem) => setInput((current) => withCraftingItem(current, item));
-  const selectQuality = (qualityId: QualityId) => setInput((current) => withQuality(current, qualityId));
-  const selectStation = (stationId: StationId) => setInput((current) => withStation(current, stationId));
+  const selectQuality = (qualityId: QualityId) =>
+    setInput((current) => withQuality(current, qualityId));
+  const selectStation = (stationId: StationId) =>
+    setInput((current) => withStation(current, stationId));
   const updateClock = (clockEnabled: boolean, clockMode: ClockMode | "") =>
     setInput((current) => withClock(current, clockEnabled, clockMode));
   const updatePlayerCount = (count: number) => setInput((current) => resizeParty(current, count));
-  const updatePlayer = useCallback((index: number, changes: Partial<PartyPlayer>) => setInput((current) => ({
-    ...current, players: current.players.map((player, position) => position === index ? { ...player, ...changes } : player),
-  })), []);
-  const updateResourceQuantity = (id: string, quantity: string) => setInput((current) => ({
-    ...current, resources: current.resources.map((resource) => resource.id === id ? { ...resource, quantity } : resource),
-  }));
-  const setCalculationName = (name: string) => setMetadata((current) => ({ ...current, calculationName: name }));
+  const updatePlayer = useCallback(
+    (index: number, changes: Partial<PartyPlayer>) =>
+      setInput((current) => ({
+        ...current,
+        players: current.players.map((player, position) =>
+          position === index ? { ...player, ...changes } : player,
+        ),
+      })),
+    [],
+  );
+  const updateResourceQuantity = (id: string, quantity: string) =>
+    setInput((current) => ({
+      ...current,
+      resources: current.resources.map((resource) =>
+        resource.id === id ? { ...resource, quantity } : resource,
+      ),
+    }));
+  const setCalculationName = (name: string) =>
+    setMetadata((current) => ({ ...current, calculationName: name }));
   const saveNew = () => {
     const name = calculationName.trim();
     if (!name) return;
@@ -47,7 +65,9 @@ export const useCalculatorState = (items: CraftingItem[]) => {
   const updateSaved = () => {
     const name = calculationName.trim();
     if (!activeSavedId || !name) return;
-    setSaved((current) => current.map((entry) => entry.id === activeSavedId ? { ...entry, name, input } : entry));
+    setSaved((current) =>
+      current.map((entry) => (entry.id === activeSavedId ? { ...entry, name, input } : entry)),
+    );
   };
   const loadCalculation = (id: string) => {
     const calculation = saved.find((entry) => entry.id === id);
@@ -65,8 +85,23 @@ export const useCalculatorState = (items: CraftingItem[]) => {
   };
 
   return {
-    input, setInput, saved, activeSavedId, calculationName, setCalculationName, selectItem, selectQuality,
-    selectStation, updateClock, updatePlayerCount, updatePlayer, updateResourceQuantity,
-    saveNew, updateSaved, loadCalculation, exportData, importData,
+    input,
+    setInput,
+    saved,
+    activeSavedId,
+    calculationName,
+    setCalculationName,
+    selectItem,
+    selectQuality,
+    selectStation,
+    updateClock,
+    updatePlayerCount,
+    updatePlayer,
+    updateResourceQuantity,
+    saveNew,
+    updateSaved,
+    loadCalculation,
+    exportData,
+    importData,
   };
 };

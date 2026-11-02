@@ -2,7 +2,6 @@ import { formatNumber } from "../lib/format";
 import { allocateResourceShares, wholeResourceTotal } from "../lib/resource-shares";
 import type { CalculationResult, CalculatorInput } from "../types/calculator";
 import { Icon } from "./Icon";
-import "../styles/resource-allocation.css";
 
 type Props = {
   input: CalculatorInput;
@@ -14,7 +13,11 @@ export const ResourceResults = ({ input, result, onSplitResourcesChange }: Props
   const xpRequired = result.players.map((player) => player.xpRequired);
   const shares = result.resources.map(({ total }) => allocateResourceShares(total, xpRequired));
   return (
-    <section className="resource-results" aria-label="Blueprint resources">
+    <section
+      className="resource-results resource-panel"
+      aria-label="Blueprint resources"
+      aria-live="polite"
+    >
       <div className="resource-result-heading">
         <div>
           <span className="eyebrow">Blueprint totals</span>
@@ -90,22 +93,22 @@ export const ResourceResults = ({ input, result, onSplitResourcesChange }: Props
         </div>
       ) : (
         <div
-          className="player-result-list resource-player-list"
+          className="resource-player-grid"
           role="region"
           aria-label="Resources by player"
           tabIndex={0}
         >
           {result.players.map((player) => (
             <article
-              className="player-result-row"
+              className="resource-player-card"
               key={player.index}
               aria-label={`Resource contribution for Player ${player.index + 1}`}
             >
               <strong>{player.name}</strong>
               <p>
-                Level {player.currentLevel} → {player.targetLevel}
+                Level {player.currentLevel} → {player.targetLevel} ·{" "}
+                {formatNumber(player.xpRequired)} XP
               </p>
-              <p>{formatNumber(player.xpRequired)} XP needed</p>
               <dl>
                 {result.resources.map((resource, resourceIndex) => (
                   <div key={resource.name}>

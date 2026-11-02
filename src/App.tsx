@@ -1,7 +1,8 @@
 import { useMemo } from "react";
-import itemsData from "./data/items.json";
+import itemsData from "./data/items.json" with { type: "json" };
 import levelsData from "./data/levels.json" with { type: "json" };
 import sourceData from "./data/source.json";
+import { calculatorDefaults } from "./data/calculator-defaults";
 import { AppFooter } from "./components/AppFooter";
 import { AppHeader } from "./components/AppHeader";
 import { BlueprintForm } from "./components/BlueprintForm";
@@ -12,6 +13,7 @@ import { ItemPicker } from "./components/ItemPicker";
 import { PlayerLevels } from "./components/PlayerLevels";
 import { QualityPicker } from "./components/QualityPicker";
 import { ResultsPanel } from "./components/ResultsPanel";
+import { ResourceResults } from "./components/ResourceResults";
 import { SavedCalculations } from "./components/SavedCalculations";
 import { StepCard } from "./components/StepCard";
 import { useCalculatorState } from "./hooks/useCalculatorState";
@@ -27,6 +29,7 @@ import "./styles/crafting.css";
 import "./styles/saved.css";
 import "./styles/players.css";
 import "./styles/responsive.css";
+import "./styles/resource-allocation.css";
 
 const items = itemsData as CraftingItem[];
 const levels = levelsData as LevelEntry[];
@@ -36,13 +39,19 @@ const App = () => {
   const { input, setInput } = state;
   const issues = useMemo(() => getInputIssues(input, levels), [input]);
   const result = useMemo(() => calculate(input, levels), [input]);
-  const toggleBuff = (id: BuffId) => setInput((current) => ({
-    ...current,
-    buffIds: current.buffIds.includes(id)
-      ? current.buffIds.filter((buffId) => buffId !== id)
-      : [...current.buffIds, id],
-    tribeTowerBonus: id === "tower" && current.buffIds.includes(id) ? "" : current.tribeTowerBonus,
-  }));
+  const toggleBuff = (id: BuffId) =>
+    setInput((current) => ({
+      ...current,
+      buffIds: current.buffIds.includes(id)
+        ? current.buffIds.filter((buffId) => buffId !== id)
+        : [...current.buffIds, id],
+      tribeTowerBonus:
+        id !== "tower"
+          ? current.tribeTowerBonus
+          : current.buffIds.includes(id)
+            ? ""
+            : current.tribeTowerBonus || calculatorDefaults.tribeTowerBonus,
+    }));
 
   return (
     <div className="app-shell">
@@ -50,8 +59,13 @@ const App = () => {
       <main>
         <section className="hero">
           <span className="hero-kicker">Craft smarter · level together</span>
-          <h1>Plan the exact path to your <em>target level.</em></h1>
-          <p>Choose your blueprint, tribe setup, and active boosts. The plan updates instantly with per-player XP and the full resource haul.</p>
+          <h1>
+            Plan the exact path to your <em>target level.</em>
+          </h1>
+          <p>
+            Choose your blueprint, tribe setup, and active boosts. The plan updates instantly with
+            per-player XP and the full resource haul.
+          </p>
           <div className="hero-pills">
             <span>50% tribe share</span>
             <span>1–70 players</span>
@@ -78,19 +92,14 @@ const App = () => {
               number="01"
               title="Item & quality"
             >
-              <ItemPicker
-                items={items}
-                onSelect={state.selectItem}
-                selected={input.item}
-              />
-              <QualityPicker
-                onChange={state.selectQuality}
-                selected={input.qualityId}
-              />
+              <ItemPicker items={items} onSelect={state.selectItem} selected={input.item} />
+              <QualityPicker onChange={state.selectQuality} selected={input.qualityId} />
               <CraftingSettings
                 input={input}
                 onStationChange={state.selectStation}
-                onCraftSecondsChange={(craftSeconds) => setInput((current) => ({ ...current, craftSeconds }))}
+                onCraftSecondsChange={(craftSeconds) =>
+                  setInput((current) => ({ ...current, craftSeconds }))
+                }
                 onClockChange={state.updateClock}
               />
             </StepCard>
@@ -103,12 +112,18 @@ const App = () => {
               <ExperienceSettings
                 onBuffChange={toggleBuff}
                 onPlayerCountChange={state.updatePlayerCount}
-                onStationCountChange={(stationCount) => setInput((current) => ({ ...current, stationCount }))}
-                onServerRateChange={(serverRate) => setInput((current) => ({ ...current, serverRate }))}
-                onTribeTowerBonusChange={(tribeTowerBonus) => setInput((current) => ({
-                  ...current,
-                  tribeTowerBonus,
-                }))}
+                onStationCountChange={(stationCount) =>
+                  setInput((current) => ({ ...current, stationCount }))
+                }
+                onServerRateChange={(serverRate) =>
+                  setInput((current) => ({ ...current, serverRate }))
+                }
+                onTribeTowerBonusChange={(tribeTowerBonus) =>
+                  setInput((current) => ({
+                    ...current,
+                    tribeTowerBonus,
+                  }))
+                }
                 playerCount={input.playerCount}
                 stationCount={input.stationCount}
                 selectedBuffs={input.buffIds}
@@ -122,14 +137,13 @@ const App = () => {
               number="03"
               title="Current & target level"
             >
-              <PlayerLevels
-                input={input}
-                levels={levels}
-                onChange={state.updatePlayer}
-              />
+              <PlayerLevels input={input} levels={levels} onChange={state.updatePlayer} />
             </StepCard>
             <StepCard
-              description="Primitive costs fill empty fields automatically. You can edit every amount to match your blueprint."
+              description={
+                "Primitive costs fill empty fields automatically. " +
+                "You can edit every amount to match your blueprint."
+              }
               icon="blueprint"
               number="04"
               title="Your blueprint"
@@ -142,22 +156,28 @@ const App = () => {
               <GrindingSettings
                 grinding={input.grinding}
                 recycler={input.recycler}
-                onGrindingChange={(grinding) => setInput((current) => ({
-                  ...current,
-                  grinding,
-                  recycler: grinding && current.recycler,
-                }))}
+                onGrindingChange={(grinding) =>
+                  setInput((current) => ({
+                    ...current,
+                    grinding,
+                    recycler: grinding && current.recycler,
+                  }))
+                }
                 onRecyclerChange={(recycler) => setInput((current) => ({ ...current, recycler }))}
               />
             </StepCard>
           </div>
-          <ResultsPanel
-            input={input}
-            issues={issues}
-            result={result}
-            onSplitResourcesChange={(splitResources) => setInput((current) => ({ ...current, splitResources }))}
-          />
+          <ResultsPanel input={input} issues={issues} result={result} />
         </div>
+        {result && (
+          <ResourceResults
+            input={input}
+            result={result}
+            onSplitResourcesChange={(splitResources) =>
+              setInput((current) => ({ ...current, splitResources }))
+            }
+          />
+        )}
       </main>
       <AppFooter source={sourceData} />
     </div>
