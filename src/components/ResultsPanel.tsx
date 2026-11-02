@@ -4,7 +4,6 @@ import { partySetup } from "../lib/party";
 import type { CalculationResult, CalculatorInput } from "../types/calculator";
 import { Icon } from "./Icon";
 import { CraftingResults } from "./CraftingResults";
-import { PlayerResults } from "./PlayerResults";
 
 type Props = {
   input: CalculatorInput;
@@ -111,7 +110,6 @@ export const ResultsPanel = ({ input, issues, result }: Props) => {
             </p>
           )}
           <CraftingResults input={input} result={result} />
-          <PlayerResults result={result} />
           <div className="shared-explanation">
             <Icon name="info" size={17} />
             <p>

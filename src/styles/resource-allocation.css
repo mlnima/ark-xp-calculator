@@ -11,6 +11,37 @@
   overflow-wrap: anywhere;
 }
 
+.calculation-details-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 8px;
+}
+
+.calculation-details-heading h2 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.calculation-details > .blueprint-results {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.calculation-details .consumable-results,
+.calculation-details .player-results {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+
+.calculation-details-empty {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
 .resource-allocation-toggle {
   display: flex;
   align-items: center;
@@ -135,6 +166,21 @@
   color: var(--accent-strong);
   font-size: 11px;
   font-variant-numeric: tabular-nums;
+}
+
+.resource-player-card .player-progress-stats {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.resource-player-card .player-progress-stats > div {
+  display: block;
+  min-width: 0;
+}
+
+.player-progress-stats dd {
+  margin-top: 3px;
+  overflow-wrap: anywhere;
 }
 
 @media (max-width: 680px) {

@@ -13,11 +13,7 @@ export const ResourceResults = ({ input, result, onSplitResourcesChange }: Props
   const xpRequired = result.players.map((player) => player.xpRequired);
   const shares = result.resources.map(({ total }) => allocateResourceShares(total, xpRequired));
   return (
-    <section
-      className="resource-results resource-panel"
-      aria-label="Blueprint resources"
-      aria-live="polite"
-    >
+    <section className="resource-results blueprint-results" aria-label="Blueprint resources">
       <div className="resource-result-heading">
         <div>
           <span className="eyebrow">Blueprint totals</span>

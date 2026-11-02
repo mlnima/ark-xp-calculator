@@ -13,7 +13,7 @@ import { ItemPicker } from "./components/ItemPicker";
 import { PlayerLevels } from "./components/PlayerLevels";
 import { QualityPicker } from "./components/QualityPicker";
 import { ResultsPanel } from "./components/ResultsPanel";
-import { ResourceResults } from "./components/ResourceResults";
+import { CalculationDetails } from "./components/CalculationDetails";
 import { SavedCalculations } from "./components/SavedCalculations";
 import { StepCard } from "./components/StepCard";
 import { useCalculatorState } from "./hooks/useCalculatorState";
@@ -169,15 +169,14 @@ const App = () => {
           </div>
           <ResultsPanel input={input} issues={issues} result={result} />
         </div>
-        {result && (
-          <ResourceResults
-            input={input}
-            result={result}
-            onSplitResourcesChange={(splitResources) =>
-              setInput((current) => ({ ...current, splitResources }))
-            }
-          />
-        )}
+        <CalculationDetails
+          input={input}
+          issues={issues}
+          result={result}
+          onSplitResourcesChange={(splitResources) =>
+            setInput((current) => ({ ...current, splitResources }))
+          }
+        />
       </main>
       <AppFooter source={sourceData} />
     </div>
