@@ -5,6 +5,7 @@ import type { CalculationResult, CalculatorInput } from "../types/calculator";
 import { Icon } from "./Icon";
 import { CraftingResults } from "./CraftingResults";
 import { PlayerResults } from "./PlayerResults";
+import { ResourceResults } from "./ResourceResults";
 
 type Props = {
   input: CalculatorInput;
@@ -32,12 +33,17 @@ export const ResultsPanel = ({ input, issues, result, onSplitResourcesChange }: 
       </div>
       {!result ? (
         <div className="results-empty">
-          <div className="empty-orbit"><Icon name="spark" size={30} /></div>
+          <div className="empty-orbit">
+            <Icon name="spark" size={30} />
+          </div>
           <h2>Your crafting plan</h2>
           <p>Complete the blueprint details to see the exact craft and resource totals.</p>
           <div className="issue-list">
             {issues.map((issue) => (
-              <div key={issue}><span /><span>{issue}</span></div>
+              <div key={issue}>
+                <span />
+                <span>{issue}</span>
+              </div>
             ))}
           </div>
         </div>
@@ -53,17 +59,23 @@ export const ResultsPanel = ({ input, issues, result, onSplitResourcesChange }: 
           <div className="craft-total">
             <span>{input.grinding ? "First batch to craft" : "Total items to craft"}</span>
             <strong>{formatNumber(result.initialCraftsPerStation * input.stationCount)}</strong>
-            <p>{formatNumber(result.initialCraftsPerStation)} per station × {input.stationCount} active {input.stationCount === 1 ? "station" : "stations"}</p>
-            <p>{party.craftingPlayers} crafting · {party.sharingPlayers} shared XP only</p>
+            <p>
+              {formatNumber(result.initialCraftsPerStation)} per station × {input.stationCount}{" "}
+              active {input.stationCount === 1 ? "station" : "stations"}
+            </p>
+            <p>
+              {party.craftingPlayers} crafting · {party.sharingPlayers} shared XP only
+            </p>
           </div>
           {input.grinding && (
             <div className="shared-explanation">
               <Icon name="info" size={17} />
               <p>
-                Then grind and recraft {formatNumber(result.recycledCraftsPerStation)} more per station
-                using refunds and remaining materials across as many batches as needed.
-                Total: {formatNumber(result.totalCrafts)} crafts ({formatNumber(result.craftsPerStation)} per station).
-                Grinding items gives no XP; the total crafts needed for your target stays the same.
+                Then grind and recraft {formatNumber(result.recycledCraftsPerStation)} more per
+                station using refunds and remaining materials across as many batches as needed.
+                Total: {formatNumber(result.totalCrafts)} crafts (
+                {formatNumber(result.craftsPerStation)} per station). Grinding items gives no XP;
+                the total crafts needed for your target stays the same.
               </p>
             </div>
           )}
@@ -79,7 +91,11 @@ export const ResultsPanel = ({ input, issues, result, onSplitResourcesChange }: 
               value={formatNumber(result.ownXpPerCraft)}
             />
             <Stat
-              detail={`${party.minStationsPerCrafter} owned ${party.minStationsPerCrafter === 1 ? "station" : "stations"} plus tribe share; minimum`}
+              detail={
+                `${party.minStationsPerCrafter} owned ` +
+                `${party.minStationsPerCrafter === 1 ? "station" : "stations"}` +
+                " plus tribe share; minimum"
+              }
               label="Crafter XP / round"
               value={formatNumber(result.crafterXpPerRound)}
             />
@@ -90,41 +106,27 @@ export const ResultsPanel = ({ input, issues, result, onSplitResourcesChange }: 
             />
           </div>
           {party.sharingPlayers > 0 && (
-            <p className="crafting-help">Shared-only players receive {formatNumber(result.passiveXpPerRound)} XP per round from {input.stationCount} stations. Each player's levels determine how many rounds they need.</p>
+            <p className="crafting-help">
+              {"Shared-only players receive "}
+              {formatNumber(result.passiveXpPerRound)} XP per round from {input.stationCount}{" "}
+              stations. Each player's levels determine how many rounds they need.
+            </p>
           )}
           <CraftingResults input={input} result={result} />
           <PlayerResults result={result} />
-          <div className="resource-results">
-            <div className="resource-result-heading">
-              <div>
-                <span className="eyebrow">Blueprint totals</span>
-                <h3>{input.splitResources ? "Resources each player brings" : input.grinding ? "Starting resources needed" : "Resources needed"}</h3>
-              </div>
-              <Icon name="cube" />
-            </div>
-            <label className="resource-split-option">
-              <input checked={input.splitResources} onChange={(event) => onSplitResourcesChange(event.target.checked)} type="checkbox" />
-              Split resources across party
-            </label>
-            {input.splitResources && <p className="crafting-help">Equal shares across {input.playerCount} players, rounded up to whole units.{input.grinding ? " These are starting supplies; reuse grinding refunds." : ""}</p>}
-            <div className="resource-table" role="table" aria-label="Total blueprint resources">
-              <div className="resource-table-head" role="row">
-                <span role="columnheader">Resource</span>
-                <span role="columnheader">{input.splitResources ? "Party total" : "Each"}</span>
-                <span role="columnheader">{input.splitResources ? "Each brings" : "Total"}</span>
-              </div>
-              {result.resources.map((resource) => (
-                <div className="resource-table-row" key={resource.name} role="row">
-                  <strong role="cell">{resource.name}</strong>
-                  <span role="cell">{formatNumber(input.splitResources ? resource.total : resource.perCraft)}</span>
-                  <b role="cell">{formatNumber(input.splitResources ? resource.perPlayer : resource.total)}</b>
-                </div>
-              ))}
-            </div>
-          </div>
+          <ResourceResults
+            input={input}
+            result={result}
+            onSplitResourcesChange={onSplitResourcesChange}
+          />
           <div className="shared-explanation">
             <Icon name="info" size={17} />
-            <p>One round is one craft at every active station. Each crafter gets full XP from their assigned stations plus 50% from the others. Shared-only players get 50% from every station. Everyone remains in tribe XP range; all stations keep running until everyone reaches the target. Resource totals cover every station’s items.</p>
+            <p>
+              One round is one craft at every active station. Each crafter gets full XP from their
+              assigned stations plus 50% from the others. Shared-only players get 50% from every
+              station. Everyone remains in tribe XP range; all stations keep running until everyone
+              reaches the target. Resource totals cover every station’s items.
+            </p>
           </div>
         </div>
       )}

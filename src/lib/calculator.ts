@@ -5,6 +5,7 @@ import { partyLimits } from "../data/party.ts";
 import { partySetup } from "./party.ts";
 import { calculateTiming } from "./crafting.ts";
 import { calculatePlayers, playerIssues } from "./players.ts";
+import { wholeResourceTotal } from "./resource-shares.ts";
 import type {
   CalculationResult,
   CalculatorInput,
@@ -18,7 +19,8 @@ const positiveNumber = (value: string) => {
 };
 
 const resourceIssues = (input: CalculatorInput) => {
-  if (input.grinding && !input.resources.length) return ["Enter blueprint resources to calculate grinding"];
+  if (input.grinding && !input.resources.length)
+    return ["Enter blueprint resources to calculate grinding"];
   if (!input.resources.length) return [];
   return input.resources.flatMap(({ name, quantity }) => {
     if (!positiveNumber(quantity)) return [`Enter a valid quantity for ${name.trim()}`];
@@ -34,10 +36,18 @@ export const getInputIssues = (input: CalculatorInput, levels: LevelEntry[]) => 
   if (!input.item) issues.push("Choose a crafting item");
   if (!input.qualityId) issues.push("Choose the blueprint quality");
   if (!positiveNumber(input.serverRate)) issues.push("Enter a server XP rate above zero");
-  if (!Number.isInteger(input.playerCount) || input.playerCount < 1 || input.playerCount > partyLimits.players) {
+  if (
+    !Number.isInteger(input.playerCount) ||
+    input.playerCount < 1 ||
+    input.playerCount > partyLimits.players
+  ) {
     issues.push(`Choose between 1 and ${partyLimits.players} players`);
   }
-  if (!Number.isInteger(input.stationCount) || input.stationCount < 1 || input.stationCount > partyLimits.stations) {
+  if (
+    !Number.isInteger(input.stationCount) ||
+    input.stationCount < 1 ||
+    input.stationCount > partyLimits.stations
+  ) {
     issues.push(`Choose between 1 and ${partyLimits.stations} active stations`);
   }
   if (input.buffIds.includes("tower") && !positiveNumber(input.tribeTowerBonus)) {
@@ -63,11 +73,23 @@ const totalResources = (input: CalculatorInput, craftsPerStation: number): Resou
     .map(({ name, perCraft }) => {
       const bonus = input.recycler ? grindingRules.recyclerBonusPercent : 0;
       const returned = input.grinding
-        ? Math.min(perCraft, Math.ceil(perCraft * grindingRules.returnPercent * (100 + bonus) / 10000))
+        ? Math.min(
+            perCraft,
+            Math.ceil((perCraft * grindingRules.returnPercent * (100 + bonus)) / 10000),
+          )
         : 0;
-      const perStation = perCraft + (craftsPerStation - 1) * (perCraft - returned);
-      const total = input.grinding ? perStation * input.stationCount : perCraft * (craftsPerStation * input.stationCount);
-      return { name, perCraft, total, perPlayer: Math.ceil(total / input.playerCount) };
+      const perStation = craftsPerStation
+        ? perCraft + (craftsPerStation - 1) * (perCraft - returned)
+        : 0;
+      const total = input.grinding
+        ? perStation * input.stationCount
+        : perCraft * (craftsPerStation * input.stationCount);
+      return {
+        name,
+        perCraft,
+        total,
+        perPlayer: Math.ceil(wholeResourceTotal(total) / input.playerCount),
+      };
     })
     .sort((left, right) => left.name.localeCompare(right.name));
 };
@@ -82,9 +104,10 @@ export const calculate = (
   const rate = positiveNumber(input.serverRate) || 0;
   const buffMultiplier = input.buffIds.reduce((total, id) => {
     const buff = buffs.find((entry) => entry.id === id);
-    const multiplier = id === "tower"
-      ? 1 + (positiveNumber(input.tribeTowerBonus) || 0) / 100
-      : buff?.multiplier || 1;
+    const multiplier =
+      id === "tower"
+        ? 1 + (positiveNumber(input.tribeTowerBonus) || 0) / 100
+        : buff?.multiplier || 1;
     return total * multiplier;
   }, 1);
   const combinedMultiplier = quality.multiplier * rate * buffMultiplier;
@@ -92,17 +115,23 @@ export const calculate = (
   const party = partySetup(input);
   const progress = calculatePlayers(input, levels, ownXpPerCraft);
   const limiting = progress.reduce((last, player) =>
-    player.xpRequired / player.xpPerRound > last.xpRequired / last.xpPerRound ? player : last);
+    player.xpRequired / player.xpPerRound > last.xpRequired / last.xpPerRound ? player : last,
+  );
   const { xpRequired, sharedXpPerRound } = limiting;
   const xpPerPlayerPerRound = limiting.xpPerRound;
-  const crafterXpPerRound = ownXpPerCraft * (party.minStationsPerCrafter + input.stationCount) / 2;
-  const passiveXpPerRound = ownXpPerCraft * input.stationCount / 2;
+  const crafterXpPerRound =
+    (ownXpPerCraft * (party.minStationsPerCrafter + input.stationCount)) / 2;
+  const passiveXpPerRound = (ownXpPerCraft * input.stationCount) / 2;
   const craftsPerStation = Math.max(...progress.map(({ roundsToTarget }) => roundsToTarget));
   const totalCrafts = craftsPerStation * input.stationCount;
   const resources = totalResources(input, craftsPerStation);
   const initialCraftsPerStation = input.grinding
-    ? Math.min(craftsPerStation, ...resources.map(({ perCraft, total }) =>
-      Math.floor(total / input.stationCount / perCraft)))
+    ? Math.min(
+        craftsPerStation,
+        ...resources.map(({ perCraft, total }) =>
+          Math.floor(total / input.stationCount / perCraft),
+        ),
+      )
     : craftsPerStation;
   const projectedXp = craftsPerStation * xpPerPlayerPerRound;
   const timing = calculateTiming(input, craftsPerStation);
