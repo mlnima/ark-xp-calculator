@@ -50,6 +50,7 @@
 }
 
 .live-overview .crafting-results {
+  grid-column: auto;
   min-width: 0;
   margin: 0;
   padding: 18px;
