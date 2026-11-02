@@ -1,0 +1,145 @@
+.player-results {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.player-results-heading,
+.player-plan-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.player-results-heading h3 {
+  margin: 4px 0 0;
+  font-size: 19px;
+}
+
+.allocation-mode,
+.player-plan-heading > span {
+  flex-shrink: 0;
+  padding: 5px 8px;
+  color: var(--accent);
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background: var(--accent-soft);
+  font-size: 10px;
+}
+
+.player-plan-grid {
+  display: grid;
+  align-items: start;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  margin-top: 16px;
+  gap: 14px;
+}
+
+.player-plan-card {
+  min-width: 0;
+  padding: 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.16);
+}
+
+.player-plan-heading {
+  align-items: start;
+}
+
+.player-plan-heading h4 {
+  margin: 0;
+  font-size: 15px;
+  overflow-wrap: anywhere;
+}
+
+.player-plan-card p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.player-progress-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 14px 0 0;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  gap: 10px;
+}
+
+.player-progress-stats dt,
+.player-supply-list dt {
+  color: var(--muted);
+  font-size: 11px;
+  overflow-wrap: anywhere;
+}
+
+.player-progress-stats dd {
+  margin: 3px 0 0;
+  color: var(--text);
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+
+.player-supplies {
+  margin-top: 14px;
+}
+
+.player-supplies h5 {
+  margin: 0 0 8px;
+  font-size: 11px;
+}
+
+.player-supply-list {
+  display: grid;
+  margin: 0;
+  gap: 6px;
+}
+
+.player-supply-list > div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.player-supply-list dd {
+  flex-shrink: 0;
+  margin: 0;
+  color: var(--accent-strong);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (min-width: 900px) {
+  .player-plan-card:only-child {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .player-plan-card:only-child .player-plan-heading {
+    grid-column: 1 / -1;
+  }
+
+  .player-plan-card:only-child .player-progress-stats {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .player-plan-card:only-child .player-supplies {
+    margin: 0;
+  }
+}
+
+@media (max-width: 390px) {
+  .player-results-heading {
+    align-items: start;
+    flex-direction: column;
+  }
+}

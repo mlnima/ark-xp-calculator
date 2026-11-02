@@ -13,7 +13,6 @@ import { ItemPicker } from "./components/ItemPicker";
 import { PlayerLevels } from "./components/PlayerLevels";
 import { QualityPicker } from "./components/QualityPicker";
 import { ResultsPanel } from "./components/ResultsPanel";
-import { CalculationDetails } from "./components/CalculationDetails";
 import { SavedCalculations } from "./components/SavedCalculations";
 import { StepCard } from "./components/StepCard";
 import { useCalculatorState } from "./hooks/useCalculatorState";
@@ -30,6 +29,8 @@ import "./styles/saved.css";
 import "./styles/players.css";
 import "./styles/responsive.css";
 import "./styles/resource-allocation.css";
+import "./styles/live-results.css";
+import "./styles/player-plans.css";
 
 const items = itemsData as CraftingItem[];
 const levels = levelsData as LevelEntry[];
@@ -167,9 +168,8 @@ const App = () => {
               />
             </StepCard>
           </div>
-          <ResultsPanel input={input} issues={issues} result={result} />
         </div>
-        <CalculationDetails
+        <ResultsPanel
           input={input}
           issues={issues}
           result={result}

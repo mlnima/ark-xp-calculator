@@ -1,14 +1,14 @@
 .results-panel {
-  position: sticky;
-  top: 92px;
   overflow: hidden;
-  min-height: 560px;
+  margin-bottom: 48px;
   border: 1px solid rgba(85, 230, 195, 0.19);
   border-radius: 26px;
   background:
     radial-gradient(circle at 88% 4%, rgba(85, 230, 195, 0.15), transparent 16rem),
     linear-gradient(160deg, #132724, #0a1715 68%);
-  box-shadow: var(--shadow), 0 1px 0 rgba(255, 255, 255, 0.04) inset;
+  box-shadow:
+    var(--shadow),
+    0 1px 0 rgba(255, 255, 255, 0.04) inset;
 }
 
 .results-topline {

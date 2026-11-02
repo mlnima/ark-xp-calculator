@@ -1,0 +1,107 @@
+.results-topline h2 {
+  margin: 0;
+  color: var(--text);
+  font-size: 14px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.results-live-label {
+  margin-left: auto;
+  font-size: 10px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.live-overview {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.calculation-summary {
+  min-width: 0;
+}
+
+.result-item h3 {
+  margin: 4px 0;
+  font-size: 23px;
+  letter-spacing: -0.03em;
+  overflow-wrap: anywhere;
+}
+
+.results-panel .result-item p {
+  font-size: 12px;
+}
+
+.results-panel .result-stat-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.results-panel .result-stat span,
+.results-panel .result-stat small {
+  font-size: 10px;
+  white-space: normal;
+}
+
+.results-panel .result-stat strong {
+  font-size: 19px;
+}
+
+.live-overview .crafting-results {
+  min-width: 0;
+  margin: 0;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.results-panel .party-duration {
+  font-size: 36px;
+}
+
+.results-panel .station-comparison {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.results-panel .station-comparison > div {
+  padding: 10px;
+}
+
+.results-panel .crafting-help {
+  font-size: 11px;
+}
+
+.results-panel .shared-explanation p {
+  font-size: 11px;
+}
+
+.live-results-empty {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.live-results-empty h3 {
+  color: var(--text);
+}
+
+@media (max-width: 800px) {
+  .live-overview {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .results-content {
+    padding: 16px;
+  }
+
+  .results-live-label {
+    max-width: 95px;
+    text-align: right;
+  }
+}

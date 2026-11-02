@@ -7,7 +7,7 @@ type Props = { input: CalculatorInput; result: CalculationResult };
 export const ConsumableResults = ({ input, result }: Props) => (
   <section className="resource-results consumable-results" aria-label="XP consumables">
     <div className="resource-result-heading">
-      <h3>XP consumables needed</h3>
+      <h3>Party XP consumables</h3>
     </div>
     {result.timing ? (
       <>

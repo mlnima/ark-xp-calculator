@@ -1,115 +1,37 @@
-import { qualities } from "../data/qualities";
-import { formatCompact, formatNumber } from "../lib/format";
-import { partySetup } from "../lib/party";
 import type { CalculationResult, CalculatorInput } from "../types/calculator";
-import { Icon } from "./Icon";
+import { CalculationSummary } from "./CalculationSummary";
 import { CraftingResults } from "./CraftingResults";
+import { PlayerResults } from "./PlayerResults";
+import { ResourceResults } from "./ResourceResults";
+import { Icon } from "./Icon";
 
 type Props = {
   input: CalculatorInput;
   issues: string[];
   result: CalculationResult | null;
+  onSplitResourcesChange: (value: boolean) => void;
 };
 
-const Stat = ({ label, value, detail }: { label: string; value: string; detail: string }) => (
-  <div className="result-stat">
-    <span>{label}</span>
-    <strong>{value}</strong>
-    <small>{detail}</small>
-  </div>
-);
-
-export const ResultsPanel = ({ input, issues, result }: Props) => {
-  const quality = qualities.find(({ id }) => id === input.qualityId);
-  const party = partySetup(input);
-  return (
-    <aside className="results-panel" aria-live="polite">
-      <div className="results-topline">
-        <span className="status-dot" />
-        <span>Live calculation</span>
-      </div>
-      {!result ? (
-        <div className="results-empty">
-          <div className="empty-orbit">
-            <Icon name="spark" size={30} />
+export const ResultsPanel = ({ input, issues, result, onSplitResourcesChange }: Props) => (
+  <section className="results-panel" aria-label="Live calculation" aria-live="polite">
+    <header className="results-topline">
+      <span className="status-dot" />
+      <h2>Live calculation</h2>
+      <span className="results-live-label">Updates as you edit</span>
+    </header>
+    <div className="results-content">
+      {result ? (
+        <>
+          <div className="live-overview">
+            <CalculationSummary input={input} result={result} />
+            <CraftingResults input={input} result={result} />
           </div>
-          <h2>Your crafting plan</h2>
-          <p>Complete the blueprint details to see the exact craft and resource totals.</p>
-          <div className="issue-list">
-            {issues.map((issue) => (
-              <div key={issue}>
-                <span />
-                <span>{issue}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      ) : (
-        <div className="results-content">
-          <div className="result-item">
-            <div>
-              <span className="eyebrow">Crafting plan</span>
-              <h2>{input.item?.name}</h2>
-              <p>{quality?.label}</p>
-            </div>
-          </div>
-          <div className="craft-total">
-            <span>{input.grinding ? "First batch to craft" : "Total items to craft"}</span>
-            <strong>{formatNumber(result.initialCraftsPerStation * input.stationCount)}</strong>
-            <p>
-              {formatNumber(result.initialCraftsPerStation)} per station × {input.stationCount}{" "}
-              active {input.stationCount === 1 ? "station" : "stations"}
-            </p>
-            <p>
-              {party.craftingPlayers} crafting · {party.sharingPlayers} shared XP only
-            </p>
-          </div>
-          {input.grinding && (
-            <div className="shared-explanation">
-              <Icon name="info" size={17} />
-              <p>
-                Then grind and recraft {formatNumber(result.recycledCraftsPerStation)} more per
-                station using refunds and remaining materials across as many batches as needed.
-                Total: {formatNumber(result.totalCrafts)} crafts (
-                {formatNumber(result.craftsPerStation)} per station). Grinding items gives no XP;
-                the total crafts needed for your target stays the same.
-              </p>
-            </div>
-          )}
-          <div className="result-stat-grid">
-            <Stat
-              detail={result.players[result.limitingPlayerIndex].name}
-              label="Last player XP needed"
-              value={formatCompact(result.xpRequired)}
-            />
-            <Stat
-              detail={`${formatNumber(result.combinedMultiplier)}× combined`}
-              label="Own XP / craft"
-              value={formatNumber(result.ownXpPerCraft)}
-            />
-            <Stat
-              detail={
-                `${party.minStationsPerCrafter} owned ` +
-                `${party.minStationsPerCrafter === 1 ? "station" : "stations"}` +
-                " plus tribe share; minimum"
-              }
-              label="Crafter XP / round"
-              value={formatNumber(result.crafterXpPerRound)}
-            />
-            <Stat
-              detail={`${formatNumber(result.xpOverTarget)} XP above target`}
-              label="Last player XP / round"
-              value={formatNumber(result.xpPerPlayerPerRound)}
-            />
-          </div>
-          {party.sharingPlayers > 0 && (
-            <p className="crafting-help">
-              {"Shared-only players receive "}
-              {formatNumber(result.passiveXpPerRound)} XP per round from {input.stationCount}{" "}
-              stations. Each player's levels determine how many rounds they need.
-            </p>
-          )}
-          <CraftingResults input={input} result={result} />
+          <ResourceResults
+            input={input}
+            result={result}
+            onSplitResourcesChange={onSplitResourcesChange}
+          />
+          <PlayerResults input={input} result={result} />
           <div className="shared-explanation">
             <Icon name="info" size={17} />
             <p>
@@ -119,8 +41,18 @@ export const ResultsPanel = ({ input, issues, result }: Props) => {
               reaches the target. Resource totals cover every station’s items.
             </p>
           </div>
+        </>
+      ) : (
+        <div className="live-results-empty">
+          <h3>Complete your crafting plan</h3>
+          <p>Resources, supplies, and player targets update when the inputs are complete.</p>
+          <ul>
+            {issues.map((issue) => (
+              <li key={issue}>{issue}</li>
+            ))}
+          </ul>
         </div>
       )}
-    </aside>
-  );
-};
+    </div>
+  </section>
+);
